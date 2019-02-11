@@ -36,7 +36,7 @@
 			<platform>all</platform>
 			<license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
 			<assets>
-				<icon>https://github.com/notoco/univ/blob/master/zip/skin.aura-notoco/icon.png</icon>
+				<icon>https://github.com/notoco/univ/raw/master/zip/skin.aura-notoco/icon.png</icon>
 			</assets>
 		</extension>
 	</addon>
@@ -57,12 +57,7 @@
 		</description>
 		<platform>all</platform>
 		<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
+		<icon>https://github.com/notoco/univ/raw/master/zip/service.upnext-notoco/icon.png</icon>
 		</assets>
 		</extension>
 	</addon>
