@@ -6,7 +6,7 @@
 		</requires>
 		<extension point="xbmc.addon.repository" name="Notoco Univ Repo">
 			<dir minversion="17.9.0">
-				<info compressed="true">https://github.com/notoco/univ/blob/master/addons.xml</info>
+				<info compressed="true">https://raw.githubusercontent.com/notoco/univ/master/addons.xml</info>
 				<datadir zip="true">https://github.com/notoco/univ/blob/master/zip</datadir>
 			</dir>
 		</extension>
