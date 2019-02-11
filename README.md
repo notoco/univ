@@ -1,4 +1,4 @@
-<h3>Repozytorium w 100% prywatne, robione na własny użytek, bez żadnej odpwowiedzialności za ewentualne szkody i problemy</h3>
+<h3>Repozytorium w 100% prywatne, robione na własny użytek, bez żadnej odpowiedzialności za ewentualne szkody i problemy</h3>
 
 Zawartość repozytorium:
 <ol>
