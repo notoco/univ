@@ -9,12 +9,14 @@ Zawartość repozytorium:
   Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się tutaj: https://github.com/jurialmunkey/skin.aura/<br/><i>Źródła: https://github.com/notoco/skin.aura-notoco</i></li> 
   <li><b>service.upnext-notoco</b>
   Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał tutaj: https://github.com/im85288/service.upnext<br/><i>Źródła: https://github.com/notoco/service.upnext-notoco</i></li> 
+</ol>
 <hr/>
 <ul>
       <li>Nie przyjmuję żadnych uwag ani nic.</li>
       <li>Może nie działać i powodować rozwody.</li>
       <li>Changelog może jest a może go nie ma.</li>
 </ul>
+
 <hr/>
 <h4>Licencyjność</h4>
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
