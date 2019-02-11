@@ -1,6 +1,6 @@
 <h3>Repozytorium w 100% prywatne, robione na własny użytek, bez żadnej odpowiedzialności za ewentualne szkody i problemy</h3>
-Link bezpośredni do instalacji:
-https://github.com/notoco/univ/raw/master/repository.notoco.univ.zip
+Link bezpośredni do instalacji:<br/>
+https://github.com/notoco/univ/raw/master/repository.notoco.univ.zip<br/>
 Zawartość repozytorium:
 <ol>
   <li><b>skin.aura-notoco</b></li>
