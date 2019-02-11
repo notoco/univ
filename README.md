@@ -1,14 +1,12 @@
 <h3>Repozytorium w 100% prywatne, robione na własny użytek, bez żadnej odpowiedzialności za ewentualne szkody i problemy.</h3>
-Link bezpośredni do instalacji:
-
-https://github.com/notoco/univ/raw/master/repository.notoco.univ.zip<br/>
+<a href="https://github.com/notoco/univ/raw/master/repository.notoco.univ.zip">Link bezpośredni do instalacji</a><br/>
 <hr/>
 Zawartość repozytorium:
 <ol>
   <li><b>skin.aura-notoco</b>
-  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się tutaj: https://github.com/jurialmunkey/skin.aura/<br/><i>Źródła: https://github.com/notoco/skin.aura-notoco</i></li> 
+  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się <a href="https://github.com/jurialmunkey/skin.aura/">tutaj</a>.<br/><a href="https://github.com/notoco/skin.aura-notoco">Źródła</a></li> 
   <li><b>service.upnext-notoco</b>
-  Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał tutaj: https://github.com/im85288/service.upnext<br/><i>Źródła: https://github.com/notoco/service.upnext-notoco</i></li> 
+  Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał znajduje się <a href="https://github.com/im85288/service.upnext">tutaj</a>.<br/><a href="https://github.com/notoco/service.upnext-notoco">Źródła</a></li>
 </ol>
 <hr/>
 <ul>
