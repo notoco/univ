@@ -6,22 +6,16 @@ https://github.com/notoco/univ/raw/master/repository.notoco.univ.zip<br/>
 Zawartość repozytorium:
 <ol>
   <li><b>skin.aura-notoco</b>
-  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się tutaj: https://github.com/jurialmunkey/skin.aura/
-    <ul>
-      <li>Nie przyjmuję żadnych uwag ani nic.</li>
-      <li>Może nie działać i powodować rozwody.</li>
-      <li>Changelog może jest a może go nie ma.</li>
-    </ul>
-  </li> 
+  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się tutaj: https://github.com/jurialmunkey/skin.aura/</li> 
   <li><b>service.upnext-notoco</b>
-  Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał tutaj: https://github.com/im85288/service.upnext
-    <ul>
+  Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał tutaj: https://github.com/im85288/service.upnext</li>
+</ol>
+<hr/>
+<ul>
       <li>Nie przyjmuję żadnych uwag ani nic.</li>
       <li>Może nie działać i powodować rozwody.</li>
       <li>Changelog może jest a może go nie ma.</li>
-    </ul>
-  </li>
-</ol>
+</ul>
 <hr/>
 <h4>Licencyjność</h4>
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
