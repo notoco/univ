@@ -10,6 +10,13 @@ Zawartość repozytorium:
     <li>Może nie działać i powodować rozwody.</li>
     <li>Changelog może jest a może go nie ma.</li>
   </ul>
+  <li><b>service.upnext-notoco</b></li>
+  Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał tutaj: https://github.com/im85288/service.upnext
+  <ul>
+    <li>Nie przyjmuję żadnych uwag ani nic.</li>
+    <li>Może nie działać i powodować rozwody.</li>
+    <li>Changelog może jest a może go nie ma.</li>
+  </ul>
 </ol>
 <h4>Licencyjność</h4>
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
