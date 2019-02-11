@@ -1,22 +1,26 @@
 <h3>Repozytorium w 100% prywatne, robione na własny użytek, bez żadnej odpowiedzialności za ewentualne szkody i problemy</h3>
 Link bezpośredni do instalacji:<br/>
+
 https://github.com/notoco/univ/raw/master/repository.notoco.univ.zip<br/>
+
 Zawartość repozytorium:
 <ol>
-  <li><b>skin.aura-notoco</b></li>
+  <li><b>skin.aura-notoco</b>
   Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się tutaj: https://github.com/jurialmunkey/skin.aura/
-  <ul>
-    <li>Nie przyjmuję żadnych uwag ani nic.</li>
-    <li>Może nie działać i powodować rozwody.</li>
-    <li>Changelog może jest a może go nie ma.</li>
-  </ul>
-  <li><b>service.upnext-notoco</b></li>
+    <ul>
+      <li>Nie przyjmuję żadnych uwag ani nic.</li>
+      <li>Może nie działać i powodować rozwody.</li>
+      <li>Changelog może jest a może go nie ma.</li>
+    </ul>
+  </li> 
+  <li><b>service.upnext-notoco</b>
   Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał tutaj: https://github.com/im85288/service.upnext
-  <ul>
-    <li>Nie przyjmuję żadnych uwag ani nic.</li>
-    <li>Może nie działać i powodować rozwody.</li>
-    <li>Changelog może jest a może go nie ma.</li>
-  </ul>
+    <ul>
+      <li>Nie przyjmuję żadnych uwag ani nic.</li>
+      <li>Może nie działać i powodować rozwody.</li>
+      <li>Changelog może jest a może go nie ma.</li>
+    </ul>
+  </li>
 </ol>
 <h4>Licencyjność</h4>
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
