@@ -1,8 +1,8 @@
-<h3>Repozytorium w 100% prywatne, robione na własny użytek, bez żadnej odpowiedzialności za ewentualne szkody i problemy</h3>
-Link bezpośredni do instalacji:<br/>
+<h3>Repozytorium w 100% prywatne, robione na własny użytek, bez żadnej odpowiedzialności za ewentualne szkody i problemy.</h3>
+Link bezpośredni do instalacji:
 
 https://github.com/notoco/univ/raw/master/repository.notoco.univ.zip<br/>
-
+<hr/>
 Zawartość repozytorium:
 <ol>
   <li><b>skin.aura-notoco</b>
@@ -22,6 +22,7 @@ Zawartość repozytorium:
     </ul>
   </li>
 </ol>
+<hr/>
 <h4>Licencyjność</h4>
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
