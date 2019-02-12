@@ -40,7 +40,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="service.upnext" name="Up Next" provider-name="im85288 mod by notoco" version="1.0.0N">
+	<addon id="service.upnext" name="Up Next" provider-name="im85288 mod by notoco" version="1.0.0N.1">
 
 		<requires>
 			<import addon="script.module.requests" version="2.9.1"/>
