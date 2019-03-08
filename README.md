@@ -12,7 +12,7 @@ Zawartość repozytorium:
     <li> Wydłużony czas kiedy pokazuje się popup</li>
    </ul>
   </li>
-  <li><b>plugin.video.netflix</b>-od dnia 05.03.2019</br>
+  <li><b>plugin.video.netflix</b></br>
   Jak sama nazwa wskazuje. Oryginał znajduje się <a href="https://github.com/CastagnaIT/plugin.video.netflix">tutaj</a>.<br/>
   Spolszczenie.
   </li>
