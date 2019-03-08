@@ -7,6 +7,8 @@ Zawartość repozytorium:
   Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się <a href="https://github.com/jurialmunkey/skin.aura/">tutaj</a>.<br/><a href="https://github.com/notoco/skin.aura-notoco">Źródła</a></li> 
   <li><b>service.upnext-notoco</b>
   Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał znajduje się <a href="https://github.com/im85288/service.upnext">tutaj</a>.<br/><a href="https://github.com/notoco/service.upnext-notoco">Źródła</a></li>
+  <li><b>plugin.video.netflix</b> - dzienne buildy
+  Jak sama nazwa wskazuje. Oryginał znajduje się <a href="https://github.com/CastagnaIT/plugin.video.netflix">tutaj</a>.<br/></li>
 </ol>
 <hr/>
 <ul>
