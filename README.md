@@ -14,7 +14,7 @@ Zawartość repozytorium:
   </li>
   <li><b>plugin.video.netflix</b> - dzienne buildy - od dnia 05.03.2019</br>
   Jak sama nazwa wskazuje. Oryginał znajduje się <a href="https://github.com/CastagnaIT/plugin.video.netflix">tutaj</a>.<br/>
-  Zaś buildy dzienne oryginalnie siedzą <a href="https://www.mediafire.com/folder/vifnw8ve44bi7/KodiNetflixAddon#824883rxzl2ve"> tutaj</a>.</br>Jedyna zmiana to zmiana numeracji wersji coby się ładnie samo aktualizowało (plus ewentualne hotfixy podrzucane <a href="https://github.com/CastagnaIT/plugin.video.netflix/issues">tutaj</a>).
+  Zaś buildy dzienne oryginalnie siedzą <a href="https://www.mediafire.com/folder/vifnw8ve44bi7/KodiNetflixAddon#824883rxzl2ve"> tutaj</a>.</br>Jedyna zmiana to zmiana numeracji wersji coby się ładnie samo aktualizowało (plus ewentualne hotfixy podrzucane <a href="https://github.com/CastagnaIT/plugin.video.netflix/issues">tutaj</a>) + spolszczenie.
   </li>
 </ol>
 <hr/>
