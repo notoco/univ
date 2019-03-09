@@ -62,7 +62,7 @@
 		</extension>
 	</addon>
 	
-<addon id="plugin.video.netflix" name="Netflix" version="0.14.0beta21_Fixed" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
+<addon id="plugin.video.netflix" name="Netflix" version="0.14.0beta21_fixed" provider-name="libdev + jojo + asciidisco + caphm + castagnait">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.requests" version="2.12.4"/>
