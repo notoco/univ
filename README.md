@@ -12,9 +12,9 @@ Zawartość repozytorium:
     <li> Wydłużony czas kiedy pokazuje się popup</li>
    </ul>
   </li>
-  <li><b>plugin.video.netflix</b></br>
+  <li><b>plugin.video.netflix</b> - daily builds + beta</br>
   Jak sama nazwa wskazuje. Oryginał znajduje się <a href="https://github.com/CastagnaIT/plugin.video.netflix">tutaj</a>.<br/>
-  Spolszczenie.
+  Wersje te mają prawo być w 100% niestabilne. Nie wprowadzam żadnych zmian poza numerem wersji w addon.xml
   </li>
 </ol>
 <hr/>
