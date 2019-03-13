@@ -17,7 +17,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="skin.aura-notoco" version="1.0.4" name="Aura-notoco" provider-name="jurialmunkey mod by notoco">
+	<addon id="skin.aura-notoco" version="1.0.5" name="Aura-notoco" provider-name="jurialmunkey mod by notoco">
 		<requires>
 			<import addon="xbmc.gui" version="5.14.0"/>
 			<import addon="script.skinshortcuts" version="0.4.0"/>
