@@ -16,6 +16,13 @@ Zawartość repozytorium:
   Jak sama nazwa wskazuje. Oryginał znajduje się <a href="https://github.com/CastagnaIT/plugin.video.netflix">tutaj</a>.<br/>
   Wersje te mają prawo być w 100% niestabilne. Nie wprowadzam żadnych zmian poza numerem wersji w addon.xml
   </li>
+  <li><b>script.audio.profiles</b>
+  Wtyczka umożliwająca zmianę profili audio. Oryginał znajduje się <a href="https://github.com/Regss/script.audio.profiles">tutaj</a>.<br/><a href="https://github.com/notoco/script.audio.profiles">Źródła</a>
+   <ul>
+    <li>Poprawki grafik</li>
+    <li>...?</li>
+   </ul>
+   </li> 
 </ol>
 <hr/>
 <ul>
