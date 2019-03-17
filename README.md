@@ -13,7 +13,7 @@ Zawartość repozytorium:
    </ul>
   </li>
   <li><b>plugin.video.netflix</b> - daily builds + beta</br>
-  <span style="color:red">UWAGA - zmiana numeracji wersji - wymagana ręczna aktualizacja wtyczki do wersji <b>14b23</b></span>
+  <h2>UWAGA - zmiana numeracji wersji - wymagana ręczna aktualizacja wtyczki do wersji <b>14b23</b></h2>
   Jak sama nazwa wskazuje. Oryginał znajduje się <a href="https://github.com/CastagnaIT/plugin.video.netflix">tutaj</a>.<br/>
   Wersje te mają prawo być w 100% niestabilne. Nie wprowadzam żadnych zmian poza numerem wersji w addon.xml
   </li>
