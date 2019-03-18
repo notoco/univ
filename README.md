@@ -4,9 +4,9 @@
 Zawartość repozytorium:
 <ol>
   <li><b>skin.aura-notoco</b>
-  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się <a href="https://github.com/jurialmunkey/skin.aura/">tutaj</a>.<br/><a href="https://github.com/notoco/univ/skin.aura-notoco">Źródła</a></li> 
+  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się <a href="https://github.com/jurialmunkey/skin.aura/">tutaj</a>.<br/><a href="https://github.com/notoco/univ/tree/master/skin.aura-notoco">Źródła</a></li> 
   <li><b>service.upnext</b>
-  Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał znajduje się <a href="https://github.com/im85288/service.upnext">tutaj</a>.<br/><a href="https://github.com/notoco/univ/service.upnext">Źródła</a>. <br/>Uwaga - nadpisuje oryginalną wersję (konieczne ze względu na kompatybilność ze skórkami i innymi wtyczkami)
+  Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał znajduje się <a href="https://github.com/im85288/service.upnext">tutaj</a>.<br/><a href="https://github.com/notoco/univ/tree/master/service.upnext">Źródła</a>. <br/>Uwaga - nadpisuje oryginalną wersję (konieczne ze względu na kompatybilność ze skórkami i innymi wtyczkami)
   <ul>
     <li>Spolszczenie</li>
     <li> Wydłużony czas kiedy pokazuje się popup</li>
@@ -18,7 +18,7 @@ Zawartość repozytorium:
   Wersje te mają prawo być w 100% niestabilne. Nie wprowadzam żadnych zmian poza numerem wersji w addon.xml
   </li>
   <li><b>script.audio.profiles</b>
-  Wtyczka umożliwająca zmianę profili audio. Oryginał znajduje się <a href="https://github.com/Regss/script.audio.profiles">tutaj</a>.<br/><a href="https://github.com/notoco/univ/script.audio.profiles">Źródła</a>
+  Wtyczka umożliwająca zmianę profili audio. Oryginał znajduje się <a href="https://github.com/Regss/script.audio.profiles">tutaj</a>.<br/><a href="https://github.com/notoco/univ/tree/master/script.audio.profiles">Źródła</a>
    <ul>
     <li>Poprawki grafik</li>
     <li>...?</li>
