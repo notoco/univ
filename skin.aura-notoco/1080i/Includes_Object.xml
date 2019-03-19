@@ -557,22 +557,20 @@
         <definition>
                 <control type="group">
                     <include>Animation_Right</include>
-                    <!-- NOTOCO dodanie logo kanału, poprawki ogólne -->
+                    <!-- dodanie logo kanału, poprawki ogólne -->
                     <control type="image">
                     <right>80</right>
-                    <top>80</top>
-                    <height>400</height>
-                    <width>400</width>
+                    <top>0</top>
+                    <height>300</height>
+                    <width>300</width>
                     <aspectratio>keep</aspectratio>
                     <texture fallback="special://skin/extras/icons/tv.png">$INFO[ListItem.Icon]</texture>
                 </control>
 
                 <control type="grouplist">
-                    <visible>[[!String.IsEmpty($PARAM[fallback]) + [String.IsEmpty(Control.GetLabel(9123)) | String.StartsWith(Control.GetLabel(9123),Default)]] | [!String.IsEmpty(Control.GetLabel(9123)) + !String.StartsWith(Control.GetLabel(9123),Default)]]</visible>
                     <height>430</height>
                     <top>view_top</top>
                     <left>view_pad</left>
-                    <right>500</right>
                     <orientation>vertical</orientation>
                     <usecontrolcoords>true</usecontrolcoords>
                     <itemgap>0</itemgap>
@@ -590,6 +588,7 @@
                 <label>$INFO[ListItem.EpgEventTitle]$INFO[ListItem.EpisodeName, - ,]</label>
                 <height>80</height>
                 <aligny>top</aligny>
+                <right>500</right>
                 <textcolor>main_fg_100</textcolor>
                 <font>font_showcase_title</font>
                 <visible>!String.IsEmpty(ListItem.EpgEventTitle)</visible>
@@ -598,14 +597,24 @@
                 <label>$INFO[ListItem.Label]</label>
                 <height>80</height>
                 <aligny>top</aligny>
+                <right>500</right>
                 <textcolor>main_fg_100</textcolor>
                 <font>font_showcase_title</font>
                 <visible>String.IsEmpty(ListItem.EpgEventTitle)</visible>
             </control>
+        <!-- dodanie paska postępu -->
+		<control type="progress">
+            <left>pad</left>
+            <width>1380</width>
+            <height>10</height>
+            <reveal>true</reveal>
+            <top>80</top>
+            <info>ListItem.Progress</info>
+            <colordiffuse>Selected</colordiffuse>
         </control>
         <control type="label">
-<!-- <!-- NOTOCO - poprawka -->
             <label>$INFO[ListItem.StartTime, [COLOR=main_fg_100]$LOCALIZE[19126] ,[/COLOR]]$INFO[ListItem.EndTime,  |  [COLOR=main_fg_100]$LOCALIZE[19127] ,[/COLOR]]</label>
+            <top>100</top>
             <height>75</height>
             <aligny>top</aligny>
             <textcolor>$VAR[ColorHighlight]</textcolor>
@@ -613,12 +622,15 @@
             <visible>!String.IsEmpty(ListItem.Title) | !String.IsEmpty(ListItem.ChannelNumber)</visible>
         </control>
         <control type="textbox">
+            <top>160</top>
             <label fallback="19055">$VAR[Label_Plot]</label>
+            <width>1800</width>
             <height>260</height>
             <aligny>top</aligny>
-            <textcolor>main_fg_70</textcolor>
-            <font>font_plotbox</font>
+            <textcolor>main_fg_100</textcolor>
+            <font>font_medium</font>
         </control>
+      </control>
     </include>
 
     <include name="Object_UpDownInfoArrows">

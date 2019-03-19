@@ -246,7 +246,6 @@
                         <aspectratio>keep</aspectratio>
                         <texture fallback="special://skin/extras/icons/tv.png">$INFO[ListItem.Icon]</texture>
                     </control>
-<!-- NOTOCO - zmiana czcionek i kolorów -->
                     <control type="group">
                         <left>$PARAM[height]</left>
                         <control type="label">
@@ -255,7 +254,7 @@
                             <height>100%</height>
                             <aligny>center</aligny>
                             <textcolor>main_fg_30</textcolor>
-                            <font>font_tiny_bold</font>
+                            <font>font_small_bold</font>
                             <label>$INFO[ListItem.ChannelNumber,,. ]$INFO[ListItem.ChannelName,,]</label>
                         </control>
                         <control type="label">
@@ -264,7 +263,7 @@
                             <height>100%</height>
                             <aligny>center</aligny>
                             <textcolor>main_fg_70</textcolor>
-                            <font>font_tiny</font>
+                            <font>font_small</font>
                             <label>$INFO[ListItem.Title]</label>
                         </control>
                         <control type="label">
@@ -274,7 +273,7 @@
                             <aligny>center</aligny>
                             <align>right</align>
                             <textcolor>main_fg_30</textcolor>
-                            <font>font_tiny</font>
+                            <font>font_small</font>
                             <scroll>false</scroll>
                             <label>$INFO[ListItem.NextTitle]</label>
                         </control>
@@ -497,7 +496,6 @@
                                 <aspectratio>keep</aspectratio>
                                 <texture fallback="special://skin/extras/icons/tv.png">$INFO[ListItem.Icon]</texture>
                             </control>
-<!-- NOTOCO - zmiana czcionek i kolorów -->
                             <control type="group">
                                 <left>$PARAM[height]</left>
                                 <control type="label">
@@ -515,7 +513,7 @@
                                     <height>100%</height>
                                     <aligny>center</aligny>
                                     <textcolor>PosterFront</textcolor>
-                                    <font>font_tiny</font>
+                                    <font>font_small</font>
                                     <label>$INFO[ListItem.Title]</label>
                                 </control>
                                 <control type="label">
@@ -525,7 +523,7 @@
                                     <aligny>center</aligny>
                                     <align>right</align>
                                     <textcolor>PosterFront</textcolor>
-                                    <font>font_tiny</font>
+                                    <font>font_small</font>
                                     <scroll>false</scroll>
                                     <label>  |  $INFO[ListItem.NextTitle]</label>
                                 </control>

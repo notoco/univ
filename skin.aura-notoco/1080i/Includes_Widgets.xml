@@ -150,7 +150,7 @@
                     <aspectratio aligny="center">keep</aspectratio>
                     <texture colordiffuse="main_fg_30">common/cube-16.png</texture>
                 </control>
-<!-- NOTOCO inna czcionka -->
+<!-- inna czcionka -->
                 <control type="label">
                     <left>2</left>
                     <textcolor>main_fg_100</textcolor>
@@ -359,7 +359,7 @@
                         <onclick>activatewindow(Profiles)</onclick>
                         <icon>special://skin/extras/icons/actor.png</icon>
                     </item>
-                    <!-- NOTOCO COREELEC -->
+                    <!-- COREELEC -->
                     <item id="14">
                         <description>Events</description>
                         <label>$LOCALIZE[14111]</label>
@@ -504,7 +504,7 @@
                     <aspectratio aligny="center">keep</aspectratio>
                     <texture colordiffuse="main_fg_30">common/cube-16.png</texture>
                 </control>
-<!-- NOTOCO zmiana czcionki -->
+<!-- zmiana czcionki -->
                 <control type="label">
                     <left>2</left>
                     <textcolor>main_fg_100</textcolor>

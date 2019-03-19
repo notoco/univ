@@ -208,35 +208,35 @@
                 </focusedlayout>
 
             </control>
-             <!-- NOTOCO dodanie ikony nad opisem -->
+             <!-- dodanie ikony nad opisem -->
                 <control type="image">
                     <right>30</right>
-                    <top>250</top>
+                    <top>720</top>
                     <width>225</width>
                     <height>225</height>
                     <texture>$INFO[Container(11).ListItem.Thumb]</texture>
                     <aspectratio>keep</aspectratio>
                 </control>
 
-            <!-- NOTOCO dodanie opisu -->
+            <!-- dodanie opisu -->
             <control type="group">
-				<left>668</left>
-                <top>500</top>
-                <width>1220</width>
-                <height>600</height>
+				<left>665</left>
+                <bottom>0</bottom>
+                <width>1255</width>
+                <height>300</height>
 				<control type="image">
 			
-					<width>1240</width>
-					<height>600</height>
-                    <texture>common/gradient-solid.png</texture>
+					<width>1255</width>
+					<height>300</height>
+                    <texture>common/gradient-dim.png</texture>
 				</control>
 				<control type="grouplist">
 					<usecontrolcoords>true</usecontrolcoords>
 					<itemgap>pad</itemgap>
 					<orientation>vertical</orientation>
-					<left>15</left>
-					<right>15</right>
-					<top>8</top>
+					<left>25</left>
+					<right>25</right>
+					<top>140</top>
 					<bottom>15</bottom>
 					<control type="label">
 						<left>pad</left>
@@ -248,25 +248,15 @@
 					</control>
 					 <control type="progress">
                         <left>pad</left>
-                        <width>1180</width>
-                        <height>5</height>
+                        <width>1200</width>
+                        <height>10</height>
                         <reveal>true</reveal>
                         <top>10</top>
                         <info>ListItem.Progress</info>
                         <colordiffuse>Selected</colordiffuse>
                     </control>
-					<control type="textbox">
-						<left>pad</left>
-						<right>pad</right>
-						<height>400</height>
-                        <top>10</top>
-						<font>font_medium</font>
-						<align>left</align>
-						<scroll>yes</scroll>					
-						<label>[COLOR=ffffffff]$INFO[Container(11).Listitem.Plot][/COLOR]</label>
-						<visible>!String.IsEmpty(Container(11).ListItem.Genre)</visible>
-					</control>
 					<control type="label">
+                        <top>10</top>
 						<left>pad</left>
 						<right>pad</right>
 						<height>28</height>
