@@ -219,17 +219,16 @@
                 </control>
 
             <!-- dodanie opisu -->
-            <control type="group">
-				<left>665</left>
-                <bottom>0</bottom>
-                <width>1255</width>
-                <height>300</height>
-				<control type="image">
-			
-					<width>1255</width>
-					<height>300</height>
-                    <texture>common/gradient-dim.png</texture>
-				</control>
+        <control type="group">
+          <left>665</left>
+          <bottom>0</bottom>
+          <width>1255</width>
+          <height>300</height>
+          <control type="image">
+            <width>1255</width>
+            <height>300</height>
+            <texture>common/gradient-dim.png</texture>
+        </control>
 				<control type="grouplist">
 					<usecontrolcoords>true</usecontrolcoords>
 					<itemgap>pad</itemgap>
@@ -241,10 +240,12 @@
 					<control type="label">
 						<left>pad</left>
 						<right>pad</right>
-						<height>45</height>
 						<scroll>yes</scroll>
-						<font>font_poster_text</font>
-						<label>[UPPERCASE][COLOR=Highlight2]$INFO[Container(11).ListItem.Title][/COLOR][/UPPERCASE]</label>
+            <label>$INFO[Container(11).ListItem.Title]</label>
+            <height>90</height>
+            <aligny>top</aligny>
+            <textcolor>main_fg_100</textcolor>
+            <font>font_showcase_title</font>
 					</control>
 					 <control type="progress">
                         <left>pad</left>
