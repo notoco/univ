@@ -246,6 +246,7 @@
                         <aspectratio>keep</aspectratio>
                         <texture fallback="special://skin/extras/icons/tv.png">$INFO[ListItem.Icon]</texture>
                     </control>
+<!-- NOTOCO poprawki czcionek -->
                     <control type="group">
                         <left>$PARAM[height]</left>
                         <control type="label">
@@ -496,6 +497,7 @@
                                 <aspectratio>keep</aspectratio>
                                 <texture fallback="special://skin/extras/icons/tv.png">$INFO[ListItem.Icon]</texture>
                             </control>
+<!-- NOTOCO poprawki czcionek -->
                             <control type="group">
                                 <left>$PARAM[height]</left>
                                 <control type="label">

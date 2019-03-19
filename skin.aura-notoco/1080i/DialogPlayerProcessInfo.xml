@@ -24,7 +24,7 @@
                 <texture colordiffuse="panel_bg">common/white.png</texture>
             </control>
 
-            <!-- usunięcie informacji dla dvbt -->
+            <!-- NOTOCO usunięcie informacji dla dvbt -->
             <control type="grouplist">
                 <left>view_pad</left>
                 <top>view_pad</top>
@@ -76,7 +76,7 @@
                     <font>font_statusbar</font>
                     <textcolor>panel_fg_70</textcolor>
                 </control>
-                <!-- dodanie buforu -->
+                <!-- NOTOCO dodanie buforu -->
                 <control type="label">
                     <width>1600</width>
                     <height>50</height>

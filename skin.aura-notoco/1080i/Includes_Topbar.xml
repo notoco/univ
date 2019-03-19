@@ -257,7 +257,7 @@
                         </control>
                         <control type="label">
                             <width>auto</width>
-<!-- inna czcionka zegara-->
+<!-- NOTOCO inna czcionka zegara-->
                             <font>font_topbar</font>
                             <textcolor>main_fg_100</textcolor>
                             <label>$INFO[System.Time]</label>
@@ -295,6 +295,7 @@
                         </control>
                     </control>
                 </control>
+<!-- NOTOCO - poprawka szerokości menu -->
                 <control type="group">
                     <width>1600</width>
                     <visible allowhiddenfocus="true">!$EXP[Exp_HideFurniture]</visible>

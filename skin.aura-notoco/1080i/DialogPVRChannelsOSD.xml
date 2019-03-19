@@ -208,7 +208,7 @@
                 </focusedlayout>
 
             </control>
-             <!-- dodanie ikony nad opisem -->
+             <!-- NOTOCO dodanie ikony nad opisem -->
                 <control type="image">
                     <right>30</right>
                     <top>720</top>
@@ -218,7 +218,7 @@
                     <aspectratio>keep</aspectratio>
                 </control>
 
-            <!-- dodanie opisu -->
+            <!-- NOTOCO dodanie opisu -->
         <control type="group">
           <left>665</left>
           <bottom>0</bottom>
