@@ -925,6 +925,7 @@
                             <selected>System.HasAddon(script.tv.show.next.aired)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
+<!-- Usunięcie autocompletion -->
                         <control type="radiobutton" id="9816">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>resource.images.studios.white</label>

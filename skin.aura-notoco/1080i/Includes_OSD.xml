@@ -128,7 +128,7 @@
                                 <width>700</width>
                                 <visible>Window.IsVisible(VideoFullScreen.xml)</visible>
                                 <visible>!Window.IsVisible(musicosd) + !Window.IsVisible(videoosd)</visible>
-                                 <include content="Object_Flags" condition="!Skin.HasSetting(MonochromeFlags)">
+                                <include content="Object_Flags" condition="!Skin.HasSetting(MonochromeFlags)">
                                     <param name="align" value="left" />
                                     <param name="source" value="VideoPlayer." />
                                     <param name="fps" value="true" />
@@ -207,7 +207,7 @@
     </include>
 
     <include name="OSD_Video_Seekbar">
-<!-- dodanie zegara -->
+<!-- NOTOCO dodanie zegara -->
 		<control type="label">
 			<width>200</width>
 			<font>font_topbar</font>
@@ -386,7 +386,7 @@
                 <animation effect="fade" start="0" end="100" delay="200" time="300">Visible</animation>
             </control>
             <include>Statusbar_Info_Clock</include>
-		<!-- progres - linia lub kółko - do zrobienia w opcjach -->
+		<!-- NOTOCO  progres - linia lub kółko - do zrobienia w opcjach -->
 <!--			<control type="progress">
 				<bottom>5</bottom>
 				<width>1820</width>
