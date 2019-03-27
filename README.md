@@ -20,7 +20,7 @@ Zawartość repozytorium:
   <li><b>script.audio.profiles</b>
   Wtyczka umożliwająca zmianę profili audio. Oryginał znajduje się <a href="https://github.com/Regss/script.audio.profiles">tutaj</a>.<br/><a href="https://github.com/notoco/univ/tree/master/script.audio.profiles">Źródła</a>
    <ul>
-     <li>poprawki<ahref="https://github.com/CtrlGy/script.audio.profiles">stąd</a></li>
+     <li>poprawki <a href="https://github.com/CtrlGy/script.audio.profiles">stąd</a></li>
    </ul>
    </li> 
 </ol>
