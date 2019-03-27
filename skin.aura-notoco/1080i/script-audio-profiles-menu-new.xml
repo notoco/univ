@@ -51,7 +51,7 @@
                     <label>[COLOR $VAR[ColorHighlight]]$INFO[ListItem.Label][/COLOR]</label>
                 </control>
             </focusedlayout>
-            <onfocus condition="StringCompare(Window(10000).Property(script.audio.profiles_autoclose),1)">PreviousMenu</onfocus>
+            <onfocus condition="String.IsEqual(Window(10000).Property(script.audio.profiles_autoclose),1)">PreviousMenu</onfocus>
             <animation effect="fade" end="100" delay="5000">Focus</animation>
         </control>
     </controls>

@@ -11,10 +11,27 @@
             <posx>0</posx>
             <posy>0</posy>
             <width>520</width>
-            <height>200</height>
             <control type="image">
+                <height>120</height>
                 <texture>script-audio-profiles-bg.png</texture>
+                <visible>StringCompare(Window(10000).Property(script.audio.profiles_items),1)</visible>
             </control>
+            <control type="image">
+                <height>170</height>
+                <texture>script-audio-profiles-bg.png</texture>
+                <visible>StringCompare(Window(10000).Property(script.audio.profiles_items),2)</visible>
+            </control>
+            <control type="image">
+                <height>220</height>
+                <texture>script-audio-profiles-bg.png</texture>
+                <visible>StringCompare(Window(10000).Property(script.audio.profiles_items),3)</visible>
+            </control>
+            <control type="image">
+                <height>270</height>
+                <texture>script-audio-profiles-bg.png</texture>
+                <visible>StringCompare(Window(10000).Property(script.audio.profiles_items),4)</visible>
+            </control>
+        </control>
         <control type="label" id="10071">
             <description>title</description>
             <posx>20</posx>
@@ -46,7 +63,7 @@
                     <width>480</width>
                     <height>40</height>
                     <font>font13</font>
-                    <textcolor>grey2</textcolor>
+                    <textcolor>grey</textcolor>
                     <align>center</align>
                     <aligny>center</aligny>
                     <info>ListItem.Label</info>
@@ -73,7 +90,6 @@
             <onfocus condition="StringCompare(Window(10000).Property(script.audio.profiles_autoclose),1)">PreviousMenu</onfocus>
             <animation effect="fade" end="100" delay="5000">Focus</animation>
         </control>
-                </control>
     </controls>
     <animation effect="fade" time="200">WindowOpen</animation>
     <animation effect="fade" time="200">WindowClose</animation>

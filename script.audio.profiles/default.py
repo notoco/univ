@@ -36,12 +36,18 @@ sProfile = {
     4: ADDON.getSetting('profile4')
 }
 cecCommands = ['', 'CECActivateSource', 'CECStandby', 'CECToggleState']
+xbmc_version = int(xbmc.getInfoLabel('System.BuildVersion')[0:2])
 
 class PROFILES:
 
     def __init__(self):
         debug.debug('[SYS.ARGV]: ' + str(sys.argv))
-        
+        debug.debug('[XBMC VERSION]: ' + str(xbmc_version))
+
+		# select xml file depending on xbmc version
+        version = 'old' if xbmc_version < 17 else 'new'
+        self.xmlFile = 'script-audio-profiles-menu-{}.xml'.format(version)
+
         # detect mode, check args
         if (len(sys.argv) < 2 or len(sys.argv[0]) == 0):
             mode = False
@@ -65,7 +71,7 @@ class PROFILES:
         if mode == 'popup':
             enabledProfiles = self.getEnabledProfiles()
             xbmcgui.Window(10000).setProperty(ADDON_ID + '_autoclose', '1' if 'true' in ADDON.getSetting('player_autoclose') else '0')
-            ret = dialog.DIALOG().start('script-audio-profiles-menu.xml', labels={10071: ADDON_LANG(32106)}, buttons=enabledProfiles[1], list=10070)
+            ret = dialog.DIALOG().start(self.xmlFile, labels={10071: ADDON_LANG(32106)}, buttons=enabledProfiles[1], list=10070)
             if ret is not None:
                 self.profile(str(enabledProfiles[0][ret]))
             return
@@ -93,11 +99,8 @@ class PROFILES:
     
     # get audio config and save to file
     def save(self):
-        xbmc_version = int(xbmc.getInfoLabel('System.BuildVersion')[0:2])
-        debug.debug('[XBMC VERSION]: ' + str(xbmc_version))
-        
         enabledProfiles = self.getEnabledProfiles()
-        ret = dialog.DIALOG().start('script-audio-profiles-menu.xml', labels={10071: ADDON_LANG(32100)}, buttons=enabledProfiles[1], list=10070)
+        ret = dialog.DIALOG().start(self.xmlFile, labels={10071: ADDON_LANG(32100)}, buttons=enabledProfiles[1], list=10070)
         if ret is None:
             return False
         else:
