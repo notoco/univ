@@ -7,8 +7,8 @@
     <include name="Dialog_Notification_Group">
         <right>view_pad</right>
         <centertop>50%</centertop>
-        <height>80</height>
-        <width>540</width>
+        <height>100</height>
+        <width>840</width>
         <include>Animation_FadeIn_Slide</include>
         <include>Animation_FadeOut</include>
     </include>
@@ -24,22 +24,22 @@
         <right>80</right>
         <left>0</left>
         <centertop>33%</centertop>
-        <height>30</height>
+        <height>40</height>
         <aligny>center</aligny>
         <align>right</align>
         <font>font_notification</font>
         <textcolor>main_fg_100</textcolor>
     </include>
 
-
+<!-- NOTOCO Zmiana czcionki -->
     <include name="Dialog_Notification_SubLabel">
         <right>80</right>
         <left>0</left>
         <centerbottom>33%</centerbottom>
-        <height>30</height>
+        <height>40</height>
         <align>right</align>
         <textcolor>main_fg_70</textcolor>
-        <font>font_statusbar</font>                
+        <font>font_notification</font>                
         <aligny>center</aligny>
     </include>
 
