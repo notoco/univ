@@ -52,7 +52,7 @@
                 </control>
             </focusedlayout>
             <onfocus condition="String.IsEqual(Window(10000).Property(script.audio.profiles_autoclose),1)">PreviousMenu</onfocus>
-            <animation effect="fade" end="100" delay="5000">Focus</animation>
+            <animation effect="fade" end="100" delay="10000">Focus</animation>
         </control>
     </controls>
             <animation type="WindowOpen" reversible="false">

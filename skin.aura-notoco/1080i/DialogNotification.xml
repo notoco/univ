@@ -5,7 +5,7 @@
 <!-- NOTOCO -->
         <control type="image">
             <width>auto</width>
-            <height>200</height>
+            <height>150</height>
             <texture>common/osd-dim-rev.png</texture>
 <!--        <include>Defs_ShadowBack_Fullscreen</include> -->
             <visible>!Window.IsVisible(Home.xml) | !Window.IsVisible(DialogVolumeBar.xml) | Player.Muted</visible>
