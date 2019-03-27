@@ -18,4 +18,4 @@ def error(msg):
 
 def notify(msg, force=False, title=''):
     if 'true' in ADDON.getSetting('notify') or force is True:
-        xbmc.executebuiltin('Notification(' + ADDON_NAME + (' - ' + title.encode('utf-8') if len(title) > 0 else '') + ', ' + msg.encode('utf-8') + ', 8000, ' + ADDON_ICON + ')')
+        xbmc.executebuiltin('Notification(' + ADDON_NAME + (' - ' + title.encode('utf-8') if len(title) > 0 else '') + ', ' + msg.encode('utf-8') + ', 4000, ' + ADDON_ICON + ')')

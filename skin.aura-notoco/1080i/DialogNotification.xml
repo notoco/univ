@@ -3,7 +3,7 @@
 <window id="107">
     <controls>
 <!-- NOTOCO -->
-        <control type="image">    
+        <control type="image">
             <width>auto</width>
             <height>200</height>
             <texture>common/osd-dim-rev.png</texture>
