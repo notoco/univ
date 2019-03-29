@@ -39,7 +39,7 @@
         <height>40</height>
         <align>right</align>
         <textcolor>main_fg_70</textcolor>
-        <font>font_notification</font>                
+        <font>font_topbar_small</font>                
         <aligny>center</aligny>
     </include>
 
