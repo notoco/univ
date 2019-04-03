@@ -206,7 +206,7 @@
         <font>
             <name>font_notification</name>
             <filename>RobotoCondensed-Bold.ttf</filename>
-            <size>30</size>
+            <size>36</size>
             <aspect>0.9</aspect>
             <style>bold</style>
         </font>
@@ -729,7 +729,7 @@
             <filename>Arial.ttf</filename>
             <style>bold</style>
             <aspect>1</aspect>
-            <size>30</size>
+            <size>36</size>
             <aspect>1</aspect>
             <style>bold</style>
         </font>
@@ -1255,7 +1255,7 @@
             <filename>Ubuntu-L.ttf</filename>
             <style>bold</style>
             <aspect>1</aspect>
-            <size>30</size>
+            <size>36</size>
             <aspect>0.9</aspect>
             <style>bold</style>
         </font>
@@ -1781,7 +1781,7 @@
             <filename>NotoSans-Regular.ttf</filename>
             <style>bold</style>
             <aspect>1</aspect>
-            <size>30</size>
+            <size>36</size>
             <aspect>0.9</aspect>
             <style>bold</style>
         </font>
@@ -2308,7 +2308,7 @@
             <filename>Roboto-Light.ttf</filename>
             <style>bold</style>
             <aspect>1</aspect>
-            <size>30</size>
+            <size>36</size>
             <aspect>0.9</aspect>
             <style>bold</style>
         </font>
@@ -2834,7 +2834,7 @@
             <filename>Rubik-Regular.ttf</filename>
             <style>bold</style>
             <aspect>1</aspect>
-            <size>30</size>
+            <size>36</size>
             <aspect>0.9</aspect>
             <style>bold</style>
         </font>

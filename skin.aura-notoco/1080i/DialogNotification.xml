@@ -3,11 +3,10 @@
 <window id="107">
     <controls>
 <!-- NOTOCO -->
-        <control type="image">    
+        <control type="image">
             <width>auto</width>
-            <height>80</height>
-            <texture>common/dim-gradient.png</texture>
-<!--        <include>Defs_ShadowBack_Fullscreen</include> -->
+            <height>150</height>
+            <include>Defs_ShadowBack_Fullscreen</include>
             <visible>!Window.IsVisible(DialogVolumeBar.xml) | Player.Muted</visible>
         </control>
         <control type="group">

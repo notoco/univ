@@ -1,4 +1,7 @@
 generator.py
 plugin.video.netflix/
 !zip/plugin.video.netflix/
-skin.aura-master/
+skin.aura-notoco/1080i/script-skinshortcuts-includes.xml
+*.xcf
+*~
+Thumbs.db

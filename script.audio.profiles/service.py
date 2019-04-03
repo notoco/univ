@@ -49,14 +49,13 @@ class Monitor(xbmc.Monitor):
         if 'Player.OnPlay' in method:
             debug.debug("[MONITOR] METHOD: " + str(method) + " DATA: " + str(data))
             
-            # auto show dialog
-            if 'true' in ADDON.getSetting('player_show'):
-                xbmc.executebuiltin('XBMC.RunScript(' + ADDON_ID + ', popup)')
-            
             # auto switch
             if 'item' in data and 'type' in data['item']:
                 type = data['item']['type']
                 set = map_type.get(type)
+            # auto show dialog
+            	if 'true' in ADDON.getSetting('player_show') and 'movie' in type and 'id' not in data['item']:
+               	    xbmc.executebuiltin('XBMC.RunScript(' + ADDON_ID + ', popup)')
                 
                 # if video is not from library assign to auto_videos
                 if 'movie' in type and 'id' not in data['item']:
