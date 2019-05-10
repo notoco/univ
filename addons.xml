@@ -52,49 +52,6 @@
     </extension>
 </addon>
 
-<addon id="skin.lyrebird" name="Lyrebird" version="0.8.9" provider-name="Rufoo">
-    <requires>
-        <import addon="xbmc.gui" version="5.14.0"/>
-        <import addon="resource.images.studios.white" version="0.0.6"/>
-        <import addon="script.skinshortcuts" version="0.6.6"/>
-        <import addon="script.toolbox" version="1.0.0"/>
-    </requires>
-    <extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_AU">Lyrebird: Mimic x Cirrus Extended</summary>
-        <summary lang="en_GB">Lyrebird: Mimic x Cirrus Extended</summary>
-        <summary lang="en_NZ">Lyrebird: Mimic x Cirrus Extended</summary>
-        <summary lang="en_US">Lyrebird: Mimic x Cirrus Extended</summary>
-        <description lang="en_AU">Lyrebird: Mimic x Cirrus Extended</description>
-        <description lang="en_GB">Lyrebird: Mimic x Cirrus Extended</description>
-        <description lang="en_NZ">Lyrebird: Mimic x Cirrus Extended</description>
-        <description lang="en_US">Lyrebird: Mimic x Cirrus Extended</description>
-        <platform>all</platform>
-        <license>CC BY-NC-SA 4.0</license>
-        <forum>http://forum.kodi.tv/forumdisplay.php?fid=218</forum>
-        <website></website>
-        <email></email>
-        <source>https://github.com/rufoo/skin.lyrebird</source>
-        <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
-            <screenshot>resources/screenshot-01.jpg</screenshot>
-            <screenshot>resources/screenshot-02.jpg</screenshot>
-            <screenshot>resources/screenshot-03.jpg</screenshot>
-            <screenshot>resources/screenshot-04.jpg</screenshot>
-            <screenshot>resources/screenshot-05.jpg</screenshot>
-            <screenshot>resources/screenshot-06.jpg</screenshot>
-            <screenshot>resources/screenshot-07.jpg</screenshot>
-            <screenshot>resources/screenshot-08.jpg</screenshot>
-            <screenshot>resources/screenshot-09.jpg</screenshot>
-            <screenshot>resources/screenshot-10.jpg</screenshot>
-        </assets>
-        <news>0.8.9 - Sneak Peek!</news>
-    </extension>
-</addon>
-
 <addon id="repository.notoco.univ" name="Notoco Univ Repo" version="1.1" provider-name="notoco">
 		<extension point="xbmc.addon.repository" name="Notoco Univ Repo">
 			<dir>
