@@ -1,6 +1,8 @@
 generator.py
 plugin.video.netflix/
 !zip/plugin.video.netflix/
+skin.lyrebird/
+!zip/skin.lyrebird/
 skin.aura-notoco/1080i/script-skinshortcuts-includes.xml
 *.xcf
 *~
