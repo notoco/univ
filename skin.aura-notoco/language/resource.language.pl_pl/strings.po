@@ -291,7 +291,7 @@ msgstr "Użyj skinhelper, aby udostępnić animowane plakaty i fanart. Można je
 #: /1080i/SkinSettings.xml
 msgctxt "#31056"
 msgid "Genre colors in PVR guide"
-msgstr "Kolory gatunkowe w przewodniku PVR"
+msgstr "Kolory gatunków w przewodniku PVR"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31057"
@@ -301,7 +301,7 @@ msgstr "Użyj pełnoekranowego przewodnika PVR (ukryj informacje o fabule)"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31058"
 msgid "Change the highlight focus colour used throughout the skin."
-msgstr "Zmień kolor podświetlenia fokusa na skórze."
+msgstr "Zmień kolor podświetlenia na skórze."
 
 #: /1080i/DialogContextMenu.xml
 msgctxt "#31059"
@@ -311,7 +311,7 @@ msgstr "Menu kontekstowe"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31060"
 msgid "Set a music or video playlist that will run when kodi starts."
-msgstr "Ustaw listę odtwarzania muzyki lub wideo, która będzie działać po uruchomieniu kodu."
+msgstr "Ustaw listę odtwarzania muzyki lub wideo, która będzie działać po uruchomieniu kodi."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31061"
@@ -336,7 +336,7 @@ msgstr "Utwórz kopię zapasową ustawień karnacji i skrótów menu głównego 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31065"
 msgid "Restore your skin settings, shortcuts, and widgets from a backup file."
-msgstr "Przywróć ustawienia karnacji, skróty i widżety z pliku kopii zapasowej."
+msgstr "Przywróć ustawienia skóry, skróty i widżety z pliku kopii zapasowej."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31066"
@@ -346,7 +346,7 @@ msgstr "Zmień lokalizację, w której zapisywane są pliki kopii zapasowych sk�
 #: /1080i/Includes_Labels.xml
 msgctxt "#31067"
 msgid "Reset all your skin settings, shortcuts, and widgets to default skin settings. This will not change any kodi system settings."
-msgstr "Zresetuj wszystkie ustawienia karnacji, skróty i widżety do domyślnych ustawień karnacji. To nie zmieni żadnych ustawień systemu kodi."
+msgstr "Zresetuj wszystkie ustawienia skóry, skróty i widżety do domyślnych ustawień karnacji. To nie zmieni żadnych ustawień systemu kodi."
 
 #: /1080i/Includes_Weather.xml
 msgctxt "#31068"
@@ -356,7 +356,7 @@ msgstr "Zachmurzenie"
 #: /1080i/Includes_Weather.xml
 msgctxt "#31069"
 msgid "Cloud cover is "
-msgstr "Osłona chmur jest"
+msgstr "Zachmurzenie jest"
 
 #: /1080i/Includes_Weather.xml
 msgctxt "#31070"
@@ -1548,7 +1548,7 @@ msgstr "Cechy szczególne"
 #: /1080i/SkinSettings.xml
 msgctxt "#31307"
 msgid "Prefer plot outline"
-msgstr "Preferuj zarys wykresu"
+msgstr "Preferuj zarys fabuły"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31308"
@@ -1698,7 +1698,7 @@ msgstr "Nakładka w tle"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31337"
 msgid "Light"
-msgstr "Światło"
+msgstr "Jasny"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31338"

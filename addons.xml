@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.upnext" name="Up Next" version="1.0.0N.1" provider-name="im85288 mod by notoco">
+<addon id="service.upnext" name="Up Next" version="1.0.0N.2" provider-name="im85288 mod by notoco">
 
     <requires>
         <import addon="script.module.requests" version="2.9.1"/>
@@ -27,7 +27,7 @@
     </extension>
 </addon>
 
-<addon id="skin.aura-notoco" name="Aura-notoco" version="1.1.5.7" provider-name="jurialmunkey mod by notoco">
+<addon id="skin.aura-notoco" name="Aura-notoco" version="1.1.5.8" provider-name="jurialmunkey mod by notoco">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.skinshortcuts" version="0.4.0"/>

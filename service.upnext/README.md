@@ -1,6 +1,3 @@
-## Poprawki obejmują język PL oraz wyłączenie się filmu po wybraniu opcji zamknij
-
-##### Fix includes PL language and movie shutdown after selecting the close option
 # Up Next
 
 This addon shows a popup window notification automatically to prompt for playing the next unwatched episode. 
