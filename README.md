@@ -8,8 +8,7 @@ Zawartość repozytorium:
   <li><b>service.upnext</b>
   Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał znajduje się <a href="https://github.com/im85288/service.upnext">tutaj</a>.<br/><a href="https://github.com/notoco/univ/tree/master/service.upnext">Źródła</a>. <br/>Uwaga - nadpisuje oryginalną wersję (konieczne ze względu na kompatybilność ze skórkami i innymi wtyczkami)
   <ul>
-    <li>Spolszczenie</li>
-    <li> Wydłużony czas kiedy pokazuje się popup</li>
+    <li>wersja z githuba</li>
    </ul>
   </li>
   <li><b>plugin.video.netflix</b> - daily builds + beta</br>
