@@ -7,3 +7,10 @@ skin.aura-notoco/1080i/script-skinshortcuts-includes.xml
 *.xcf
 *~
 Thumbs.db
+# Visual Studio Code
+.vscode
+
+# Visual Studio
+*.pyproj
+*.sln
+.vs/
