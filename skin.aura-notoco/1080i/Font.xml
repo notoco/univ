@@ -196,7 +196,7 @@
             <filename>RobotoCondensed-Bold.ttf</filename>
             <size>40</size>
             <aspect>0.9</aspect>
-            <style>bold</style>
+            <style>bold capitalize</style>
         </font>
         <font>
             <name>font_topbar_small</name>
@@ -716,13 +716,14 @@
             <aspect>1</aspect>
             <size>40</size>
             <aspect>1</aspect>
-            <style>bold</style>
+            <style>bold capitalize</style>
         </font>
         <font>
             <name>font_topbar_small</name>
             <filename>Arial.ttf</filename>
             <aspect>1</aspect>
             <size>30</size>
+            <style>uppercase</style>
         </font>
         <font>
             <name>font_notification</name>
@@ -1242,7 +1243,7 @@
             <aspect>1</aspect>
             <size>40</size>
             <aspect>0.9</aspect>
-            <style>bold</style>
+            <style>bold capitalize</style>
         </font>
         <font>
             <name>font_topbar_small</name>
@@ -1769,6 +1770,7 @@
             <size>40</size>
             <aspect>0.9</aspect>
             <style>bold</style>
+            <style>bold capitalize</style>
         </font>
         <font>
             <name>font_topbar_small</name>
@@ -2295,7 +2297,7 @@
             <aspect>1</aspect>
             <size>40</size>
             <aspect>0.9</aspect>
-            <style>bold</style>
+            <style>bold capitalize</style>
         </font>
         <font>
             <name>font_topbar_small</name>
@@ -2821,7 +2823,8 @@
             <aspect>1</aspect>
             <size>40</size>
             <aspect>0.9</aspect>
-            <style>bold</style>
+            <style>bold capitalize</style>
+
         </font>
         <font>
             <name>font_topbar_small</name>

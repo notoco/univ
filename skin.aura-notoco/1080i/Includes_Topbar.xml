@@ -11,7 +11,7 @@
             <onfocus>SetFocus($PARAM[id],$PARAM[pos])</onfocus>
             <onclick>$INFO[Container($PARAM[id]).ListItemAbsolute($PARAM[pos]).Property(path)]</onclick>
             <usealttexture>Control.HasFocus($PARAM[id]) + String.IsEqual(Container($PARAM[id]).ListItemAbsolute($PARAM[pos]).Label,Container($PARAM[id]).ListItem.Label)</usealttexture>
-            <font>font_topbar_small</font>
+            <font>font_topbar</font>
             <textcolor>Selected</textcolor>
             <textoffsetx>1</textoffsetx>
             <animation effect="fade" start="100" end="33" condition="!String.IsEqual(Container($PARAM[id]).ListItemAbsolute($PARAM[pos]).Label,Container($PARAM[id]).ListItem.Label)">Conditional</animation>
@@ -54,10 +54,6 @@
             <textcolor>00ffffff</textcolor>
             <textoffsetx>1</textoffsetx>
             <animation effect="fade" start="100" end="33" condition="!String.IsEqual(Container($PARAM[id]).ListItemAbsolute($PARAM[pos]).Label,Container($PARAM[id]).ListItem.Label)">Conditional</animation>
-            <texturenofocus />
-            <texturefocus colordiffuse="$VAR[ColorHighlight]" border="8">common/underline2.png</texturefocus>
-            <alttexturenofocus colordiffuse="$VAR[ColorHighlight]" border="8">common/underline2.png</alttexturenofocus>
-            <alttexturefocus colordiffuse="$VAR[ColorHighlight]" border="8">common/underline2.png</alttexturefocus>
             <label>$INFO[Container($PARAM[id]).ListItemAbsolute($PARAM[pos]).Label]</label>
             <visible>!String.IsEqual(Container($PARAM[id]).ListItemAbsolute($PARAM[pos]).Label,Container($PARAM[id]).ListItem.Label)</visible>
         </control>
@@ -72,10 +68,6 @@
             <textcolor>00ffffff</textcolor>
             <textoffsetx>1</textoffsetx>
             <animation effect="fade" start="100" end="33" condition="!String.IsEqual(Container($PARAM[id]).ListItemAbsolute($PARAM[pos]).Label,Container($PARAM[id]).ListItem.Label)">Conditional</animation>
-            <texturenofocus />
-            <texturefocus colordiffuse="$VAR[ColorHighlight2]" border="8" diffuse="common/gradient-diffuse-horizontal.png">common/underline2.png</texturefocus>
-            <alttexturenofocus colordiffuse="$VAR[ColorHighlight2]" border="8" diffuse="common/gradient-diffuse-horizontal.png">common/underline2.png</alttexturenofocus>
-            <alttexturefocus colordiffuse="$VAR[ColorHighlight2]" border="8" diffuse="common/gradient-diffuse-horizontal.png">common/underline2.png</alttexturefocus>
             <label>$INFO[Container($PARAM[id]).ListItemAbsolute($PARAM[pos]).Label]</label>
             <visible>String.IsEqual(Container($PARAM[id]).ListItemAbsolute($PARAM[pos]).Label,Container($PARAM[id]).ListItem.Label)</visible>
         </control>
