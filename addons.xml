@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="service.upnext" name="Up Next" version="1.0.0N.22052019" provider-name="im85288">
+<addon id="service.upnext" name="Up Next" version="1.0.0N.23052019" provider-name="im85288">
     <requires>
         <import addon="script.module.requests" version="2.9.1"/>
         <import addon="xbmc.python" version="2.26.0"/>
