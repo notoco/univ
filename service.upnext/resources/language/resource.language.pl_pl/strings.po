@@ -186,6 +186,3 @@ msgctxt "#30048"
 msgid "StillWatchingSimple"
 msgstr "StillWatchingSimple"
 
-msgctxt "#30049"
-msgid "Next Episode"
-msgstr "Następny odcinek"
