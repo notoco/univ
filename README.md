@@ -1,5 +1,6 @@
 <h3>Repozytorium w 100% prywatne, robione na własny użytek, bez żadnej odpowiedzialności za ewentualne szkody i problemy.</h3>
 <a href="https://github.com/notoco/univ/raw/master/repository.notoco.univ.zip">Link bezpośredni do instalacji</a><br/>
+<h3>Jeśli w akcie desperacji chcesz jednak używać - robisz to na własną odpowiedzialność - wtyczki nie są sprawdzane na niczym innym poza moją konfiguracją sprzętową.</h3>
 <hr/>
 Zawartość repozytorium:
 <ol>
