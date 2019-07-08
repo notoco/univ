@@ -2070,3 +2070,8 @@ msgstr "Pokaż zwiastuny i funkcje specjalne w oknie podglądu"
 msgctxt "#31411"
 msgid "Unavailable"
 msgstr "Niedostępna"
+
+#: /1080i/Custom_1117_EnableViews.xml
+msgctxt "#31412"
+msgid "Poster Info"
+msgstr "Poster Info"
