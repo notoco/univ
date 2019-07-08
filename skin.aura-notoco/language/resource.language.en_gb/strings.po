@@ -1963,3 +1963,8 @@ msgstr ""
 msgctxt "#31411"
 msgid "Unavailable"
 msgstr ""
+
+#: /1080i/Custom_1117_EnableViews.xml
+msgctxt "#31412"
+msgid "Poster Info"
+msgstr "Poster Info"
