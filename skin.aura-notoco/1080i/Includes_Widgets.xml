@@ -980,6 +980,17 @@
 					<reveal>true</reveal>
 					<info>ListItem.Progress</info>
 					<colordiffuse>Selected</colordiffuse>
+                    <visible>!String.IsEmpty(ListItem.ChannelName)</visible>
+				</control>
+				<control type="textbox">
+					<left>20</left>
+					<right>20</right>
+					<top>10</top>
+					<align>center</align>
+					<font>font_statusbar</font>
+					<textcolor>$PARAM[color]</textcolor>
+                    <visible>!String.IsEmpty(ListItem.ChannelName)</visible>
+					<label>$INFO[ListItem.StartTime] - $INFO[ListItem.EndTime]</label>
 				</control>
             </control>
         </definition>
