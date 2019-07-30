@@ -11,8 +11,8 @@
     </variable>
     
     <variable name="Label_OSD_FinishTime">
-        <value condition="VideoPlayer.Content(livetv)">$INFO[System.Time,$LOCALIZE[555]  ,]$INFO[VideoPlayer.EndTime,[COLOR=main_fg_70]  •  $LOCALIZE[31106] ,[/COLOR]]</value>
-        <value>$INFO[System.Time,$LOCALIZE[555]  ,]$INFO[Player.FinishTime,[COLOR=main_fg_70]  •  $LOCALIZE[31106] ,[/COLOR]]</value>
+        <value condition="VideoPlayer.Content(livetv)">$LOCALIZE[31106] $INFO[VideoPlayer.EndTime]</value>
+        <value>$INFO[VideoPlayer.TimeRemaining,$LOCALIZE[31413]  ,]$INFO[Player.FinishTime,[COLOR=main_fg_70]  •  $LOCALIZE[31106] ,[/COLOR]]</value>
     </variable>
 
     <variable name="Label_OSD_Title">

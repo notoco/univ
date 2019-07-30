@@ -1968,3 +1968,8 @@ msgstr ""
 msgctxt "#31412"
 msgid "Poster Info"
 msgstr "Poster Info"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31413"
+msgid "To the end"
+msgstr ""
