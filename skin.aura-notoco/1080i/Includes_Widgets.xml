@@ -972,6 +972,15 @@
                     <aspectratio scalediffuse="false">keep</aspectratio>
                     <visible>String.Contains(ListItem.Icon,/extras/icons/)</visible>
                 </control>
+				<control type="progress">
+					<left>3</left>
+					<top>3</top>
+					<width>235</width>
+					<height>10</height>
+					<reveal>true</reveal>
+					<info>ListItem.Progress</info>
+					<colordiffuse>Selected</colordiffuse>
+				</control>
             </control>
         </definition>
     </include>
