@@ -235,17 +235,17 @@
 					<orientation>vertical</orientation>
 					<left>25</left>
 					<right>25</right>
-					<top>140</top>
+					<top>80</top>
 					<bottom>15</bottom>
 					<control type="label">
 						<left>pad</left>
 						<right>pad</right>
 						<scroll>yes</scroll>
-            <label>$INFO[Container(11).ListItem.Title]</label>
-            <height>90</height>
-            <aligny>top</aligny>
-            <textcolor>main_fg_100</textcolor>
-            <font>font_showcase_title</font>
+						<label>$INFO[Container(11).ListItem.Title]</label>
+						<height>90</height>
+						<aligny>top</aligny>
+						<textcolor>main_fg_100</textcolor>
+						<font>font_showcase_title</font>
 					</control>
 					 <control type="progress">
                         <left>pad</left>
@@ -256,6 +256,12 @@
                         <info>ListItem.Progress</info>
                         <colordiffuse>Selected</colordiffuse>
                     </control>
+                    					<control type="label">
+						<label>$INFO[Container(11).ListItem.NextTitle,[COLOR=Highlight2]$LOCALIZE[19031]... [/COLOR],]</label>
+						<height>40</height>
+						<right>pad</right>
+						<font>font_small</font>
+					</control>
 					<control type="label">
                         <top>10</top>
 						<left>pad</left>
@@ -265,12 +271,7 @@
 						<font>Font-OSD</font>
 						<label>$INFO[Container(11).ListItem.StartTime]$INFO[Container(11).ListItem.EndTime,  -  ,]</label>
 					</control>
-					<control type="label">
-						<label>$INFO[Container(11).ListItem.NextTitle,[COLOR=Highlight2]$LOCALIZE[19031]... [/COLOR],]</label>
-						<height>40</height>
-						<right>pad</right>
-						<font>font_small</font>
-					</control>
+
 				</control>
 			</control>
         </control>
