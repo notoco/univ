@@ -14,11 +14,12 @@
                 <effect type="slide" start="0,0" end="0,-181" time="400" />
             </animation>
             <control type="group">
-                <height>230</height>
+                <width>320</width>
+                <height>480</height>
                 <left>15</left>
                 <bottom>15</bottom>
                 <control type="image">
-                    <width>350</width>
+                    <width>250</width>
                     <height>141</height>
                     <texture colordiffuse="FF12A0C7">common/white.png</texture>
                     <visible>String.IsEmpty(Window.Property(thumb)) + String.IsEmpty(Window.Property(landscape)) + String.IsEmpty(Window.Property(fanart))</visible>
@@ -26,7 +27,7 @@
                 <control type="textbox">
                     <top>10</top>
                     <left>10</left>
-                    <width>350</width>
+                    <width>230</width>
                     <height>121</height>
                     <font>font12</font>
                     <textcolor>ffffffff</textcolor>
@@ -40,20 +41,20 @@
                     <include condition="!Skin.HasSetting(DisableShadows)">Defs_Shadow_24</include>
                     <texture diffuse="diffuse/widgetposter.png">$INFO[Window.Property(poster)]</texture>
                 </control>
-					<control type="image">
-						<width>350</width>
-						<height>191</height>
-						<texture>$INFO[Window.Property(fanart)]</texture>
-						<aspectratio>scale</aspectratio>
-						<visible>String.IsEmpty(Window.Property(landscape))</visible>
-					</control>
-					<control type="image">
-						<width>350</width>
-						<height>191</height>
-						<texture>$INFO[Window.Property(thumb)]</texture>
-						<aspectratio>scale</aspectratio>
-						<visible>String.IsEmpty(Window.Property(landscape)) + String.IsEmpty(Window.Property(fanart))</visible>
-					</control>
+                <control type="image">
+                    <width>250</width>
+                    <height>141</height>
+                    <texture>$INFO[Window.Property(fanart)]</texture>
+                    <aspectratio>scale</aspectratio>
+                    <visible>String.IsEmpty(Window.Property(landscape))</visible>
+                </control>
+                <control type="image">
+                    <width>250</width>
+                    <height>141</height>
+                    <texture>$INFO[Window.Property(thumb)]</texture>
+                    <aspectratio>scale</aspectratio>
+                    <visible>String.IsEmpty(Window.Property(landscape)) + String.IsEmpty(Window.Property(fanart))</visible>
+                </control>
             </control>
             <control type="group">
                 <height>181</height>
@@ -68,8 +69,15 @@
                 <!-- Thumb -->
                 <control type="group">
                     <left>20</left>
+                    <control type="image">
+                        <top>-2</top>
+                        <left>-2</left>
+                        <width>254</width>
+                        <height>144</height>
+                        <texture>shadow.png</texture>
+                    </control>
                     <control type="progress" id="3014">
-                        <width>350</width>
+                        <width>250</width>
                         <top>136</top>
                         <height>5</height>
                         <reveal>true</reveal>
