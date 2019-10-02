@@ -38,22 +38,11 @@
                     <visible>String.IsEmpty(Window.Property(thumb)) + String.IsEmpty(Window.Property(landscape)) + String.IsEmpty(Window.Property(fanart))</visible>
                 </control>
                 <control type="image">
-                    <include condition="!Skin.HasSetting(DisableShadows)">Defs_Shadow_24</include>
-                    <texture diffuse="diffuse/widgetposter.png">$INFO[Window.Property(poster)]</texture>
-                </control>
-                <control type="image">
                     <width>250</width>
                     <height>141</height>
                     <texture>$INFO[Window.Property(fanart)]</texture>
+<!--                     <texture>$INFO[Window.Property(poster)]</texture >-->
                     <aspectratio>scale</aspectratio>
-                    <visible>String.IsEmpty(Window.Property(landscape))</visible>
-                </control>
-                <control type="image">
-                    <width>250</width>
-                    <height>141</height>
-                    <texture>$INFO[Window.Property(thumb)]</texture>
-                    <aspectratio>scale</aspectratio>
-                    <visible>String.IsEmpty(Window.Property(landscape)) + String.IsEmpty(Window.Property(fanart))</visible>
                 </control>
             </control>
             <control type="group">
