@@ -18,12 +18,6 @@
                 <height>480</height>
                 <left>15</left>
                 <bottom>15</bottom>
-                <control type="image">
-                    <width>250</width>
-                    <height>141</height>
-                    <texture colordiffuse="FF12A0C7">common/white.png</texture>
-                    <visible>String.IsEmpty(Window.Property(thumb)) + String.IsEmpty(Window.Property(landscape)) + String.IsEmpty(Window.Property(fanart))</visible>
-                </control>
                 <control type="textbox">
                     <top>10</top>
                     <left>10</left>
@@ -35,14 +29,11 @@
                     <align>center</align>
                     <aligny>center</aligny>
                     <label>$INFO[Window.Property(tvshowtitle)]</label>
-                    <visible>String.IsEmpty(Window.Property(thumb)) + String.IsEmpty(Window.Property(landscape)) + String.IsEmpty(Window.Property(fanart))</visible>
                 </control>
                 <control type="image">
-                    <width>250</width>
-                    <height>141</height>
-                    <texture>$INFO[Window.Property(fanart)]</texture>
-<!--                     <texture>$INFO[Window.Property(poster)]</texture >-->
-                    <aspectratio>scale</aspectratio>
+                    <include condition="!Skin.HasSetting(DisableShadows)">Defs_Shadow_24</include>
+                    <aspectratio aligny="bottom">keep</aspectratio>
+                    <texture diffuse="diffuse/widgetposter.png">$INFO[Window.Property(poster)]</texture>
                 </control>
             </control>
             <control type="group">
