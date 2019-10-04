@@ -33,7 +33,7 @@
                 <control type="image">
                     <include condition="!Skin.HasSetting(DisableShadows)">Defs_Shadow_24</include>
                     <aspectratio aligny="bottom">keep</aspectratio>
-                    <texture diffuse="diffuse/widgetposter.png">$INFO[Window.Property(poster)]</texture>
+                    <texture diffuse="diffuse/widgetposter.png">$VAR[Image_OSD_Artwork]</texture>
                 </control>
             </control>
             <control type="group">
