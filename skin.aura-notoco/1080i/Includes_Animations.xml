@@ -5,7 +5,10 @@
             <effect type="zoom" end="110" time="75" tween="sine" easing="out" center="auto" />
             <effect type="zoom" end="110" time="115" tween="sine" delay="100" easing="out" center="auto" />
         </animation>
-        
+        <control type="image">
+            <texture colordiffuse="white" background="true">common/dim-gradient.png</texture>
+            <aspectratio scalediffuse="false">scale</aspectratio>
+       </control>
     </include>
 
     <include name="Animation_FocusBounce_Small">
