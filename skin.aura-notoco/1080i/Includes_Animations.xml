@@ -8,6 +8,7 @@
         <control type="image">
             <texture colordiffuse="white" background="true">common/dim-gradient.png</texture>
             <aspectratio scalediffuse="false">scale</aspectratio>
+            <bordersize>5</bordersize>
        </control>
     </include>
 
