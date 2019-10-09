@@ -288,13 +288,6 @@
                                 <left>0</left>
                                 <right>0</right>
                                 <visible>!String.IsEmpty(VideoPlayer.TvShowTitle) | !String.IsEmpty(VideoPlayer.Year) | !String.IsEmpty(VideoPlayer.MPAA) | !String.IsEmpty(VideoPlayer.Genre)</visible>
-                                <control type="image">
-                                    <left>0</left>
-                                    <top>10</top>
-                                    <width>37</width>
-                                    <height>24</height>
-                                    <texture colordiffuse="main_fg_100">$VAR[Image_OSD_HDSD]</texture>
-                                </control>
                                 <control type="label">
                                     <label>$VAR[Label_OSD_InfoLine]</label>
                                     <height>40</height>
