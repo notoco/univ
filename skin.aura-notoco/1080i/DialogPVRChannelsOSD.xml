@@ -209,26 +209,26 @@
 
             </control>
              <!-- NOTOCO dodanie ikony nad opisem -->
-                <control type="image">
-                    <right>30</right>
-                    <top>720</top>
-                    <width>225</width>
-                    <height>225</height>
-                    <texture>$INFO[Container(11).ListItem.Thumb]</texture>
-                    <aspectratio>keep</aspectratio>
-                </control>
+			<control type="image">
+				<right>30</right>
+				<top>700</top>
+				<width>225</width>
+				<height>225</height>
+				<texture>$INFO[Container(11).ListItem.Thumb]</texture>
+				<aspectratio>keep</aspectratio>
+			</control>
 
             <!-- NOTOCO dodanie opisu -->
-        <control type="group">
-          <left>665</left>
-          <bottom>0</bottom>
-          <width>1255</width>
-          <height>300</height>
-          <control type="image">
-            <width>1255</width>
-            <height>300</height>
-            <texture>common/gradient-dim.png</texture>
-        </control>
+			<control type="group">
+				<left>665</left>
+				<bottom>0</bottom>
+				<width>1255</width>
+				<height>300</height>
+				<control type="image">
+				<width>1255</width>
+				<height>300</height>
+				<texture>common/gradient-dim.png</texture>
+				</control>
 				<control type="grouplist">
 					<usecontrolcoords>true</usecontrolcoords>
 					<itemgap>pad</itemgap>
@@ -247,23 +247,23 @@
 						<textcolor>main_fg_100</textcolor>
 						<font>font_showcase_title</font>
 					</control>
-					 <control type="progress">
-                        <left>pad</left>
-                        <width>1200</width>
-                        <height>10</height>
-                        <reveal>true</reveal>
-                        <top>10</top>
-                        <info>ListItem.Progress</info>
-                        <colordiffuse>Selected</colordiffuse>
-                    </control>
-                    					<control type="label">
+					<control type="progress">
+						<left>pad</left>
+						<width>1200</width>
+						<height>10</height>
+						<reveal>true</reveal>
+						<top>10</top>
+						<info>ListItem.Progress</info>
+						<colordiffuse>Selected</colordiffuse>
+					</control>
+					<control type="label">
 						<label>$INFO[Container(11).ListItem.NextTitle,[COLOR=Highlight2]$LOCALIZE[19031]... [/COLOR],]</label>
 						<height>40</height>
 						<right>pad</right>
 						<font>font_small</font>
 					</control>
 					<control type="label">
-                        <top>10</top>
+						<top>10</top>
 						<left>pad</left>
 						<right>pad</right>
 						<height>28</height>
@@ -271,10 +271,8 @@
 						<font>Font-OSD</font>
 						<label>$INFO[Container(11).ListItem.StartTime]$INFO[Container(11).ListItem.EndTime,  -  ,]</label>
 					</control>
-
 				</control>
 			</control>
         </control>
     </controls>
-
 </window>

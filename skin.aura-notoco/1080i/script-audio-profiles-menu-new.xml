@@ -15,7 +15,7 @@
                 <control type="image">
                     <width>520</width>
                     <height>140</height>
-                    <texture>common/black-back.png</texture>
+                    <texture>common/gradient-solid.png</texture>
                 </control>
         <control type="label" id="10071">
             <description>title</description>
