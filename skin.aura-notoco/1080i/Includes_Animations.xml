@@ -2,8 +2,8 @@
 <includes>
     <include name="Animation_FocusBounce">
         <animation type="Focus" condition="!Skin.HasSetting(BounceAnimations)" reversible="false">
-            <effect type="zoom" end="110" time="75" tween="sine" easing="out" center="auto" />
-            <effect type="zoom" end="110" time="115" tween="sine" delay="100" easing="out" center="auto" />
+            <effect type="zoom" end="110" time="75" tween="sine" easing="out" center="170,0" />
+            <effect type="zoom" end="110" time="115" tween="sine" delay="100" easing="out" center="170,0" />
         </animation>
         <control type="image">
             <texture colordiffuse="white" background="true">common/dim-gradient.png</texture>
