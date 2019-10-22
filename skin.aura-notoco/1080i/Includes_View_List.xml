@@ -233,7 +233,7 @@
                         <aligny>center</aligny>
                         <textcolor>main_fg_30</textcolor>
                         <font>font_small</font>
-                        <label>$INFO[ListItem.Label2]</label>
+                        <label>$INFO[ListItem.Duration]</label>
                     </control>   
                 </control>
                 <control type="group">
@@ -484,7 +484,7 @@
                                 <aligny>center</aligny>
                                 <textcolor>PosterFront</textcolor>
                                 <font>font_small</font>
-                                <label>$INFO[ListItem.Label2]</label>
+                                <label>$INFO[ListItem.Duration]</label>
                             </control>
                         </control>
                         <control type="group">
