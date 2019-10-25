@@ -353,15 +353,6 @@
                                     </include>
                                 </control>
                             </control>
-                            <control type="textbox">
-                                <aligny>top</aligny>
-                                <height max="128">auto</height>
-                                <width>100%</width>
-                                <font>font_plotbox</font>
-                                <textcolor>main_fg_70</textcolor>
-                                <label>$INFO[VideoPlayer.Plot]</label>
-                                <visible>!String.IsEmpty(VideoPlayer.Plot)</visible>
-                            </control>
                         </control>
                     </control>
                 </control>

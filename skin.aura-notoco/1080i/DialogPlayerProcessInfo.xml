@@ -47,6 +47,12 @@
                     <font>font_statusbar</font>
                     <textcolor>panel_fg_70</textcolor>
                 </control>
+				<control type="progress">
+					<description>CPU BAR</description>
+					<width>1815</width>
+					<height>10</height>
+					<info>System.CPUUsage</info>
+				</control>
                 <!-- NOTOCO dodanie buforu -->
                 <control type="label">
                     <width>1600</width>
