@@ -237,7 +237,7 @@
                         <label>$INFO[ListItem.Duration]</label>
                     </control>
                     <control type="label">
-                        <visible>!ListItem.Duration</visible>
+                        <visible>!ListItem.Duration || ListItem.VideoResolution</visible>
                         <left>30</left>
                         <right>30</right>
                         <align>right</align>
@@ -489,7 +489,7 @@
                             </control>
                             <!-- Label 2 -->
                             <control type="label">
-                                <visible>!ListItem.Duration</visible>
+                                <visible>!ListItem.Duration || ListItem.VideoResolution</visible>
                                 <left>30</left>
                                 <right>30</right>
                                 <align>right</align>
