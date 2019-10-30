@@ -63,17 +63,17 @@ def addLinkItem(name, url, mode, iconImage=None, infoLabels=False, contextO=['F_
 	
 def GetcontextMenuItemsXX(infoLabels,contextO,url,liz=None):
     contextMenuItems = []
-    contextMenuItems.append(('Informacja', 'XBMC.Action(Info)'))
-    contextMenuItems.append(('Folder U\xc5\xbcytkownika', 'XBMC.Container.Update(%s)' % build_url({'mode': 'UserContent', 'ex_link' : urllib.quote(url)})))
+    contextMenuItems.append(('[COLOR lightblue]Informacja[/COLOR]', 'XBMC.Action(Info)'))
+    contextMenuItems.append(('[COLOR lightblue]Folder U\xc5\xbcytkownika[/COLOR]', 'XBMC.Container.Update(%s)' % build_url({'mode': 'UserContent', 'ex_link' : urllib.quote(url)})))
     content=urllib.quote_plus(json.dumps(infoLabels))
     if 'F_ADD' in contextO:
-        contextMenuItems.append(('Dodaj do Biblioteki', 'XBMC.Container.Update(plugin://%s?mode=AddMovie&ex_link=%s)'%(my_addon_id,content)))
-        contextMenuItems.append(('Wyb\xc3\xb3r jako\xc5\x9bci ', 'XBMC.Container.Update(%s)'% build_url({'mode': 'decodeVideoManualQ', 'ex_link' : urllib.quote(url)})))
-        contextMenuItems.append(('Dodaj do Wybranych', 'RunPlugin(plugin://%s?mode=favoritesADD&ex_link=%s)'%(my_addon_id,content)))
+        contextMenuItems.append(('[COLOR lightblue]Dodaj do Biblioteki[/COLOR]', 'XBMC.Container.Update(plugin://%s?mode=AddMovie&ex_link=%s)'%(my_addon_id,content)))
+        contextMenuItems.append(('[COLOR lightblue]Wyb\xc3\xb3r jako\xc5\x9bci [/COLOR]', 'XBMC.Container.Update(%s)'% build_url({'mode': 'decodeVideoManualQ', 'ex_link' : urllib.quote(url)})))
+        contextMenuItems.append(('[COLOR lightblue]Dodaj do Wybranych[/COLOR]', 'RunPlugin(plugin://%s?mode=favoritesADD&ex_link=%s)'%(my_addon_id,content)))
     if 'F_REM' in contextO:
-        contextMenuItems.append(('Usu\xc5\x84 z Wybranych', 'RunPlugin(plugin://%s?mode=favoritesREM&ex_link=%s)'%(my_addon_id,content)))
+        contextMenuItems.append(('[COLOR red]Usu\xc5\x84 z Wybranych[/COLOR]', 'RunPlugin(plugin://%s?mode=favoritesREM&ex_link=%s)'%(my_addon_id,content)))
     if 'F_DEL' in contextO:
-        contextMenuItems.append(('Usu\xc5\x84 Wszystko', 'RunPlugin(plugin://%s?mode=favoritesREM&ex_link=all)'%(my_addon_id)))
+        contextMenuItems.append(('[COLOR red]Usu\xc5\x84 Wszystko[/COLOR]', 'RunPlugin(plugin://%s?mode=favoritesREM&ex_link=all)'%(my_addon_id)))
     if infoLabels.has_key('trailer'):
         contextMenuItems.append(('Zwiastun', 'XBMC.PlayMedia(%s)'%infoLabels.get('trailer')))
     return contextMenuItems
@@ -204,9 +204,9 @@ def selectQuality(stream_url,quality):
                 msg = u'Problem z automatycznym wyborem ... wybierz jako\u015b\u0107'
         if not vid_url:
             if len(stream_url)==1 and stream_url[0][1]=='':
-                msg=u'%s\n'%(unicode(stream_url[0][0],'utf-8'))
+                msg=u'[COLOR red]%s[/COLOR]\n'%(unicode(stream_url[0][0],'utf-8'))
                 title = cda.replacePLch(fname.split('[')[0])
-                yes = xbmcgui.Dialog().yesno('Problem',msg+u'Problem do %s'%title,'Szukaj nowego \xc5\xbar\xc3\xb3d\xc5\x82a?')
+                yes = xbmcgui.Dialog().yesno('[COLOR red]Problem[/COLOR]',msg+u'Problem do [COLOR lightblue]%s[/COLOR]'%title,'Szukaj nowego \xc5\xbar\xc3\xb3d\xc5\x82a?')
                 if yes:
                     vid_url='https://www.cda.pl/video/show/'+cda.replacePLch(title.replace(' ','_'))
             else:
@@ -268,13 +268,13 @@ def userFolder(userF='K1'):
         sortuj=sortujL[int(sel)]
         filmweb = my_addon.getSetting(userF+'_fwmeta')
         url='https://www.cda.pl/video/show/%s?duration=%s&section=vid&quality=%s&section=&s=%s&section='%(title,dlugosc,jakosc,sortuj)
-        return {'url':url,'title': '%s'%title,'metadata':filmweb }
+        return {'url':url,'title': '[COLOR lightblue]%s[/COLOR]'%title,'metadata':filmweb }
     return False
 def get_Root():
     out={}
     jsRootFile="https://pastebin.com/raw/Ei8sWMfW"
-    if jsRootFile: out['[B]Root[/B]']= {'jsonfile':jsRootFile,'img':'Media.png'}
-    else : out['[B]Quota Exceeded[/B]']= {'jsonfile':jsRootFile,'img':'Media.png'}
+    if jsRootFile: out['[COLOR white][B]Root[/B][/COLOR]']= {'jsonfile':jsRootFile,'img':'Media.png'}
+    else : out['[COLOR red][B]Quota Exceeded[/B][/COLOR]']= {'jsonfile':jsRootFile,'img':'Media.png'}
     return out
 	
 def encoded_v(v):
@@ -316,19 +316,19 @@ def mainWalk(ex_link='',json_file='',fname=''):
     elif 'obserwowani' in ex_link:
         items,folders = cda.get_UserFolder_obserwowani(ex_link)
     if pagination[0]:
-        addLinkItem(' << Poprzednia strona ', url=pagination[1], mode='__page:walk', iconImage='prev.png', infoLabels=False, contextO=[],IsPlayable=False,fanart=None,totalItems=1)
+        addLinkItem('[COLOR gold] << Poprzednia strona [/COLOR]', url=pagination[1], mode='__page:walk', iconImage='prev.png', infoLabels=False, contextO=[],IsPlayable=False,fanart=None,totalItems=1)
     N_folders=len(items)
     for f in folders:
         tmp_json_file = f.get('jsonfile',json_file)
         title = f.get('title') + f.get('count','')
         f['plot'] = f.get('plot','') + '\n' + f.get('update','')
         if f.get('lib',False):
-            contextmenu = [('Dodaj zawarto\xc5\x9b\xc4\x87 do Biblioteki', 'RunPlugin(plugin://%s?mode=AddRootFolder&json_file=%s)'%(my_addon_id,urllib.quote_plus(tmp_json_file)))]
+            contextmenu = [('[COLOR lightblue]Dodaj zawarto\xc5\x9b\xc4\x87 do Biblioteki[/COLOR]', 'RunPlugin(plugin://%s?mode=AddRootFolder&json_file=%s)'%(my_addon_id,urllib.quote_plus(tmp_json_file)))]
         else:
             contextmenu = []
         addDir(title,ex_link=f.get('url'), json_file=tmp_json_file, mode='walk', iconImage=f.get('img',''),infoLabels=f,fanart=f.get('fanart',''),contextmenu=contextmenu,totalItems=N_folders)
     contextO=['F_ADD']
-    if fname=='Wybrane':
+    if fname=='[COLOR khaki]Wybrane[/COLOR]':
         contextO=['F_REM','F_DEL']
     N_items=len(items)
     list_of_items=[]
@@ -336,7 +336,7 @@ def mainWalk(ex_link='',json_file='',fname=''):
         list_of_items.append( add_Item(name=item.get('title').encode('utf-8'), url=item.get('url'), mode='decodeVideo',contextO=contextO, iconImage=item.get('img'), infoLabels=item, IsPlayable=True,fanart=item.get('img')) )
     xbmcplugin.addDirectoryItems(handle=addon_handle, items = list_of_items ,totalItems=N_items)
     if pagination[1]:
-        addLinkItem('Nast\xc4\x99pna strona >>  ', url=pagination[1], mode='__page:walk', iconImage='next.png', infoLabels=False, contextO=[],IsPlayable=False,fanart=None,totalItems=1)
+        addLinkItem('[COLOR gold]Nast\xc4\x99pna strona >> [/COLOR] ', url=pagination[1], mode='__page:walk', iconImage='next.png', infoLabels=False, contextO=[],IsPlayable=False,fanart=None,totalItems=1)
     xbmcplugin.addSortMethod(addon_handle, sortMethod=xbmcplugin.SORT_METHOD_UNSORTED, label2Mask = '%D, %P, %R')
     SelSort()
     return 1
@@ -360,9 +360,9 @@ def cdaSearch(ex_link):
         xbmc.log('  wait_completion DONE')
     if items:
         for item in items:
-            addLinkItem(name=item.get('title').encode('utf-8'), url=item.get('url'), mode='decodeVideo', iconImage=item.get('img'), infoLabels=item, IsPlayable=True,fanart=item.get('img'),totalItems=N_items)
+            addLinkItem(name=item.get('title').encode('utf-8'), url=item.get('url'), mode='decodeVideo', iconImage=item.get('img'), IsPlayable=True,fanart=item.get('img'),totalItems=N_items)
         if nextpage:
-            addDir('Nast\xc4\x99pna strona >>  ',ex_link=nextpage, json_file=use_filmweb, mode='cdaSearch',iconImage='next.png')
+            addDir('[COLOR gold]Nast\xc4\x99pna strona >> [/COLOR] ',ex_link=nextpage, json_file=use_filmweb, mode='cdaSearch',iconImage='next.png')
     SelSort()
     x=xbmcplugin.endOfDirectory(addon_handle,succeeded=True)
 def logincda():
@@ -410,7 +410,7 @@ json_file = args.get('json_file',[''])[0]
 if mode is None:
     logincda()
     mainWalk()
-    addDir('[B]Filmy Premium[/B]',ex_link='', mode='premiumKat',iconImage='MediaPremium.png')
+    addDir('[COLOR white][B]Filmy Premium[/B][/COLOR]',ex_link='', mode='premiumKat',iconImage='MediaPremium.png')
     userFolderADD()
     addDir('Wybrane',ex_link='', json_file=FAVORITE, mode='walk',  iconImage='cdaUlubione.png',infoLabels={'plot':'Lista wybranych pozycji. Szybki dostep, lokalna baza danych.'})
     addDir('Szukaj',ex_link='', mode='Szukaj',iconImage='Szukaj_cda.png')
@@ -444,8 +444,8 @@ elif mode[0] == 'premiumKat':
     sortuj_po = my_addon.getSetting('sortuj_po')
     jakosc_premium = my_addon.getSetting('jakosc_premium')
     N_folders=len(folders)+2
-    addDir(' == Sortuj po: [I]%s[/I] '%sortuj_po, ex_link='', json_file='', mode='premiumSort', iconImage='',totalItems=N_folders)
-    addDir(' == Jako\xc5\x9b\xc4\x87: [I]%s[/I] '%jakosc_premium, ex_link='', json_file='', mode='premiumQuality', iconImage='',totalItems=N_folders)
+    addDir(' [COLOR white]== Sortuj po: [I]%s[/I] [/COLOR]'%sortuj_po, ex_link='', json_file='', mode='premiumSort', iconImage='',totalItems=N_folders)
+    addDir(' [COLOR white]== Jako\xc5\x9b\xc4\x87: [I]%s[/I] [/COLOR]'%jakosc_premium, ex_link='', json_file='', mode='premiumQuality', iconImage='',totalItems=N_folders)
     for f in folders:
         addDir(f.get('title'),ex_link=f.get('url'), json_file='', mode='premiumFilm', iconImage=f.get('img',''),infoLabels=f,fanart=f.get('fanart',''),totalItems=N_folders)
     xbmcplugin.endOfDirectory(addon_handle,succeeded=True,cacheToDisc=False)
@@ -481,7 +481,7 @@ elif mode[0] == 'premiumFilm':
 		else:
 			addLinkItem(name=name, url=href, mode='decodeVideo',contextO=[], iconImage=item.get('img'), infoLabels=item, IsPlayable=True,fanart=item.get('img'),totalItems=len(items))
 	if params:
-		addDir('Nast\xc4\x99pna strona >>  ',ex_link=url, json_file=params, mode='premiumFilm',iconImage='next.png')
+		addDir('[COLOR gold]Nast\xc4\x99pna strona >> [/COLOR] ',ex_link=url, json_file=params, mode='premiumFilm',iconImage='next.png')
 	xbmcplugin.endOfDirectory(addon_handle,succeeded=True,cacheToDisc=False)
 elif mode[0] == 'favoritesADD':
     jdata = cda.ReadJsonFile(FAVORITE)
@@ -489,7 +489,7 @@ elif mode[0] == 'favoritesADD':
     new_item['title'] = new_item.get('title','').replace(new_item.get('label',''),'').replace(new_item.get('msg',''),'')
     dodac = [x for x in jdata if new_item['title']== x.get('title','')]
     if dodac:
-        xbmc.executebuiltin('Notification([COLOR pink]Ju\xc5\xbc jest w Wybranych, ' + new_item.get('title','').encode('utf-8') + ', 200)')
+        xbmc.executebuiltin('Notification([COLOR pink]Ju\xc5\xbc jest w Wybranych[/COLOR], ' + new_item.get('title','').encode('utf-8') + ', 200)')
     else:
         jdata.append(new_item)
         with open(FAVORITE, 'w') as outfile:
@@ -520,7 +520,7 @@ elif mode[0] == 'favoritesREM':
 elif mode[0]=='cdaSearch':
     cdaSearch(ex_link)
 elif mode[0] =='Szukaj':
-    addDir('Nowe Szukanie','',mode='SzukajNowe')
+    addDir('[COLOR lightblue]Nowe Szukanie[/COLOR]','',mode='SzukajNowe')
     historia = HistoryLoad()
     if not historia == ['']:
         for entry in historia:

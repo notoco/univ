@@ -344,7 +344,7 @@ def searchCDA(url,premka=False,opisuj=1):
                 img = getDobryUrlImg(image[0]) if image else ''
                 if opisuj:
                     plot ='[B]%s[/B]\n%s'%(title,plot)
-                    title,rok = cleanTitle(title)
+                    title,rok,label = cleanTitle(title)
                 items.append({'url':url,'title':unicode(title,'utf-8')  + ' ' + code.encode('utf-8'),'plot':unicode(plot,'utf-8'),'img':img,'duration':duration,'new':nowosc,})
     if items and nextpage:
         nextpage = [p for p in nextpage if '/video' in p]
