@@ -226,7 +226,7 @@
                     </control>
                     <!-- Label 2 -->
                     <control type="label">
-                        <visible>!ListItem.Label2</visible>
+                        <visible>!Container.Content(movies) + !Container.Content(episodes)</visible>
                         <left>30</left>
                         <right>30</right>
                         <align>right</align>
@@ -234,10 +234,10 @@
                         <aligny>center</aligny>
                         <textcolor>main_fg_30</textcolor>
                         <font>font_small</font>
-                        <label>$INFO[ListItem.Duration]</label>
-                    </control>
-                    <control type="label">
-                        <visible>!ListItem.Duration</visible>
+						<label>$INFO[ListItem.Label2]</label>
+					</control>
+					<control type="label">
+						<visible>Container.Content(movies) | Container.Content(episodes)</visible>
                         <left>30</left>
                         <right>30</right>
                         <align>right</align>
@@ -245,8 +245,10 @@
                         <aligny>center</aligny>
                         <textcolor>main_fg_30</textcolor>
                         <font>font_small</font>
-                        <label>$INFO[ListItem.Label2]</label>
-                    </control>   
+                        <label>$VAR[Label_Duration]</label>
+                    </control> 
+                    
+                     
                 </control>
                 <control type="group">
                     <left>20</left>
@@ -489,7 +491,7 @@
                             </control>
                             <!-- Label 2 -->
                             <control type="label">
-                                <visible>!ListItem.Duration</visible>
+                                <visible>!Container.Content(movies) + !Container.Content(episodes)</visible>
                                 <left>30</left>
                                 <right>30</right>
                                 <align>right</align>
@@ -500,7 +502,7 @@
                                 <label>$INFO[ListItem.Label2]</label>
                             </control>
                             <control type="label">
-                                <visible>!ListItem.Label2</visible>
+                                <visible>Container.Content(movies) | Container.Content(episodes)</visible>
                                 <left>30</left>
                                 <right>30</right>
                                 <align>right</align>
@@ -508,7 +510,7 @@
                                 <aligny>center</aligny>
                                 <textcolor>PosterFront</textcolor>
                                 <font>font_small</font>
-                                <label>$INFO[ListItem.Duration]</label>
+                                <label>$VAR[Label_Duration]</label>
                             </control>
                         </control>
                         <control type="group">
