@@ -89,7 +89,7 @@
                     </control>
                     <!-- Time -->
                     <control type="label">
-                        <top>50</top>
+                        <top>60</top>
                         <width>auto</width>
                         <height>35</height>
                         <aligny>center</aligny>
