@@ -618,7 +618,7 @@
                     <left>0</left>
                     <width>32</width>
                     <height>32</height>
-                    <texture colordiffuse="$PARAM[fgcolor]_90">$VAR[Image_Overlay_List]</texture>
+                    <texture colordiffuse="dialog_fg_100">$VAR[Image_Overlay_List]</texture>
                 </control>
                 <control type="label">
                     <animation effect="slide" end="-52" condition="String.IsEmpty(ListItem.Overlay) + !Control.IsVisible(522) + !Control.IsVisible(524)">Conditional</animation>
@@ -659,7 +659,7 @@
                     <left>0</left>
                     <width>32</width>
                     <height>32</height>
-                    <texture colordiffuse="$PARAM[fgcolor]_90">$VAR[Image_Overlay_List]</texture>
+                    <texture colordiffuse="dialog_fg_100">$VAR[Image_Overlay_List]</texture>
                 </control>
                 <control type="label">
                     <animation effect="slide" end="-52" condition="String.IsEmpty(ListItem.Overlay)">Conditional</animation>
