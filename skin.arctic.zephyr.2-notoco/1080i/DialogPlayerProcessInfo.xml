@@ -40,7 +40,7 @@
 					<top>5</top>
 					<width>100%</width>
 					<height>10</height>
-					<info>Player.ProgressCache</info>
+					<info>Player.CacheLevel</info>
 				</control>
             </include>
         </include>
