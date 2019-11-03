@@ -2991,7 +2991,7 @@
                     <param name="texture" value="common/buttonshadow-fo.png" />
                     <param name="icon" value="$PARAM[icon]" />
                     <param name="colordiffuse-icon" value="main_bg_90" />
-                    <param name="colordiffuse-texture" value="main_fg_100" />
+                    <param name="colordiffuse-texture" value="$VAR[ColorHighlight]" />
                 </include>
                 <include content="Object_IconicButton_Left">
                     <param name="visible" value="!Control.HasFocus($PARAM[id])" />

@@ -147,7 +147,7 @@
                         <control type="image">
                             <bordersize>15</bordersize>
                             <bordertexture border="30" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
-                            <texture colordiffuse="main_fg_100" border="10">diffuse/box.png</texture>
+                            <texture colordiffuse="$VAR[ColorHighlight]" border="10">diffuse/box.png</texture>
                         </control>
                         <control type="group">
                             <height>282</height>
@@ -242,7 +242,7 @@
                         <control type="image">
                             <bordersize>15</bordersize>
                             <bordertexture border="30" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
-                            <texture colordiffuse="main_fg_100" border="10">diffuse/box.png</texture>
+                            <texture colordiffuse="$VAR[ColorHighlight]" border="10">diffuse/box.png</texture>
                         </control>
                         <control type="group">
                             <width>566.89</width>
@@ -530,7 +530,7 @@
         <definition>
             <control type="image">
                 <visible>$PARAM[selectbox]</visible>
-                <texture colordiffuse="main_fg_100" border="10">diffuse/box.png</texture>
+                <texture colordiffuse="$VAR[ColorHighlight]" border="10">diffuse/box.png</texture>
             </control>
             <control type="group">
                 <left>$PARAM[pad]</left>
@@ -646,7 +646,7 @@
         <definition>
             <control type="image">
                 <visible>$PARAM[selectbox]</visible>
-                <texture colordiffuse="main_fg_100" border="10">diffuse/box.png</texture>
+                <texture colordiffuse="$VAR[ColorHighlight]" border="10">diffuse/box.png</texture>
             </control>
 
             <!-- Basic List -->
