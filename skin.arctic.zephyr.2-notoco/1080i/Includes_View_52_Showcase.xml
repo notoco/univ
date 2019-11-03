@@ -202,6 +202,7 @@
 					<top>10</top>
 					<info>ListItem.Progress</info>
 					<colordiffuse>Selected</colordiffuse>
+					<visible>!String.IsEmpty(ListItem.ChannelName)</visible>
 				</control>
                 <include content="Object_Info_Plot">
                     <param name="maxheight" value="$PARAM[plotheight]" />

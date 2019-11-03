@@ -979,7 +979,7 @@
                         <visible>ControlGroup(3000).HasFocus()</visible>
                         <include content="View_52_Showcase_Aura_Info">
                             <param name="font" value="font_title" />
-                            <param name="plotheight" value="160" />
+                            <param name="plotheight" value="280" />
                             <param name="titleheight" value="60" />
                         </include>
                     </control>

@@ -539,7 +539,7 @@
                 <visible>Skin.HasSetting(EnhancedAddonLabels) | String.IsEmpty(Container.PluginName)</visible>
                 <!-- LEFT SIDE -->
                 <control type="label">
-                    <textcolor>$PARAM[fgcolor]_100</textcolor>
+                    <textcolor>dialog_fg_100</textcolor>
                     <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
                     <label>$VAR[Label_List_Left]</label>
                 </control>
@@ -548,10 +548,10 @@
                     <animation effect="slide" end="-30" condition="String.IsEqual(ListItem.DBType,episode) + !Integer.IsGreater(ListItem.Season,999)">Conditional</animation>
                     <animation effect="slide" end="15" condition="String.IsEqual(ListItem.DBType,episode) + Integer.IsGreater(ListItem.Episode,99)">Conditional</animation>
                     <centertop>50%</centertop>
-                    <left>120</left>
+                    <left>130</left>
                     <width>32</width>
                     <height>32</height>
-                    <texture colordiffuse="$PARAM[fgcolor]_90">$VAR[Image_Overlay_List]</texture>
+                    <texture colordiffuse="dialog_fg_100">$VAR[Image_Overlay_List]</texture>
                 </control>                
                 <control type="label">
                     <animation effect="slide" end="-40" condition="!String.IsEqual(ListItem.DBType,episode)">Conditional</animation>
@@ -559,7 +559,7 @@
                     <animation effect="slide" end="15" condition="String.IsEqual(ListItem.DBType,episode) + Integer.IsGreater(ListItem.Episode,99)">Conditional</animation>
                     <left>172</left>
                     <font>font_small_bold</font>
-                    <textcolor>$PARAM[fgcolor]_100</textcolor>
+                    <textcolor>dialog_fg_100</textcolor>
                     <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
                     <label>$VAR[Label_List_Title]</label>
                 </control>
@@ -567,7 +567,7 @@
                 <!-- Videos / Tvshows / Seasons / Sets -->
                 <control type="label">
                     <align>right</align>
-                    <textcolor>$PARAM[fgcolor]_100</textcolor>
+                    <textcolor>dialog_fg_100</textcolor>
                     <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
                     <label>$VAR[Label_List_Right]</label>
                 </control>
@@ -624,13 +624,13 @@
                     <animation effect="slide" end="-52" condition="String.IsEmpty(ListItem.Overlay) + !Control.IsVisible(522) + !Control.IsVisible(524)">Conditional</animation>
                     <left>52</left>
                     <font>font_small_bold</font>
-                    <textcolor>$PARAM[fgcolor]_100</textcolor>
+                    <textcolor>dialog_fg_100</textcolor>
                     <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
                     <align>right</align>
-                    <textcolor>$PARAM[fgcolor]_100</textcolor>
+                    <textcolor>dialog_fg_100</textcolor>
                     <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
