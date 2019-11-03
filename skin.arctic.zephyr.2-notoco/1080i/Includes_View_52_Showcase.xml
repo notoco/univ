@@ -194,7 +194,15 @@
                     <param name="label" value="$INFO[ListItem.Title]" />
                 </include>
                 <include>Object_Info_Line</include>
-                <include>Object_Info_Ratings</include>
+				<control type="progress">
+					<left>pad</left>
+					<width>all</width>
+					<height>10</height>
+					<reveal>true</reveal>
+					<top>10</top>
+					<info>ListItem.Progress</info>
+					<colordiffuse>Selected</colordiffuse>
+				</control>
                 <include content="Object_Info_Plot">
                     <param name="maxheight" value="$PARAM[plotheight]" />
                 </include>

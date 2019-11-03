@@ -141,7 +141,7 @@
             </control>
             <control type="label">
                 <width>auto</width>
-                <font>font_small</font>
+                <font>font_title</font>
                 <textcolor>$PARAM[fgcolor]_100</textcolor>
                 <label>$INFO[System.Time]</label>
                 <visible>![Control.HasFocus(60) | Control.HasFocus(62)]</visible>
