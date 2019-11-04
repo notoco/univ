@@ -219,7 +219,7 @@ msgstr "Widget w tle"
 #: /1080i/Custom_1117_EnableViews.xml
 msgctxt "#31040"
 msgid "Poster Showcase"
-msgstr "Prezentacja plakatu"
+msgstr "Poster Showcase"
 
 #: /1080i/Custom_1138_Search.xml
 msgctxt "#31041"
