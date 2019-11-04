@@ -139,7 +139,7 @@ msgstr "Pełny ekran"
 #: /1080i/SkinSettings.xml
 msgctxt "#31024"
 msgid "Furniture"
-msgstr "Meble"
+msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31025"
