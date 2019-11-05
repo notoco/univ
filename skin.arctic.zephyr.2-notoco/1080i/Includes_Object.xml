@@ -1538,7 +1538,7 @@
 
     <include name="Object_Info_Button">
         <param name="left" default="20" />
-        <param name="width" default="96" />
+        <param name="width" default="200" />
         <param name="visible" default="true" />
         <param name="controltype" default="button" />
         <definition>
