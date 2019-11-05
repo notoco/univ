@@ -8,13 +8,15 @@
         <control type="group">
             <control type="image">
                 <height>300</height>
-                <top>0</top>
-                <texture flipy="true">common/osd-dim.png</texture>
+                <bottom>15</bottom>
+                <right>15</right>
+                <left>15</left>
+                <texture flipy="true">common/black-back.png</texture>
             </control>
             <control type="group">
                 <left>view_pad</left>
                 <right>view_pad</right>
-                <top>view_pad</top>
+                <bottom>view_pad</bottom>
                 <height>163</height>
                 <!-- Image -->
                 <control type="group">
