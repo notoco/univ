@@ -299,7 +299,7 @@
                         <right>4</right>
                         <top>4</top>
                         <control type="image">
-                            <texture colordiffuse="main_fg_100" border="10">diffuse/box.png</texture>
+                            <texture colordiffuse="$VAR[ColorHighlight]" border="10">diffuse/box.png</texture>
                         </control>
                         <control type="image">
                             <texture colordiffuse="main_bg_12">common/selected.png</texture>
@@ -310,8 +310,8 @@
                             <left>30</left>
                             <right>110</right>
                             <font>font_tiny_bold</font>
-                            <textcolor>main_bg_100</textcolor>
-                            <selectedcolor>main_bg_100</selectedcolor>
+                            <textcolor>main_fg_100</textcolor>
+                            <selectedcolor>main_fg_100</selectedcolor>
                             <label>$VAR[Label_PVRGuide_ChannelNumber,,. ]$INFO[ListItem.ChannelName]</label>
                         </control>
                     </control>
@@ -331,8 +331,8 @@
             <focusedlayout height="item_list_height" width="521">
                 <include content="View_50_EPG_Itemlayout">
                     <param name="sublabel" value="false" />
-                    <param name="panelcolor" value="main_fg_100" />
-                    <param name="fgcolor" value="main_bg_100" />
+                    <param name="panelcolor" value="$VAR[ColorHighlight]" />
+                    <param name="fgcolor" value="main_fg_100" />
                     <param name="visible" value="Control.HasFocus(10)" />
                 </include>
                 <include content="View_50_EPG_Itemlayout">
