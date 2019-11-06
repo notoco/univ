@@ -14,11 +14,6 @@ Zawartość repozytorium:
     <li>wersja z githuba</li>
    </ul>
   </li>
-  <li><b>plugin.video.netflix</b> - daily builds + beta</br>
-  <h2>UWAGA - w 100% niestabilna! Może powodować problemy przy próbie powrotu do wersji stabilnych!</h2>
-  Jak sama nazwa wskazuje. Oryginał znajduje się <a href="https://github.com/CastagnaIT/plugin.video.netflix">tutaj</a>.<br/>
-  Wersje te mają prawo być w 100% niestabilne. Nie wprowadzam żadnych zmian poza numerem wersji w addon.xml
-  </li>
   <li><b>script.audio.profiles</b>
   Wtyczka umożliwająca zmianę profili audio. Oryginał znajduje się <a href="https://github.com/Regss/script.audio.profiles">tutaj</a>.<br/><a href="https://github.com/notoco/univ/tree/master/script.audio.profiles">Źródła</a>
    <ul>
