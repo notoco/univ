@@ -12,54 +12,67 @@
         <icon>special://skin/extras/icons/tv.png</icon>
         <action>DefaultSearch-TvShows</action>
     </shortcut>
+    
+<!-- WŁASNE WYSZUKIWARKI -->
     <shortcut>
+	<shortcut>
 		<defaultID>netflix</defaultID>
 		<label>Netflix</label>
 		<label2>Domyślny</label2>
 		<icon>special://skin/extras/icons/netflix.png</icon>
 		<thumb />
 		<action>DefaultSearch-Netflix</action>
-    </shortcut>
-    <shortcut>
+	</shortcut>
+	<shortcut>
 		<defaultID>FanFilm</defaultID>
 		<label>FanFilm</label>
 		<label2>Pozycja niestandardowa</label2>
 		<icon>special://skin/extras/icons/youtube.png</icon>
 		<thumb />
-		<action>plugin://plugin.video.fanfilm/?action=movieSearchterm&name=</action>
-    </shortcut>
-    <shortcut>
+		<action>plugin://plugin.video.fanfilm/?action=movieSearchterm&amp;name=</action>
+	</shortcut>
+	<shortcut>
 		<defaultID />
 		<label>vodgo.pl</label>
 		<label2>Pozycja niestandardowa</label2>
 		<icon>DefaultShortcut.png</icon>
 		<thumb />
-		<action>plugin://plugin.video.vodgopl/?mode=listSearch&d=</action>
-    </shortcut>
-    <shortcut>
+		<action>plugin://plugin.video.vodgopl/?mode=listSearch&amp;d=</action>
+	</shortcut>
+	<shortcut>
 		<defaultID />
 		<label>3filmy</label>
 		<label2>Pozycja niestandardowa</label2>
 		<icon>DefaultShortcut.png</icon>
 		<thumb />
-		<action>plugin://plugin.video.3filmy/?mode=listSearch&d=</action>
-    </shortcut>
-    <shortcut>
-		<defaultID />
-		<label>cda-tv</label>
-		<label2>Pozycja niestandardowa</label2>
-		<icon>DefaultShortcut.png</icon>
-		<thumb />
-		<action>plugin://plugin.video.cdaxpl/?mode=search:new&d=</action>
-    </shortcut>
-    <shortcut>
+		<action>plugin://plugin.video.3filmy/?mode=listSearch&amp;d=</action>
+	</shortcut>
+	<shortcut>
 		<defaultID />
 		<label>otube.pl</label>
 		<label2>Pozycja niestandardowa</label2>
 		<icon>DefaultShortcut.png</icon>
 		<thumb />
-		<action>plugin://plugin.video.otubepl/?mode=listSearch&d=</action>
-    </shortcut>
+		<action>plugin://plugin.video.otubepl/?mode=listSearch&amp;d=</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>HBO</label>
+		<label2>Pozycja niestandardowa</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>plugin://plugin.video.hbogopl/?mode=4&amp;url=search&amp;d=</action>
+	</shortcut>
+	<shortcut>
+		<defaultID />
+		<label>cda-tv</label>
+		<label2>Pozycja niestandardowa</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb />
+		<action>plugin://plugin.video.cdaxpl/?page=1&amp;mode=search:new&amp;ex_link=</action>
+	</shortcut>
+<!-- WŁASNE WYSZUKIWARKI -->
+
 	<shortcut>
 		<label>Youtube</label>
 		<label2>$LOCALIZE[571]</label2>
