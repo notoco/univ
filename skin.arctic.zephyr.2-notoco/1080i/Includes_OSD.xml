@@ -760,7 +760,7 @@
                     <textcolor>panel_fg_100</textcolor>
                     <label>Track $INFO[Playlist.Position] of $INFO[Playlist.Length]</label>
                     <visible>Window.IsVisible(MusicVisualisation.xml)</visible>
-                </control>	
+                </control>
             </control>
         </control>
     </include>

@@ -36,12 +36,12 @@
                 <include content="Object_ShadowSpot_Label">
                     <param name="label" value="[COLOR Selected]Buffor:[/COLOR] $INFO[Player.CacheLevel]%" />
                 </include>
-				<control type="progress">
-					<top>5</top>
-					<width>100%</width>
-					<height>10</height>
-					<info>Player.CacheLevel</info>
-				</control>
+		<control type="progress">
+			<top>5</top>
+			<width>100%</width>
+			<height>10</height>
+			<info>Player.CacheLevel</info>
+		</control>
             </include>
         </include>
 

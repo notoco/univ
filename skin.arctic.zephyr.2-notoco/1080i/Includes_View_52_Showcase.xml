@@ -195,7 +195,7 @@
                 </include>
                 <include>Object_Info_Line</include>
                 <include condition="!String.IsEmpty(ListItem.ChannelName">Object_Info_Ratings</include>
-                    <control type="progress">
+                <control type="progress">
                     <left>pad</left>
                     <width>all</width>
                     <height>10</height>
