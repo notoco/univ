@@ -11,7 +11,7 @@
                 <bottom>15</bottom>
                 <right>15</right>
                 <left>15</left>
-                <texture flipy="true">common/black-back.png</texture>
+                <texture flipy="true" colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
             </control>
             <control type="group">
                 <left>view_pad</left>

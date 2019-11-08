@@ -393,6 +393,7 @@
                     </control>
                 </control>
             </control>
+            <include>OSD_Clock</include>
         </control>
     </include>
 
@@ -404,9 +405,11 @@
             <animation effect="fade" start="0" end="100" time="300">VisibleChange</animation>
             <animation effect="fade" start="0" end="100" time="300" condition="![Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Player.ShowInfo | Window.IsActive(musicosd) | Window.IsActive(videoosd) | Window.IsActive(DialogFullScreenInfo.xml)]">WindowOpen</animation>
             <control type="image">
-                <height>400</height>
-                <bottom>0</bottom>
-                <texture>common/osd-dim.png</texture>
+                <height>160</height>
+                <bottom>15</bottom>
+                <left>15</left>
+                <right>15</right>
+                <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
             </control>
 
             <!-- Large Info OSD -->
@@ -716,15 +719,15 @@
             <width>500</width>
             <right>0</right>
             <include>Animation_FadeInOut</include>
-            <visible>String.IsEmpty(Player.SeekNumeric) + String.IsEmpty(PVR.ChannelNumberInput)</visible>
+            <visible>String.IsEmpty(Player.SeekNumeric)</visible>
             <visible>!Skin.HasSetting(DisableClock)</visible>
             <control type="image">
-                <left>-400</left>
-                <right>-700</right>
-                <top>-200</top>
-                <bottom>-100</bottom>
+                <left>15</left>
+                <right>15</right>
+                <top>15</top>
+                <bottom>15</bottom>
                 <aspectratio>stretch</aspectratio>
-                <texture>common/shadowspot.png</texture>
+                <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
             </control>
             <control type="grouplist">
                 <animation effect="slide" start="0" end="-80" time="200" tween="sine" condition="Window.IsVisible(DialogVolumeBar.xml)">Conditional</animation>
@@ -760,7 +763,7 @@
                     <textcolor>panel_fg_100</textcolor>
                     <label>Track $INFO[Playlist.Position] of $INFO[Playlist.Length]</label>
                     <visible>Window.IsVisible(MusicVisualisation.xml)</visible>
-                </control>
+                </control>	
             </control>
         </control>
     </include>
