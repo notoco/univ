@@ -51,7 +51,7 @@
     </extension>
 </addon>
 
-<addon id="service.upnext" name="Up Next" provider-name="im85288" version="1.0.3.20191031">
+<addon id="service.upnext" name="Up Next" provider-name="im85288" version="1.0.3.20191108">
     <requires>
         <import addon="xbmc.python" version="2.26.0"/>
     </requires>
