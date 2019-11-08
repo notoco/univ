@@ -23,8 +23,8 @@
     <include name="Object_ShadowSpot_Grouplist">
         <control type="grouplist">
             <orientation>vertical</orientation>
-            <left>view_pad</left>
-            <top>view_pad</top>
+            <left>35</left>
+            <top>35</top>
             <itemgap>0</itemgap>
             <usecontrolcoords>true</usecontrolcoords>
             <nested />
@@ -49,14 +49,6 @@
                     <bottom>15</bottom>
                     <aspectratio>stretch</aspectratio>
                     <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
-                </control>
-                <control type="image">
-                    <left>-500</left>
-                    <right>-500</right>
-                    <top>-300</top>
-                    <bottom>-300</bottom>
-                    <aspectratio>stretch</aspectratio>
-                    <texture>common/shadowspot.png</texture>
                 </control>
                 <nested />
             </control>

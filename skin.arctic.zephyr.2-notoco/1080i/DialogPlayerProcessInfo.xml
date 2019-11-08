@@ -3,7 +3,6 @@
     <defaultcontrol always="true">9000</defaultcontrol>
 
     <controls>
-
         <include content="Object_ShadowSpot_Group">
             <param name="width" value="1200" />
             <param name="height" value="450" />
@@ -38,8 +37,9 @@
                 </include>
 		<control type="progress">
 			<top>5</top>
-			<width>100%</width>
+			<width>1120</width>
 			<height>10</height>
+            <left>0</left>
 			<info>Player.CacheLevel</info>
 		</control>
             </include>
