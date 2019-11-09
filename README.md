@@ -5,7 +5,8 @@
 Zawartość repozytorium:
 <ol>
   <li><b>skin.arctic.zephyr.2-notoco</b>
-  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się <a href="https://github.com/jurialmunkey/skin.arctic.zephyr.2">tutaj</a>.<br/><a href="https://github.com/notoco/univ/tree/master/skin.arctic.zephyr.2-notoco">Źródła</a></li> 
+  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się <a href="https://github.com/jurialmunkey/skin.arctic.zephyr.2">tutaj</a>.<br/><a href="https://github.com/notoco/univ/tree/master/skin.arctic.zephyr.2-notoco">Źródła</a><br/>
+  Skórka najlepiej działa z czcionką arial i ze schematem dark with dark dialog.</li> 
   <li><b>skin.aura-notoco</b>
   Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się <a href="https://github.com/jurialmunkey/skin.aura/">tutaj</a>.<br/><a href="https://github.com/notoco/univ/tree/master/skin.aura-notoco">Źródła</a></li> 
   <li><b>service.upnext</b>
@@ -19,7 +20,20 @@ Zawartość repozytorium:
    <ul>
      <li>poprawki <a href="https://github.com/CtrlGy/script.audio.profiles">stąd</a></li>
    </ul>
-   </li> 
+   </li>
+   <li><b>Hyperion Control</b>
+  Dodatek do obsługi hyperiona - co by ręcznie nie instalować. Oryginał znajduje się <a href="https://github.com/hyperion-project/hyperion.control">tutaj</a>.
+  </li>
+  <li><b>script.skinshortcuts</b>
+  Wersja od skyfsza - jako zależność do skórek. Oryginał znajduje się <a href="https://github.com/skyfsza/script.skinshortcuts">tutaj</a>.
+  </li>
+  <li><b>Dodatkowe repozytoria włączone w repo:</b>
+  <ul>
+    <li><a href="https://github.com/CastagnaIT/repository.castagnait">repository.castagnait</a></li>
+    <li><a href="https://github.com/kodi-community-addons/repository.marcelveldt">rrepository.marcelveldt</a></li>
+    <li><a href="https://github.com/rmrector/repository.rector.stuff">repository.rector.stuff</a></li>
+   </ul>
+  </li> 
 </ol>
 <hr/>
 <ul>
