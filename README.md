@@ -30,7 +30,7 @@ Zawartość repozytorium:
   <li><b>Dodatkowe repozytoria włączone w repo:</b>
   <ul>
     <li><a href="https://github.com/CastagnaIT/repository.castagnait">repository.castagnait</a></li>
-    <li><a href="https://github.com/kodi-community-addons/repository.marcelveldt"rrepository.marcelveldt</a></li>
+    <li><a href="https://github.com/kodi-community-addons/repository.marcelveldt">rrepository.marcelveldt</a></li>
     <li><a href="https://github.com/rmrector/repository.rector.stuff">repository.rector.stuff</a></li>
    </ul>
   </li> 
