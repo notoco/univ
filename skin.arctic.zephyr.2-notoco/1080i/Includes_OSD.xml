@@ -240,7 +240,7 @@
                 <bottom>0</bottom>
                 <control type="image">
                     <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
-                    <animation effect="fade" end="75" condition="true">Conditional</animation>
+                    <animation effect="fade" end="100" condition="true">Conditional</animation>
                 </control>
                 <control type="image" id="2334">
                     <aspectratio>keep</aspectratio>
@@ -271,7 +271,7 @@
                 <bottom>0</bottom>
                 <control type="image">
                     <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
-                    <animation effect="fade" end="75" condition="true">Conditional</animation>
+                    <animation effect="fade" end="100" condition="true">Conditional</animation>
                 </control>
                 <control type="group">
                     <left>30</left>
@@ -369,7 +369,7 @@
                 <bottom>0</bottom>
                 <control type="image">
                     <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
-                    <animation effect="fade" end="75" condition="true">Conditional</animation>
+                    <animation effect="fade" end="100" condition="true">Conditional</animation>
                 </control>
                 <control type="group">
                     <left>30</left>
@@ -410,7 +410,7 @@
                 <left>15</left>
                 <right>15</right>
                 <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
-                <animation effect="fade" end="75" condition="true">Conditional</animation>
+                <animation effect="fade" end="100" condition="true">Conditional</animation>
             </control>
 
             <!-- Large Info OSD -->
@@ -427,7 +427,7 @@
                     <width>1565</width>
                     <left>340</left>
                     <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
-                    <animation effect="fade" end="75" condition="true">Conditional</animation>
+                    <animation effect="fade" end="100" condition="true">Conditional</animation>
 
                 </control>
 
@@ -720,28 +720,24 @@
         <!-- Clock -->
         <control type="group">
             <top>30</top>
-            <height>120</height>
-            <width>630</width>
+            <height>80</height>
+            <width>550</width>
             <right>0</right>
             <include>Animation_FadeInOut</include>
             <visible>String.IsEmpty(Player.SeekNumeric)</visible>
             <visible>!Skin.HasSetting(DisableClock)</visible>
             <control type="image">
-                <left>15</left>
-                <right>15</right>
-                <top>15</top>
-                <bottom>15</bottom>
                 <aspectratio>stretch</aspectratio>
                 <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
-                <animation effect="fade" end="75" condition="true">Conditional</animation>
+                <animation effect="fade" end="100" condition="true">Conditional</animation>
             </control>
             <control type="grouplist">
                 <animation effect="slide" start="0" end="-80" time="200" tween="sine" condition="Window.IsVisible(DialogVolumeBar.xml)">Conditional</animation>
-                <right>view_pad</right>
+                <right>25</right>
                 <align>right</align>
                 <orientation>horizontal</orientation>
                 <itemgap>0</itemgap>
-                <width>700</width>
+                <width>500</width>
                 <usecontrolcoords>true</usecontrolcoords>
                 <control type="label">
                     <width>auto</width>

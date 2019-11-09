@@ -97,6 +97,16 @@
             <orientation>vertical</orientation>
             <usecontrolcoords>true</usecontrolcoords>
             <itemgap>0</itemgap>
+            <control type="progress">
+                <left>pad</left>
+                <width>all</width>
+                <height>10</height>
+                <reveal>true</reveal>
+                <top>5</top>
+                <info>ListItem.Progress</info>
+                <colordiffuse>Selected</colordiffuse>
+                <visible>!String.IsEmpty(ListItem.ChannelName)</visible>
+            </control>
             <include content="Object_Info_Title">
                 <param name="label" value="$VAR[Label_PVRGuide_Title]" />
             </include>

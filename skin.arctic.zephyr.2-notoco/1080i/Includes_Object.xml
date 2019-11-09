@@ -35,11 +35,12 @@
         <param name="width" default="1000" />
         <param name="height" default="300" />
         <param name="left" default="0" />
+        <param name="top" default="0" />
         <definition>
             <control type="group" id="$PARAM[id]">
                 <include>Animation_FadeIn</include>
                 <left>$PARAM[left]</left>
-                <top>0</top>
+                <top>$PARAM[top]</top>
                 <width>$PARAM[width]</width>
                 <height>$PARAM[height]</height>
                 <control type="image">

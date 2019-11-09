@@ -716,7 +716,7 @@
                 <aligny>center</aligny>
                 <textcolor>$PARAM[fgcolor]</textcolor>
                 <textoffsetx>0</textoffsetx>
-                <font>font_tiny_bold</font>
+                <font>font_small_bold</font>
                 <label>$INFO[ListItem.Label]</label>
                 <visible>$PARAM[visible]</visible>
                 <visible>!$PARAM[sublabel]</visible>
@@ -727,7 +727,7 @@
                 <centertop>33%</centertop>
                 <textcolor>$PARAM[fgcolor]</textcolor>
                 <textoffsetx>0</textoffsetx>
-                <font>font_tiny_bold</font>
+                <font>font_small_bold</font>
                 <label>$INFO[ListItem.Label]</label>
                 <visible>$PARAM[visible]</visible>
                 <visible>$PARAM[sublabel]</visible>

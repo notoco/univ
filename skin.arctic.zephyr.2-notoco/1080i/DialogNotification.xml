@@ -27,7 +27,9 @@
                 <visible>!Window.IsVisible(Home.xml) | [!Skin.HasSetting(HomeMulti) + ![Window.IsVisible(DialogVideoInfo.xml) | Window.IsVisible(DialogMusicInfo.xml) | Window.IsVisible(DialogAddonInfo.xml) | Control.HasFocus(5610) | String.IsEqual(Window(Home).Property(WidgetFocus),5610)]]</visible>
                 <visible>Window.IsVisible(fullscreenvideo) | Window.IsVisible(visualisation) | Window.IsVisible(Home)</visible>
                 <include content="Object_ShadowSpot_Group">
-                    <param name="height" value="50" />
+                    <param name="height" value="100" />
+                    <param name="top" value="40" />
+                    <param name="left" value="10" />
                     <param name="width" value="700" />
                 </include>
                 <include content="Dialog_Notification_Group">
