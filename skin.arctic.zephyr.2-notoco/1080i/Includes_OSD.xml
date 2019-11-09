@@ -410,6 +410,7 @@
                 <left>15</left>
                 <right>15</right>
                 <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
+                <animation effect="fade" end="75" condition="true">Conditional</animation>
             </control>
 
             <!-- Large Info OSD -->
@@ -426,6 +427,8 @@
                     <width>1565</width>
                     <left>340</left>
                     <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
+                    <animation effect="fade" end="75" condition="true">Conditional</animation>
+
                 </control>
 
 
@@ -730,6 +733,7 @@
                 <bottom>15</bottom>
                 <aspectratio>stretch</aspectratio>
                 <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
+                <animation effect="fade" end="75" condition="true">Conditional</animation>
             </control>
             <control type="grouplist">
                 <animation effect="slide" start="0" end="-80" time="200" tween="sine" condition="Window.IsVisible(DialogVolumeBar.xml)">Conditional</animation>
