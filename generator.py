@@ -49,7 +49,7 @@ class GeneratorXML:
         self._generate_addons_file()
         self._generate_md5_file()
         # notify user
-        print("###Finished updating addons xml and md5 files###")
+        print("###Skończono aktualizację plików addons xml i md5###")
 
     def _generate_addons_file( self ):
         # addon list
@@ -79,7 +79,7 @@ class GeneratorXML:
                         addon_xml += line.rstrip() + "\n"
                 # we succeeded so add to our final addons.xml text
                 addons_xml += addon_xml.rstrip() + "\n\n"
-                print(_path + " Success!")
+                print(_path + " Udało się!")
             except Exception as e:
                 # missing or poorly formatted addon.xml
                 print(_path + " Fail!")
@@ -104,7 +104,7 @@ class GeneratorXML:
             self._save_file( m.encode( "UTF-8" ), file="addons.xml.md5" )
         except Exception as e:
             # oops
-            print("An error occurred creating addons.xml.md5 file!\n%s" % e)
+            print("Wystąpił błąd poczas tworzenia pliku addons.xml.md5!\n%s" % e)
 
     def _save_file( self, data, file ):
         try:
@@ -112,12 +112,12 @@ class GeneratorXML:
             open(file, "wb").write(data)
         except Exception as e:
             # oops
-            print("An error occurred saving %s file!\n%s" % ( file, e ))
+            print("Wystąpił błąd podczas zapisywania pliku %s !\n%s" % ( file, e ))
 
 class GeneratorZIP:
     def __init__( self ):
         self._generate_zip_file()
-        print("Finished zipping")
+        print("Skończono pakowanie")
 
     INDEX_TEMPLATE = r"""<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
     <html>
@@ -189,7 +189,7 @@ class GeneratorZIP:
                 index = self.index(addon_folder)
                 with open(addon_folder + '/index.html', 'w', encoding="utf8") as file:
                     file.write(index)
-                print(_path.replace("/addon.xml","") + " Success!")
+                print(_path.replace("/addon.xml","") + " Udało się!")
             except Exception as e:
                 print("Exception: %s\r\n" % e)
                 pass
@@ -205,7 +205,7 @@ if ( __name__ == "__main__" ):
             if fn.lower().endswith('.pyo') or fn.lower().endswith('.pyc'):
                 print("Removing " + str(os.path.join(parent, fn)))
                 os.remove(os.path.join(parent, fn))
-    print("Trying to generate addons.xml and addons.md5")
+    print("Tworzę pliki addons.xml i addons.md5")
     GeneratorXML()
-    print("\r\nTrying to generate zip addons")
+    print("\r\nTworzę spakowane dodatki")
     GeneratorZIP()
