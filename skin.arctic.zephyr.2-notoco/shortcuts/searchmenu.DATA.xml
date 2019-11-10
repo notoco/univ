@@ -12,71 +12,82 @@
         <icon>special://skin/extras/icons/tv.png</icon>
         <action>DefaultSearch-TvShows</action>
     </shortcut>
-    
-<!-- WŁASNE WYSZUKIWARKI -->
     <shortcut>
-	<shortcut>
-		<defaultID>netflix</defaultID>
-		<label>Netflix</label>
-		<label2>Domyślny</label2>
-		<icon>special://skin/extras/icons/netflix.png</icon>
-		<thumb />
-		<action>DefaultSearch-Netflix</action>
-	</shortcut>
-	<shortcut>
-		<defaultID>FanFilm</defaultID>
-		<label>FanFilm</label>
-		<label2>Pozycja niestandardowa</label2>
-		<icon>special://skin/extras/icons/youtube.png</icon>
-		<thumb />
-		<action>plugin://plugin.video.fanfilm/?action=movieSearchterm&amp;name=</action>
-	</shortcut>
-	<shortcut>
-		<defaultID />
-		<label>vodgo.pl</label>
-		<label2>Pozycja niestandardowa</label2>
-		<icon>DefaultShortcut.png</icon>
-		<thumb />
-		<action>plugin://plugin.video.vodgopl/?mode=listSearch&amp;d=</action>
-	</shortcut>
-	<shortcut>
-		<defaultID />
-		<label>3filmy</label>
-		<label2>Pozycja niestandardowa</label2>
-		<icon>DefaultShortcut.png</icon>
-		<thumb />
-		<action>plugin://plugin.video.3filmy/?mode=listSearch&amp;d=</action>
-	</shortcut>
-	<shortcut>
-		<defaultID />
-		<label>otube.pl</label>
-		<label2>Pozycja niestandardowa</label2>
-		<icon>DefaultShortcut.png</icon>
-		<thumb />
-		<action>plugin://plugin.video.otubepl/?mode=listSearch&amp;d=</action>
-	</shortcut>
-	<shortcut>
-		<defaultID />
-		<label>HBO</label>
-		<label2>Pozycja niestandardowa</label2>
-		<icon>DefaultShortcut.png</icon>
-		<thumb />
-		<action>plugin://plugin.video.hbogopl/?mode=4&amp;url=search&amp;d=</action>
-	</shortcut>
-	<shortcut>
-		<defaultID />
-		<label>cda-tv</label>
-		<label2>Pozycja niestandardowa</label2>
-		<icon>DefaultShortcut.png</icon>
-		<thumb />
-		<action>plugin://plugin.video.cdaxpl/?page=1&amp;mode=search:new&amp;ex_link=</action>
-	</shortcut>
-<!-- WŁASNE WYSZUKIWARKI -->
-
-	<shortcut>
-		<label>Youtube</label>
-		<label2>$LOCALIZE[571]</label2>
-		<icon>special://skin/extras/icons/youtube.png</icon>
-		<action>DefaultSearch-Youtube</action>
-	</shortcut>
+        <label>Episodes</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/tv.png</icon>
+        <action>DefaultSearch-Episodes</action>
+    </shortcut>
+    <shortcut>
+        <label>Genres</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/genres.png</icon>
+        <action>DefaultSearch-Genres</action>
+    </shortcut>
+    <shortcut>
+        <label>Year</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/years.png</icon>
+        <action>DefaultSearch-Year</action>
+    </shortcut>
+    <shortcut>
+        <label>Studio</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/studio.png</icon>
+        <action>DefaultSearch-Studio</action>
+    </shortcut>
+    <shortcut>
+        <label>Country</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/country.png</icon>
+        <action>DefaultSearch-Country</action>
+    </shortcut>
+    <shortcut>
+        <label>Actor</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/person.png</icon>
+        <action>DefaultSearch-Actor</action>
+    </shortcut>
+    <shortcut>
+        <label>Director</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/person.png</icon>
+        <action>DefaultSearch-Director</action>
+    </shortcut>
+    <shortcut>
+        <label>Albums</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/songs.png</icon>
+        <action>DefaultSearch-Albums</action>
+    </shortcut>
+    <shortcut>
+        <label>Artists</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/songs.png</icon>
+        <action>DefaultSearch-Artists</action>
+    </shortcut>
+    <shortcut>
+        <label>Music Videos</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/musicvideo.png</icon>
+        <action>DefaultSearch-MusicVideos</action>
+    </shortcut>
+    <shortcut>
+        <label>Music Video Artists</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/musicvideo.png</icon>
+        <action>DefaultSearch-MusicVideoArtists</action>
+    </shortcut>
+    <shortcut>
+        <label>Add-ons</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/addons.png</icon>
+        <action>DefaultSearch-Addons</action>
+    </shortcut>
+    <shortcut>
+        <label>Youtube</label>
+        <label2>$LOCALIZE[571]</label2>
+        <icon>special://skin/extras/icons/youtube.png</icon>
+        <action>DefaultSearch-Youtube</action>
+    </shortcut>
 </shortcuts>
