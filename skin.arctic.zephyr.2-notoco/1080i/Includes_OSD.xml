@@ -554,26 +554,6 @@
                         <texture colordiffuse="panel_fg_100">$INFO[VideoPlayer.AudioChannels,flags/monochrome/channels/,.png]</texture>
                     </control>
                 </control>
-                <control type="group">
-                    <top>-20</top>
-                    <visible>!Skin.HasSetting(DisableStarRating)</visible>
-                    <visible>!Pvr.IsPlayingTv</visible>
-                    <include content="Object_StarRating">
-                        <param name="rating_prop" value="VideoPlayer.Rating" />
-                        <param name="colordiffuse" value="panel_fg" />
-                        <param name="align" value="right" />
-                    </include>
-                </control>
-                <control type="group">
-                    <top>-20</top>
-                    <visible>!Pvr.IsPlayingTv</visible>
-                    <animation effect="slide" end="-256" condition="Skin.HasSetting(DisableStarRating)">Conditional</animation>
-                    <include content="Object_OSD_Ratings">
-                    <param name="align" value="right" />
-                    <param name="imdbvotes" value="false" />
-                    <param name="colordiffuse" value="panel_fg" />
-                    </include>
-                </control>
                 <control type="textbox">
                     <font>font_plotbox</font>
                     <top>67</top>
@@ -664,7 +644,7 @@
                 <include>OSD_Menubar_Items</include>
                 <label>$VAR[Label_PlayerStatus]</label>
             </control>
-            <control type="group">
+            <!--<control type="group">
                 <left>250</left>
                 <right>250</right>
                 <visible>!Window.IsVisible(videoosd)</visible>
@@ -676,9 +656,9 @@
                     <include>OSD_Menubar_Items</include>
                     <label>$INFO[VideoPlayer.TvShowTitle,[COLOR=panel_fg_100],[/COLOR]  •  ]$INFO[MusicPlayer.Artist,[COLOR=panel_fg_100],[/COLOR]  •  ]$INFO[VideoPlayer.Season,[COLOR=panel_fg_100],x[/COLOR]]$INFO[VideoPlayer.Episode,[COLOR=panel_fg_100],. [/COLOR]]$INFO[Player.Title,[COLOR=panel_fg_100],[/COLOR]]</label>
                     <animation effect="fade" end="100" start="0" delay="300" time="1" reversible="false">Visible</animation>
-                    <!-- <visible>![!String.IsEmpty(Window(Home).Property(OSDInfo)) | Player.ShowInfo | Window.IsActive(DialogFullScreenInfo.xml) | Skin.HasSetting(ShowInfoPaused)]</visible> -->
+                    <!-- <visible>![!String.IsEmpty(Window(Home).Property(OSDInfo)) | Player.ShowInfo | Window.IsActive(DialogFullScreenInfo.xml) | Skin.HasSetting(ShowInfoPaused)]</visible>
                 </control>
-            </control>
+            </control> -->
             <control type="grouplist">
                 <align>right</align>
                 <itemgap>12</itemgap>
