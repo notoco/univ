@@ -413,15 +413,16 @@
             <control type="group" description="Plakat">
                 <left>0</left>
                 <width>227</width>
-                <height>227</height>
+                <height>330</height>
                 <bottom>0</bottom>
                 <control type="image">
                     <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
                     <animation effect="fade" end="100" condition="true">Conditional</animation>
                 </control>
                 <control type="image">
-                    <width>500</width>
+                    <width>auto</width>
                     <bordersize>15</bordersize>
+                    <bottom>0</bottom>
                     <bordertexture border="30" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
                     <aspectratio scalediffuse="true" align="left" aligny="bottom">keep</aspectratio>
                     <visible>!Pvr.IsPlayingTv</visible>
