@@ -47,4 +47,9 @@
 
     <!-- Shadows -->
     <color name="Shadow">55ffffff</color>
+    
+    <!-- addons - poprawki dla mbebe i wyszukiwajki -->
+    <color name="blue">ffffffff</color>
+    <color name="red">ffffffff</color>
+    <color name="lightgreen">ffffffff</color>
 </colors>
