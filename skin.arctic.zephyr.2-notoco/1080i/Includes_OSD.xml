@@ -413,7 +413,7 @@
             <control type="group" description="Plakat">
                 <left>0</left>
                 <width>227</width>
-                <height>330</height>
+                <height>320</height>
                 <bottom>0</bottom>
                 <control type="image">
                     <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
@@ -424,7 +424,7 @@
                     <bordersize>15</bordersize>
                     <bottom>0</bottom>
                     <bordertexture border="30" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
-                    <aspectratio scalediffuse="true" align="left" aligny="bottom">keep</aspectratio>
+                    <aspectratio scalediffuse="true" align="left" aligny="center">keep</aspectratio>
                     <visible>!Pvr.IsPlayingTv</visible>
                     <texture background="true" diffuse="diffuse/poster-wall.png">$VAR[Image_OSD_Artwork]</texture>
                 </control>
@@ -559,6 +559,7 @@
                     <font>font_plotbox</font>
                     <top>67</top>
                     <left>20</left>
+                    <bottom>10</bottom>
                     <aligny>top</aligny>
                     <textcolor>panel_fg_100</textcolor>
                     <selectedcolor>panel_fg_100</selectedcolor>
