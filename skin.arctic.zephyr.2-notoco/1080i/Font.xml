@@ -73,7 +73,7 @@
         <font>
             <name>font_unwatched</name>
             <filename>RobotoCondensed-Bold.ttf</filename>
-            <size>16</size>
+            <size>22</size>
         </font>
         <font>
             <name>font_mini</name>
@@ -295,7 +295,7 @@
         <font>
             <name>font_unwatched</name>
             <filename>Arial.ttf</filename>
-            <size>16</size>
+            <size>22</size>
         </font>
         <font>
             <name>font_mini</name>

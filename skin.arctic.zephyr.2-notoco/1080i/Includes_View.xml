@@ -914,8 +914,8 @@
             <control type="image">
                 <top>15</top>
                 <right>15</right>
-                <width>48</width>
-                <height>48</height>
+                <width>64</width>
+                <height>64</height>
                 <texture colordiffuse="ff000000" border="10">$VAR[Image_Overlay_Corner]</texture>
             </control>
             <control type="image">
@@ -927,13 +927,13 @@
                 <visible>!Integer.IsGreater(ListItem.Property(UnWatchedEpisodes),0) | ![String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season)]</visible>
             </control>
             <control type="label">
-                <top>15</top>
-                <right>15</right>
+                <top>17</top>
+                <right>18</right>
                 <width>28</width>
                 <height>28</height>
                 <font>font_unwatched</font>
                 <align>center</align>
-                <textcolor>ffededed</textcolor>
+                <textcolor>ffffffff</textcolor>
                 <label>$INFO[ListItem.Property(UnWatchedEpisodes)]</label>
                 <include>View_UnwatchedEpisodes_Visible</include>
             </control>
@@ -946,8 +946,8 @@
             <control type="image">
                 <top>15</top>
                 <right>15</right>
-                <width>48</width>
-                <height>48</height>
+                <width>64</width>
+                <height>64</height>
                 <texture colordiffuse="$VAR[ColorHighlight2]" border="10">$VAR[Image_Overlay_Corner]</texture>
             </control>
             <control type="image">
@@ -959,13 +959,13 @@
                 <visible>!Integer.IsGreater(ListItem.Property(UnWatchedEpisodes),0) | ![Container.Content(tvshows) | Container.Content(seasons) | Window.IsVisible(Home)]</visible>
             </control>
             <control type="label">
-                <top>15</top>
-                <right>15</right>
+                <top>17</top>
+                <right>18</right>
                 <width>28</width>
                 <height>28</height>
                 <font>font_unwatched</font>
                 <align>center</align>
-                <textcolor>panel_bg</textcolor>
+                <textcolor>ffffffff</textcolor>
                 <label>$INFO[ListItem.Property(UnWatchedEpisodes)]</label>
                 <include>View_UnwatchedEpisodes_Visible</include>
             </control>
