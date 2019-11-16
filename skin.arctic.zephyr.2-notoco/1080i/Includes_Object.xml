@@ -1059,7 +1059,6 @@
                     <param name="id" value="$PARAM[uid]02" />
                     <param name="label" value="$INFO[$PARAM[container]ListItem.MPAA]" />
                     <param name="textcolor" value="$PARAM[textcolor]" />
-                    <param name="divider" value="false" />
                     <param name="visible" value="![String.IsEqual($PARAM[container]ListItem.DBType,artist) | String.IsEqual($PARAM[container]ListItem.DBType,album) | String.IsEqual($PARAM[container]ListItem.DBType,song)]" />
                 </include>
                 <include content="Object_Info_Line_Label">
