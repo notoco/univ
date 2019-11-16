@@ -84,12 +84,6 @@
                             <param name="visible" value="true" />
                         </include>
                         <include content="Object_Info_Line_Label">
-                            <param name="id" value="90004" />
-                            <param name="label" value="$INFO[Window.Property(year)]" />
-                            <param name="textcolor" value="panel_fg_100" />
-                            <param name="visible" value="true" />
-                        </include>
-                        <include content="Object_Info_Line_Label">
                             <param name="id" value="90005" />
                             <param name="label" value="$INFO[Window.Property(rating)]" />
                             <param name="textcolor" value="panel_fg_100" />
