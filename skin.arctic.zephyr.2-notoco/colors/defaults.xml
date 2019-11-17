@@ -52,4 +52,8 @@
     <color name="blue">ffffffff</color>
     <color name="red">ffffffff</color>
     <color name="lightgreen">ffffffff</color>
+    <color name="lightblue">ffffffff</color>
+    <color name="violet">ffffffff</color>
+    <color name="khaki">ffffffff</color>
+    <color name="lime">ffffffff</color>
 </colors>
