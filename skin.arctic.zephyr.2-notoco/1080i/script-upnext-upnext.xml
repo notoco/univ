@@ -7,25 +7,21 @@
 
         <control type="group">
             <control type="image">
-                <height>300</height>
+                <height>200</height>
                 <bottom>15</bottom>
                 <right>15</right>
                 <left>15</left>
                 <texture flipy="true" colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
             </control>
             <control type="group">
-                <left>view_pad</left>
-                <right>view_pad</right>
-                <bottom>view_pad</bottom>
+                <left>15</left>
+                <right>15</right>
+                <bottom>30</bottom>
                 <height>163</height>
                 <!-- Image -->
                 <control type="group">
                     <width>290</width>
                     <control type="image">
-                        <left>-15</left>
-                        <top>-15</top>
-                        <right>-15</right>
-                        <bottom>-15</bottom>
                         <bordersize>15</bordersize>
                         <bordertexture border="30" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
                         <aspectratio scalediffuse="true">scale</aspectratio>
@@ -34,8 +30,8 @@
                     <control type="progress" id="3014">
                         <height>8</height>
                         <bottom>0</bottom>
-                        <left>0</left>
-                        <right>0</right>
+                        <left>15</left>
+                        <right>15</right>
                     </control>
                 </control>
 
@@ -91,9 +87,9 @@
                         </include>
                     </control>
                     <control type="grouplist">
-                        <left>-16</left>
-                        <bottom>-16</bottom>
+                        <top>85</top>
                         <height>90</height>
+                        <left>-15</left>
                         <orientation>horizontal</orientation>
                         <itemgap>0</itemgap>
                         <include content="Object_IconicButton">
