@@ -228,7 +228,7 @@
                     <height>26</height>
                     <label>$PARAM[label]</label>
                     <width>auto</width>
-                    <font>font_statusbar_bold</font>
+                    <font>font_notification</font>
                     <textcolor>$PARAM[fgcolor]_100</textcolor>
                 </control>
                 <control type="label" id="$PARAM[sub_id]">
@@ -236,7 +236,7 @@
                     <height>26</height>
                     <label>$PARAM[label2]</label>
                     <width>auto</width>
-                    <font>font_statusbar</font>
+                    <font>font_notification</font>
                     <textcolor>$PARAM[fgcolor]_100</textcolor>
                 </control>
                 <control type="label">
@@ -244,7 +244,7 @@
                     <height>26</height>
                     <width>auto</width>
                     <textcolor>$PARAM[fgcolor]_100</textcolor>
-                    <font>font_statusbar</font>
+                    <font>font_notification</font>
                     <label>$INFO[Control.GetLabel(32),,%]</label>
                     <visible>Window.IsVisible(DialogExtendedProgressBar.xml) + Control.IsVisible(32)</visible>
                 </control>
@@ -280,7 +280,7 @@
         <height>30</height>
         <align>right</align>
         <textcolor>main_fg_70</textcolor>
-        <font>font_statusbar</font>                
+        <font>font_notification</font>                
         <aligny>center</aligny>
     </include>
 

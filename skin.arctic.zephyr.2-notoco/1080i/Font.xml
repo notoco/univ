@@ -192,7 +192,7 @@
         <font>
             <name>font_notification</name>
             <filename>RobotoCondensed-Bold.ttf</filename>
-            <size>30</size>
+            <size>26</size>
             <aspect>0.9</aspect>
             <style>bold</style>
         </font>
@@ -416,7 +416,7 @@
         <font>
             <name>font_notification</name>
             <filename>Arial.ttf</filename>
-            <size>38</size>
+            <size>26</size>
             <aspect>0.9</aspect>
             <style>bold</style>
         </font>
