@@ -200,14 +200,32 @@
                     <width>all</width>
                     <height>10</height>
                     <reveal>true</reveal>
-                    <top>5</top>
+                    <top>0</top>
                     <info>ListItem.Progress</info>
                     <colordiffuse>Selected</colordiffuse>
                     <visible>!String.IsEmpty(ListItem.ChannelName)</visible>
                 </control>
+                <control type="group">
+                    <visible>!String.IsEmpty(ListItem.EPGEventIcon)</visible>
+                    <control type="image">
+                        <top>20</top>
+                        <left>-15</left>
+                        <height>196</height>
+                        <width>350</width>
+                        <bordersize>15</bordersize>
+                        <bordertexture border="30" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
+                        <texture>$INFO[ListItem.EPGEventIcon]</texture>
+                        <aspectratio scalediffuse="false" align="left">scale</aspectratio>
+                    </control>
+                    <include content="Object_Info_Plot">
+                        <param name="maxheight" value="$PARAM[plotheight]" />
+                        <left>350</left>
+                    </include>
+                </control>
                 <include content="Object_Info_Plot">
                     <param name="maxheight" value="$PARAM[plotheight]" />
-                </include>
+                    <visible>String.IsEmpty(ListItem.EPGEventIcon)</visible>
+                </include>                
             </control>
         </definition>
     </include>
@@ -622,4 +640,3 @@
     </include>
 
 </includes>
-
