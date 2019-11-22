@@ -215,7 +215,6 @@
                         <bordersize>15</bordersize>
                         <bordertexture border="50" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
                         <texture>$INFO[ListItem.EPGEventIcon]</texture>
-                        <aspectratio scalediffuse="false" align="left">scale</aspectratio>
                     </control>
                     <include content="Object_Info_Plot">
                         <param name="maxheight" value="$PARAM[plotheight]" />
