@@ -210,16 +210,16 @@
                     <control type="image">
                         <top>20</top>
                         <left>-15</left>
-                        <height>196</height>
-                        <width>350</width>
+                        <height>269</height>
+                        <width>480</width>
                         <bordersize>15</bordersize>
-                        <bordertexture border="30" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
+                        <bordertexture border="50" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
                         <texture>$INFO[ListItem.EPGEventIcon]</texture>
                         <aspectratio scalediffuse="false" align="left">scale</aspectratio>
                     </control>
                     <include content="Object_Info_Plot">
                         <param name="maxheight" value="$PARAM[plotheight]" />
-                        <left>350</left>
+                        <left>480</left>
                     </include>
                 </control>
                 <include content="Object_Info_Plot">
@@ -640,3 +640,4 @@
     </include>
 
 </includes>
+
