@@ -96,7 +96,7 @@
 	</extension>
 </addon>
 
-<addon id="service.upnext" name="Up Next" provider-name="im85288" version="1.0.5">
+<addon id="service.upnext" name="Up Next" provider-name="im85288" version="1.0.6">
     <requires>
         <import addon="xbmc.python" version="2.26.0"/>
     </requires>
@@ -107,6 +107,7 @@
 
 A lot of existing add-ons already integrate with this service out-of-the-box.</description>
         <platform>all</platform>
+        <license>GPL-2.0-only</license>
         <assets>
             <icon>resources/media/icon.png</icon>
             <fanart>resources/media/fanart.jpg</fanart>
