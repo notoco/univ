@@ -4,40 +4,49 @@
     <onload>Dialog.Close(fullscreeninfo,true)</onload>
     <onload>Dialog.Close(videoosd,true)</onload>
     <controls>
-
         <control type="group">
-            <control type="image">
-                <height>200</height>
-                <bottom>15</bottom>
-                <right>15</right>
-                <left>15</left>
-                <texture flipy="true" colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
-            </control>
-            <control type="group">
-                <left>15</left>
-                <right>15</right>
-                <bottom>30</bottom>
-                <height>163</height>
-                <!-- Image -->
-                <control type="group">
-                    <width>290</width>
-                    <control type="image">
-                        <bordersize>15</bordersize>
-                        <bordertexture border="30" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
-                        <aspectratio scalediffuse="true">scale</aspectratio>
-                        <texture background="true" diffuse="diffuse/landscape-small-wall.png">$VAR[Image_UpNext]</texture>
-                    </control>
+            <left>view_pad</left>
+            <right>view_pad</right>
+            <top>view_pad</top>
+            <bottom>view_pad</bottom>
+
+            <control type="group" description="Plakat">
+                <left>0</left>
+                <width>227</width>
+                <height>320</height>
+                <bottom>0</bottom>
+                <control type="image">
+                    <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
+                    <animation effect="fade" end="100" condition="true">Conditional</animation>
+                </control>
+                <control type="image">
+                    <width>auto</width>
+                    <bordersize>15</bordersize>
+                    <bottom>0</bottom>
+                    <bordertexture border="30" colordiffuse="Shadow">common/shadow-15.png</bordertexture>
+                    <aspectratio scalediffuse="true" align="left" aligny="center">keep</aspectratio>
+                    <texture background="true" diffuse="diffuse/poster-wall.png">$VAR[Image_OSD_Artwork]</texture>
+                </control>
                     <control type="progress" id="3014">
-                        <height>8</height>
-                        <bottom>0</bottom>
+                        <height>6</height>
+                        <bottom>8</bottom>
                         <left>15</left>
                         <right>15</right>
                     </control>
-                </control>
+            </control>
 
-                <!-- Info and Buttons -->
-                <control type="group">
-                    <left>330</left>
+            <control type="group" description="Main Info">
+                <left>231</left>
+                <width>1362.5</width>
+                <height>227</height>
+                <bottom>0</bottom>
+                <control type="image">
+                    <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
+                    <animation effect="fade" end="100" condition="true">Conditional</animation>
+                </control>
+               <control type="group">
+                    <left>25</left>
+                    <top>30</top>
                     <control type="label">
                         <height>30</height>
                         <font>font_title_small</font>
@@ -79,12 +88,6 @@
                             <param name="textcolor" value="panel_fg_100" />
                             <param name="visible" value="true" />
                         </include>
-                        <include content="Object_Info_Line_Label">
-                            <param name="id" value="90005" />
-                            <param name="label" value="$INFO[Window.Property(rating)]" />
-                            <param name="textcolor" value="panel_fg_100" />
-                            <param name="visible" value="true" />
-                        </include>
                     </control>
                     <control type="grouplist">
                         <top>85</top>
@@ -108,11 +111,7 @@
                         </include>
                     </control>
                 </control>
-
-
             </control>
         </control>
-
-        
     </controls>
 </window>
