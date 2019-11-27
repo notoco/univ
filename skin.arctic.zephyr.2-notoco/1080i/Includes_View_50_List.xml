@@ -252,8 +252,8 @@
                                 <align>left</align>
                                 <label>$VAR[Label_Premiered]$VAR[Label_List_Right,  •  ,]</label>
                             </control>
-                        <include>View_WatchedOverlay</include>
                         </control>
+                        <include>View_WatchedOverlay</include>
                     </control>
                 </itemlayout>
                 <focusedlayout width="1790" height="271.5" condition="Container.Content(episodes)">
