@@ -312,7 +312,7 @@
                                 <bottom>30</bottom>
                                 <aligny>center</aligny>
                                 <align>right</align>
-                                <label>$$VAR[Label_List_Right]</label>
+                                <label>$VAR[Label_List_Right]</label>
                             </control>
                         </control>
                         <include>View_WatchedOverlay</include>
