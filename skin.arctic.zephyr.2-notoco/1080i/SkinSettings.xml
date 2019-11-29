@@ -868,19 +868,19 @@
                     <control type="radiobutton" id="19801">
                         <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                         <label>script.skin.helper.service</label>
-                        <label2>$INFO[System.AddonVersion(script.skin.helper.service)]        </label2>
-                        <onclick>Addon.OpenSettings(script.skin.helper.service)</onclick>
-                        <onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.skin.helper.service)</onclick>
-                        <selected>System.HasAddon(script.skin.helper.service)</selected>
+                        <label2>$INFO[System.AddonVersion(script.embuary.helper)]        </label2>
+                        <onclick>Addon.OpenSettings(script.embuary.helper)</onclick>
+                        <onclick condition="!System.HasAddon(script.skin.helper.service)">InstallAddon(script.embuary.helper)</onclick>
+                        <selected>System.HasAddon(script.embuary.helper)</selected>
                         <include>Defs_Settings_Button</include>
                     </control>
                     <control type="radiobutton" id="19802">
                         <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
-                        <label>script.skin.helper.widgets</label>
-                        <label2>$INFO[System.AddonVersion(script.skin.helper.widgets)]        </label2>
-                        <onclick>Addon.OpenSettings(script.skin.helper.widgets)</onclick>
-                        <onclick condition="!System.HasAddon(script.skin.helper.widgets)">InstallAddon(script.skin.helper.widgets)</onclick>
-                        <selected>System.HasAddon(script.skin.helper.widgets)</selected>
+                        <label>script.embuary.helper</label>
+                        <label2>$INFO[System.AddonVersion(script.embuary.helper)]        </label2>
+                        <onclick>Addon.OpenSettings(script.embuary.helper)</onclick>
+                        <onclick condition="!System.HasAddon(script.embuary.helper)">InstallAddon(script.embuary.helper)</onclick>
+                        <selected>System.HasAddon(script.embuary.helper)</selected>
                         <include>Defs_Settings_Button</include>
                     </control>
                     <control type="radiobutton" id="19803">
