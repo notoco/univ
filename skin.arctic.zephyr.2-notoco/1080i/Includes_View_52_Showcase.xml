@@ -194,7 +194,7 @@
                     <param name="label" value="$INFO[ListItem.Title]" />
                 </include>
                 <include>Object_Info_Line</include>
-                <include condition="!String.IsEmpty(ListItem.ChannelName">Object_Info_Ratings</include>
+                <include condition="!String.IsEmpty(ListItem.ChannelName)">Object_Info_Ratings</include>
                 <control type="progress">
                     <left>pad</left>
                     <width>all</width>

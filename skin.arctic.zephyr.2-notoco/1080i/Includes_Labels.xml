@@ -100,7 +100,7 @@
     <variable name="Label_List_Right">
  <!--       <value condition="String.IsEqual(Container.SortMethod,$LOCALIZE[562]) | String.IsEqual(Container.SortMethod,$LOCALIZE[556]) | String.IsEqual(Container.SortMethod,$LOCALIZE[552])">$INFO[ListItem.Rating]</value> -->
         <value condition="!Container.Content(movies) + !Container.Content(episodes)">$INFO[ListItem.Label2]</value>
-        <value condition="Container.Content(movies) | Container.Content(episodes">$VAR[Label_Duration]</value>
+        <value condition="Container.Content(movies) | Container.Content(episodes)">$VAR[Label_Duration]</value>
     </variable>
 
     <variable name="Label_IconWall">
