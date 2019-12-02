@@ -36,6 +36,11 @@ msgid "Automatic Switch"
 msgstr ""
 
 #: Settings
+msgctxt "#32018"
+msgid "Notifications"
+msgstr ""
+
+#: Settings
 msgctxt "#32015"
 msgid "Show audio stream select menu on start playing"
 msgstr ""

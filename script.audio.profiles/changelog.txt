@@ -1,3 +1,6 @@
+[B]1.4[/B]
+- add compatybility to python3 and Kodi Matrix
+
 [B]1.2.5[/B]
 - fix: assign cdda Audio CD from unknown to audio type
 - fix: prevent auto change immediately after change profile manually
