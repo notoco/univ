@@ -24,16 +24,6 @@ Zawartość repozytorium:
    <li><b>Hyperion Control</b>
   Dodatek do obsługi hyperiona - co by ręcznie nie instalować. Oryginał znajduje się <a href="https://github.com/hyperion-project/hyperion.control">tutaj</a>.
   </li>
-  <li><b>script.skinshortcuts</b>
-  Wersja od skyfsza - jako zależność do skórek. Oryginał znajduje się <a href="https://github.com/skyfsza/script.skinshortcuts">tutaj</a>.
-  </li>
-  <li><b>Dodatkowe repozytoria włączone w repo:</b>
-  <ul>
-    <li><a href="https://github.com/CastagnaIT/repository.castagnait">repository.castagnait</a></li>
-    <li><a href="https://github.com/kodi-community-addons/repository.marcelveldt">rrepository.marcelveldt</a></li>
-    <li><a href="https://github.com/rmrector/repository.rector.stuff">repository.rector.stuff</a></li>
-   </ul>
-  </li> 
 </ol>
 <hr/>
 <ul>
