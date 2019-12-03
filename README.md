@@ -6,7 +6,7 @@ Zawartość repozytorium:
 <ol>
   <li><b>skin.arctic.zephyr.2-notoco</b>
   Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się tutaj: https://github.com/jurialmunkey/skin.arctic.zephyr.2.<br/><a href="https://github.com/notoco/univ/tree/master/skin.arctic.zephyr.2-notoco">Źródła</a><br/>
-  Skórka najlepiej działa z czcionką arial i ze schematem dark with dark dialog. Skórka nie jest poprawiana pod kątem obsługi myszki. I nie będzie./li> 
+  Skórka najlepiej działa z czcionką arial i ze schematem dark with dark dialog. Skórka nie jest poprawiana pod kątem obsługi myszki. I nie będzie.
   <li><b>skin.aura-notoco</b>
   Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się tutaj: https://github.com/jurialmunkey/skin.aura/.<br/><a href="https://github.com/notoco/univ/tree/master/skin.aura-notoco">Źródła</a></li> 
   <li><b>service.upnext</b>
