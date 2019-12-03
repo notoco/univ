@@ -200,10 +200,8 @@
                         <include>View_WatchedOverlay</include>
                     </control>
                 </focusedlayout>
-                <itemlayout width="1790" height="271.5" condition="Container.Content(episodes)">
+                <itemlayout width="1990" height="119.5" condition="Container.Content(episodes)">
                     <control type="group">
-                        <width>1590</width>
-                        <centerleft>50%</centerleft>
                         <top>0</top>
                         <bottom>15</bottom>
                         <control type="image">
@@ -212,7 +210,7 @@
                             <texture colordiffuse="main_bg_30" border="10">diffuse/box.png</texture>
                         </control>
                         <control type="group">
-                            <width>425.17</width>
+                            <width>187.14</width>
                             <control type="image">
                                 <bordersize>15</bordersize>
                                 <aspectratio scalediffuse="false" align="left">scale</aspectratio>
@@ -229,7 +227,7 @@
                         <control type="group">
                             <top>15</top>
                             <bottom>-15</bottom>
-                            <left>425.17</left>
+                            <left>187.14</left>
                             <control type="label">
                                 <left>15</left>
                                 <right>40</right>
@@ -255,10 +253,9 @@
                         <include>View_WatchedOverlay</include>
                     </control>
                 </itemlayout>
-                <focusedlayout width="1790" height="271.5" condition="Container.Content(episodes)">
+                <focusedlayout width="1990" height="271.5" condition="Container.Content(episodes)">
                     <control type="group">
-                        <centerleft>50%</centerleft>
-                        <width>1590</width>
+
                         <top>0</top>
                         <bottom>15</bottom>
                         <control type="image">
