@@ -5,25 +5,25 @@
 Zawartość repozytorium:
 <ol>
   <li><b>skin.arctic.zephyr.2-notoco</b>
-  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się <a href="https://github.com/jurialmunkey/skin.arctic.zephyr.2">tutaj</a>: https://github.com/jurialmunkey/skin.arctic.zephyr.2.<br/><a href="https://github.com/notoco/univ/tree/master/skin.arctic.zephyr.2-notoco">Źródła</a><br/>
+  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się tutaj: https://github.com/jurialmunkey/skin.arctic.zephyr.2.<br/><a href="https://github.com/notoco/univ/tree/master/skin.arctic.zephyr.2-notoco">Źródła</a><br/>
   Skórka najlepiej działa z czcionką arial i ze schematem dark with dark dialog. Skórka nie jest poprawiana pod kątem obsługi myszki. I nie będzie./li> 
   <li><b>skin.aura-notoco</b>
-  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się <a href="https://github.com/jurialmunkey/skin.aura/">tutaj</a>: https://github.com/jurialmunkey/skin.aura/.<br/><a href="https://github.com/notoco/univ/tree/master/skin.aura-notoco">Źródła</a></li> 
+  Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się tutaj: https://github.com/jurialmunkey/skin.aura/.<br/><a href="https://github.com/notoco/univ/tree/master/skin.aura-notoco">Źródła</a></li> 
   <li><b>service.upnext</b>
-  Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał znajduje się <a href="https://github.com/im85288/service.upnext">tutaj</a>: https://github.com/im85288/service.upnext.
+  Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał znajduje się tutaj: https://github.com/im85288/service.upnext.
   <ul>
     <li>wersja z githuba</li>
    </ul>
   </li>
   <li><b>script.audio.profiles</b>
-  Wtyczka umożliwająca zmianę profili audio. Oryginał znajduje się <a href="https://github.com/Regss/script.audio.profiles">tutaj</a>: https://github.com/Regss/script.audio.profiles.<br/>
+  Wtyczka umożliwająca zmianę profili audio. Oryginał znajduje się tutaj: https://github.com/Regss/script.audio.profiles.<br/>
    <ul>
      <li>poprawki <a href="https://github.com/CtrlGy/script.audio.profiles">stąd</a>:https://github.com/CtrlGy/script.audio.profiles</li>
      <li>dodana kompatybilnośc z Kodi19 (python 3)
    </ul>
    </li>
    <li><b>Hyperion Control</b>
-  Dodatek do obsługi hyperiona - co by ręcznie nie instalować. Oryginał znajduje się <a href="https://github.com/hyperion-project/hyperion.control">tutaj</a>:https://github.com/hyperion-project/hyperion.control.
+  Dodatek do obsługi hyperiona - co by ręcznie nie instalować. Oryginał znajduje się tutaj:https://github.com/hyperion-project/hyperion.control.
   </li>
 </ol>
 <hr/>
