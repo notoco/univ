@@ -200,7 +200,7 @@
                         <include>View_WatchedOverlay</include>
                     </control>
                 </focusedlayout>
-                <itemlayout width="1990" height="119.5" condition="Container.Content(episodes)">
+                <itemlayout width="auto" height="119.5" condition="Container.Content(episodes)">
                     <control type="group">
                         <top>0</top>
                         <bottom>15</bottom>
@@ -253,9 +253,8 @@
                         <include>View_WatchedOverlay</include>
                     </control>
                 </itemlayout>
-                <focusedlayout width="1990" height="271.5" condition="Container.Content(episodes)">
+                <focusedlayout width="auto" height="271.5" condition="Container.Content(episodes)">
                     <control type="group">
-
                         <top>0</top>
                         <bottom>15</bottom>
                         <control type="image">
