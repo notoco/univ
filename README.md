@@ -16,11 +16,7 @@ Zawartość repozytorium:
    </ul>
   </li>
   <li><b>script.audio.profiles</b>
-  Wtyczka umożliwająca zmianę profili audio. Oryginał znajduje się tutaj: https://github.com/Regss/script.audio.profiles.<br/>
-   <ul>
-     <li>poprawki <a href="https://github.com/CtrlGy/script.audio.profiles">stąd</a>:https://github.com/CtrlGy/script.audio.profiles</li>
-     <li>dodana kompatybilnośc z Kodi19 (python 3)
-   </ul>
+  Wtyczka przeniesiona do repozytorium notoco: <a href="https://github.com/notoco/repository.notoco">https://github.com/notoco/repository.notoco</a><br/>
    </li>
    <li><b>Hyperion Control</b>
   Dodatek do obsługi hyperiona - co by ręcznie nie instalować. Oryginał znajduje się tutaj:https://github.com/hyperion-project/hyperion.control.
