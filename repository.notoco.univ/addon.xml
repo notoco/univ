@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.notoco.univ" name="Notoco Univ Repo" version="1.3" provider-name="notoco">
+<addon id="repository.notoco.univ" name="Notoco Univ Repo" version="1.4" provider-name="notoco">
 		<extension point="xbmc.addon.repository" name="Notoco Univ Repo">
 			<dir>
 				<info>https://github.com/notoco/univ/raw/master/addons.xml</info>

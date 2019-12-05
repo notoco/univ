@@ -143,7 +143,7 @@ A lot of existing add-ons already integrate with this service out-of-the-box.</d
   </extension>
 </addon>
 
-<addon id="repository.notoco.univ" name="Notoco Univ Repo" version="1.3" provider-name="notoco">
+<addon id="repository.notoco.univ" name="Notoco Univ Repo" version="1.4" provider-name="notoco">
 		<extension point="xbmc.addon.repository" name="Notoco Univ Repo">
 			<dir>
 				<info>https://github.com/notoco/univ/raw/master/addons.xml</info>
