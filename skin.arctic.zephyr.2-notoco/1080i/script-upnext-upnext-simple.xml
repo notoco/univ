@@ -6,6 +6,10 @@
     <controls>
 
         <control type="group">
+            <left>view_pad</left>
+            <right>view_pad</right>
+            <top>view_pad</top>
+            <bottom>view_pad</bottom>
             <control type="image">
                 <height>300</height>
                 <bottom>15</bottom>
