@@ -17,6 +17,7 @@
             <texturenofocus />
             <onclick>Action(close)</onclick>
         </control>
+
         <control type="group">
             <visible>!Window.IsVisible(DialogPlayerProcessInfo.xml)</visible>
             <control type="group">

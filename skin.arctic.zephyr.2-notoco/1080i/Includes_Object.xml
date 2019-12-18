@@ -282,9 +282,9 @@
                 <left>$PARAM[left]</left>
                 <onfocus>SetProperty(SkinHelper.WidgetContainer,$PARAM[id],Home)</onfocus>
                 <onfocus>SetProperty(ListItemHelper.WidgetContainerId,$PARAM[id],Home)</onfocus>
-                <onclick condition="String.StartsWith(ListItem.FolderPath,plugin://plugin.video.themoviedb.helper) + [String.IsEmpty(ListItem.DBID) | [!String.IsEqual(ListItem.DBType,movie) + !String.IsEqual(ListItem.DBType,tvshow)]]">RunScript(plugin.video.themoviedb.helper,add_path=$INFO[ListItem.FolderPath],call_id=1137,delay=0.35,$PARAM[prevent_del])</onclick>
-                <onclick condition="String.StartsWith(ListItem.FolderPath,plugin://plugin.video.themoviedb.helper) + !String.IsEmpty(ListItem.DBID) + String.IsEqual(ListItem.DBType,movie)">RunScript(plugin.video.themoviedb.helper,add_path=$INFO[ListItem.Label,videodb://movies/titles/?xsp=%7B%22order%22%3A%7B%22direction%22%3A%22ascending%22%2C%22ignorefolders%22%3A0%2C%22method%22%3A%22sorttitle%22%7D%2C%22rules%22%3A%7B%22and%22%3A%5B%7B%22field%22%3A%22title%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%22,%22%5D%7D%5D%7D%2C%22type%22%3A%22movies%22%7D],call_id=1137,delay=0.35,$PARAM[prevent_del])</onclick>
-                <onclick condition="String.StartsWith(ListItem.FolderPath,plugin://plugin.video.themoviedb.helper) + !String.IsEmpty(ListItem.DBID) + String.IsEqual(ListItem.DBType,tvshow)">RunScript(plugin.video.themoviedb.helper,add_path=$INFO[ListItem.Label,videodb://tvshows/titles/?xsp=%7B%22order%22%3A%7B%22direction%22%3A%22ascending%22%2C%22ignorefolders%22%3A0%2C%22method%22%3A%22sorttitle%22%7D%2C%22rules%22%3A%7B%22and%22%3A%5B%7B%22field%22%3A%22title%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%22,%22%5D%7D%5D%7D%2C%22type%22%3A%22tvshows%22%7D],call_id=1137,delay=0.35,$PARAM[prevent_del])</onclick>
+                <onclick condition="[Window.IsVisible(DialogVideoInfo.xml) | Window.IsVisible(1136)] + String.StartsWith(ListItem.FolderPath,plugin://plugin.video.themoviedb.helper) + [String.IsEmpty(ListItem.DBID) | [!String.IsEqual(ListItem.DBType,movie) + !String.IsEqual(ListItem.DBType,tvshow)]]">RunScript(plugin.video.themoviedb.helper,add_path=$INFO[ListItem.FolderPath],call_id=1137,delay=0.35,$PARAM[prevent_del])</onclick>
+                <onclick condition="[Window.IsVisible(DialogVideoInfo.xml) | Window.IsVisible(1136)] + String.StartsWith(ListItem.FolderPath,plugin://plugin.video.themoviedb.helper) + !String.IsEmpty(ListItem.DBID) + String.IsEqual(ListItem.DBType,movie)">RunScript(plugin.video.themoviedb.helper,add_path=$INFO[ListItem.Label,videodb://movies/titles/?xsp=%7B%22order%22%3A%7B%22direction%22%3A%22ascending%22%2C%22ignorefolders%22%3A0%2C%22method%22%3A%22sorttitle%22%7D%2C%22rules%22%3A%7B%22and%22%3A%5B%7B%22field%22%3A%22title%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%22,%22%5D%7D%5D%7D%2C%22type%22%3A%22movies%22%7D],call_id=1137,delay=0.35,$PARAM[prevent_del])</onclick>
+                <onclick condition="[Window.IsVisible(DialogVideoInfo.xml) | Window.IsVisible(1136)] + String.StartsWith(ListItem.FolderPath,plugin://plugin.video.themoviedb.helper) + !String.IsEmpty(ListItem.DBID) + String.IsEqual(ListItem.DBType,tvshow)">RunScript(plugin.video.themoviedb.helper,add_path=$INFO[ListItem.Label,videodb://tvshows/titles/?xsp=%7B%22order%22%3A%7B%22direction%22%3A%22ascending%22%2C%22ignorefolders%22%3A0%2C%22method%22%3A%22sorttitle%22%7D%2C%22rules%22%3A%7B%22and%22%3A%5B%7B%22field%22%3A%22title%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%5B%22,%22%5D%7D%5D%7D%2C%22type%22%3A%22tvshows%22%7D],call_id=1137,delay=0.35,$PARAM[prevent_del])</onclick>
                 <preloaditems>2</preloaditems>
                 <orientation>horizontal</orientation>
 
@@ -647,50 +647,6 @@
             <top>5</top>
             <height>24</height>
             <width>24</width>
-            <texture colordiffuse="main_fg_90">flags/studio.png</texture>
-            <visible>!String.IsEmpty(ListItem.Studio)</visible>
-            <visible>!Skin.HasSetting(Tags.DisableStudios)</visible>
-        </control>
-        <control type="label">
-            <left>-20</left>
-            <top>0</top>
-            <align>left</align>
-            <aligny>center</aligny>
-            <width max="350">auto</width>
-            <font>font_mini</font>
-            <textcolor>main_fg_70</textcolor>
-            <label>$INFO[ListItem.Studio]</label>
-            <height>32</height>
-            <visible>!String.IsEmpty(ListItem.Studio)</visible>
-            <visible>!Skin.HasSetting(Tags.DisableStudios)</visible>
-        </control>
-        <control type="image">
-            <top>5</top>
-            <height>24</height>
-            <width>24</width>
-            <texture colordiffuse="main_fg_90">flags/lang.png</texture>
-            <visible>!String.IsEmpty(ListItem.Country)</visible>
-            <visible>!Skin.HasSetting(Tags.DisableCountries)</visible>
-        </control>
-        <control type="label">
-            <left>-20</left>
-            <top>0</top>
-            <align>left</align>
-            <aligny>center</aligny>
-            <width>auto</width>
-            <font>font_mini</font>
-            <textcolor>main_fg_70</textcolor>
-            <label max="350">$INFO[ListItem.Country]</label>
-            <height>32</height>
-            <visible>!String.IsEmpty(ListItem.Country)</visible>
-            <visible>!Skin.HasSetting(Tags.DisableCountries)</visible>
-        </control>
-        
-
-        <control type="image">
-            <top>5</top>
-            <height>24</height>
-            <width>24</width>
             <texture colordiffuse="main_fg_90">flags/video.png</texture>
             <visible>Skin.HasSetting(DisableCodecs)</visible>
             <visible>!String.IsEmpty(ListItem.VideoCodec)</visible>
@@ -773,6 +729,48 @@
             <height>32</height>
             <visible>!String.IsEmpty(ListItem.Property(SubtitleLanguage.1))</visible>
             <visible>!Skin.HasSetting(Tags.DisableLanguages)</visible>
+        </control>
+        <control type="image">
+            <top>5</top>
+            <height>24</height>
+            <width>24</width>
+            <texture colordiffuse="main_fg_90">flags/lang.png</texture>
+            <visible>!String.IsEmpty(ListItem.Country)</visible>
+            <visible>!Skin.HasSetting(Tags.DisableCountries)</visible>
+        </control>
+        <control type="label">
+            <left>-20</left>
+            <top>0</top>
+            <align>left</align>
+            <aligny>center</aligny>
+            <width>auto</width>
+            <font>font_mini</font>
+            <textcolor>main_fg_70</textcolor>
+            <label>$INFO[ListItem.Country]</label>
+            <height>32</height>
+            <visible>!String.IsEmpty(ListItem.Country)</visible>
+            <visible>!Skin.HasSetting(Tags.DisableCountries)</visible>
+        </control>
+        <control type="image">
+            <top>5</top>
+            <height>24</height>
+            <width>24</width>
+            <texture colordiffuse="main_fg_90">flags/studio.png</texture>
+            <visible>!String.IsEmpty(ListItem.Studio)</visible>
+            <visible>!Skin.HasSetting(Tags.DisableStudios)</visible>
+        </control>
+        <control type="label">
+            <left>-20</left>
+            <top>0</top>
+            <align>left</align>
+            <aligny>center</aligny>
+            <width>auto</width>
+            <font>font_mini</font>
+            <textcolor>main_fg_70</textcolor>
+            <label>$INFO[ListItem.Studio]</label>
+            <height>32</height>
+            <visible>!String.IsEmpty(ListItem.Studio)</visible>
+            <visible>!Skin.HasSetting(Tags.DisableStudios)</visible>
         </control>
     </include>
 
