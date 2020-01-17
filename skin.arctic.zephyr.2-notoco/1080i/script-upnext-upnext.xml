@@ -37,7 +37,7 @@
 
             <control type="group" description="Main Info">
                 <left>231</left>
-                <width>1131.5</width>
+                <width>1231.5</width>
                 <height>227</height>
                 <bottom>0</bottom>
                 <control type="image">
@@ -114,7 +114,7 @@
             </control>
 			 <control type="group" description="Prawy">
                 <right>0</right>
-                <width>227</width>
+                <width>293</width>
                 <height>227</height>
                 <bottom>0</bottom>
                 <control type="image">
@@ -122,30 +122,27 @@
                     <animation effect="fade" end="100" condition="true">Conditional</animation>
                 </control>
                 <control type="group">
-                        <visible>!Window.IsVisible(extendedprogressdialog)</visible>
-                        <animation effect="fade" time="150">VisibleChange</animation>
-                        <control type="label">
-                            <font>font_clock</font>
-                            <shadowcolor>text_shadow</shadowcolor>
-                            <top>0</top>
-                            <right>20</right>
-                            <height>200</height>
-                            <width>600</width>
-                            <align>right</align>
-                            <label>$INFO[System.Time]</label>
-                        </control>
-                        <control type="label">
-                            <right>24</right>
-                            <top>74</top>
-                            <width>800</width>
-                            <height>100</height>
-                            <align>right</align>
-                            <itemgap>5</itemgap>
-                            <orientation>horizontal</orientation>
-                            <usecontrolcoords>true</usecontrolcoords>
-                            <label>$ADDON[service.upnext 30009]</label>
-                            <shadowcolor>text_shadow</shadowcolor>
-                        </control>
+                    <left>25</left>
+                    <top>30</top>
+                    <visible>!Window.IsVisible(extendedprogressdialog)</visible>
+                    <animation effect="fade" time="150">VisibleChange</animation>
+                    <control type="label">
+                        <font>font_topbar</font>
+                        <height>30</height>
+                        <right>20</right>
+                        <width>393</width>
+                        <align>right</align>
+                        <label>$INFO[System.Time]</label>
+                    </control>
+                    <control type="label">
+                        <right>24</right>
+                        <top>10</top>
+                        <width>800</width>
+                        <height>100</height>
+                        <align>right</align>
+                        <itemgap>5</itemgap>
+                        <label>$ADDON[service.upnext 30009]</label>
+                    </control>
                 </control>
             </control>
         </control>
