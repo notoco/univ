@@ -1,48 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.aura-notoco" name="Aura-notoco" version="2019.10.31.1" provider-name="jurialmunkey mod by notoco">
-    <requires>
-        <import addon="xbmc.gui" version="5.14.0"/>
-        <import addon="script.skinshortcuts" version="0.4.0"/>
-        <import addon="script.extendedinfo" version="3.0.0"/>
-        <import addon="script.image.resource.select" version="0.0.5"/>
-        <import addon="resource.images.studios.white" version="0.0.10"/>
-        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6"/>
-    </requires>
-    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
-        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Minimalistic. Customisable. Multiple Widgets.</summary>
-        <description lang="en_GB">Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible. Mod by notoco</description>
-        <platform>all</platform>
-        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
-        <forum/>
-        <source/>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="repository.notoco.univ" name="Notoco Univ Repo" version="1.4" provider-name="notoco">
-		<extension point="xbmc.addon.repository" name="Notoco Univ Repo">
-			<dir>
-				<info>https://github.com/notoco/univ/raw/master/addons.xml</info>
-				<checksum>https://github.com/notoco/univ/raw/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://github.com/notoco/univ/raw/master/zip</datadir>
-			</dir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Notoco Univ Repo</summary>
-			<description>Prywatne repozytorium notoco</description>
-			<platform>all</platform>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-		</extension>
-	</addon>
-
 <addon id="script.service.hyperion-control" name="Hyperion Control" version="1.0.1" provider-name="hyperion-project, brindosch">
   <requires>
 	<import addon="xbmc.addon"  version="17.0.0"/>
@@ -83,7 +40,25 @@
   </extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2-notoco" name="Arctic Zephyr 2 Notoco" provider-name="jurialmunkey+notoco" version="2020.01.06.0">
+<addon id="repository.notoco.univ" name="Notoco Univ Repo" version="1.4" provider-name="notoco">
+		<extension point="xbmc.addon.repository" name="Notoco Univ Repo">
+			<dir>
+				<info>https://github.com/notoco/univ/raw/master/addons.xml</info>
+				<checksum>https://github.com/notoco/univ/raw/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/notoco/univ/raw/master/zip</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Notoco Univ Repo</summary>
+			<description>Prywatne repozytorium notoco</description>
+			<platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
+
+<addon id="skin.arctic.zephyr.2-notoco" name="Arctic Zephyr 2 Notoco" provider-name="jurialmunkey+notoco" version="2020.01.17.0">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -130,6 +105,31 @@
             <screenshot>resources/screenshot-04.jpg</screenshot>
             <screenshot>resources/screenshot-05.jpg</screenshot>
             <screenshot>resources/screenshot-06.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="skin.aura-notoco" name="Aura-notoco" version="2019.10.31.1" provider-name="jurialmunkey mod by notoco">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0"/>
+        <import addon="script.skinshortcuts" version="0.4.0"/>
+        <import addon="script.extendedinfo" version="3.0.0"/>
+        <import addon="script.image.resource.select" version="0.0.5"/>
+        <import addon="resource.images.studios.white" version="0.0.10"/>
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6"/>
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Minimalistic. Customisable. Multiple Widgets.</summary>
+        <description lang="en_GB">Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible. Mod by notoco</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum/>
+        <source/>
+        <assets>
+            <icon>icon.png</icon>
         </assets>
     </extension>
 </addon>

@@ -112,7 +112,7 @@
                     </control>
                 </control>
             </control>
-<!--        <control type="group" description="Prawy">
+			 <control type="group" description="Prawy">
                 <right>0</right>
                 <width>227</width>
                 <height>227</height>
@@ -147,7 +147,7 @@
                             <shadowcolor>text_shadow</shadowcolor>
                         </control>
                 </control>
-            </control> -->
+            </control>
         </control>
     </controls>
 </window>
