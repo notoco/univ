@@ -40,6 +40,29 @@
   </extension>
 </addon>
 
+<addon id="metadata.filmweb.pl"
+        name="Filmweb"
+        version="2.3.7"
+        provider-name="Regss,skupi">
+    <requires>
+        <import addon="xbmc.metadata" version="2.1.0"/>
+        <import addon="metadata.common.themoviedb.org" version="3.1.1"/>
+        <import addon="plugin.video.youtube" version="2.9.1" optional="true"/>
+    </requires>
+    <extension point="xbmc.metadata.scraper.movies"
+        language="pl"
+        library="filmweb.xml"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Filmweb Movie Scraper</summary>
+        <summary lang="pl">Scraper filmowy Filmweb.pl</summary>
+        <description lang="en">Download Movie information from www.filmweb.pl</description>
+        <description lang="pl">Pobiera informacje o filmie ze strony www.filmweb.pl</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <source>https://github.com/skupi20/metadata.filmweb.pl</source>
+    </extension>
+</addon>
+
 <addon id="repository.notoco.univ" name="Notoco Univ Repo" version="1.4" provider-name="notoco">
 		<extension point="xbmc.addon.repository" name="Notoco Univ Repo">
 			<dir>
@@ -58,7 +81,7 @@
 		</extension>
 	</addon>
 
-<addon id="skin.arctic.zephyr.2-notoco" name="Arctic Zephyr 2 Notoco" provider-name="jurialmunkey+notoco" version="2020.01.22.0">
+<addon id="skin.arctic.zephyr.2-notoco" name="Arctic Zephyr 2 Notoco" provider-name="jurialmunkey+notoco" version="2020.01.24.0">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />

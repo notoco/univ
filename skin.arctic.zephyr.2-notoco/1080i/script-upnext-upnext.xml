@@ -113,6 +113,7 @@
                 </control>
             </control>
 			 <control type="group" description="Prawy">
+                <visible>!String.IsEmpty(Window.Property(endtime))</visible>
                 <right>0</right>
                 <width>293</width>
                 <height>227</height>
