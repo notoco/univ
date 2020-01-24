@@ -9,15 +9,9 @@ Zawartość repozytorium:
   Skórka najlepiej działa z czcionką arial i ze schematem dark with dark dialog. Skórka nie jest poprawiana pod kątem obsługi myszki. I nie będzie.
   <li><b>skin.aura-notoco</b>
   Skórka przerabiana wyłącznie na własny użytek. Oryginalna skórka znajduje się tutaj: https://github.com/jurialmunkey/skin.aura/.<br/><a href="https://github.com/notoco/univ/tree/master/skin.aura-notoco">Źródła</a></li> 
-  <li><b>service.upnext</b>
-  Dodatek ułatwiający przeglądanie seriali na np. Netflixie. Oryginał znajduje się tutaj: https://github.com/im85288/service.upnext.
-  <ul>
-    <li>wersja z githuba</li>
-   </ul>
+  <li><b>metadata.filmweb.pl</b>
+  Scraper do filmweb - oryyginał znajduje się tutaj: https://github.com/skupi20/metadata.filmweb.pl.
   </li>
-  <li><b>script.audio.profiles</b>
-  Wtyczka przeniesiona do repozytorium notoco: <a href="https://github.com/notoco/repository.notoco">https://github.com/notoco/repository.notoco</a><br/>
-   </li>
    <li><b>Hyperion Control</b>
   Dodatek do obsługi hyperiona - co by ręcznie nie instalować. Oryginał znajduje się tutaj:https://github.com/hyperion-project/hyperion.control.
   </li>
