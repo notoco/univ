@@ -107,23 +107,10 @@
                     <aspectratio align="right" aligny="bottom">keep</aspectratio>
                     <visible>[!String.IsEmpty(ListItem.Art(clearlogo)) | !String.IsEmpty(ListItem.Art(tvshow.clearlogo))] + [[String.IsEmpty(ListItem.Art(landscape)) + String.IsEmpty(ListItem.Art(tvshow.landscape))] | [[!String.IsEmpty(ListItem.Art(tvshow.landscape)) | !String.IsEmpty(ListItem.Art(landscape))] + !Skin.HasSetting(LandscapeArt)] | [!String.IsEmpty(ListItem.Art(thumb)) + [String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,video)] + String.IsEmpty(ListItem.Property(airday))]]</visible>
                 </control>
-                <control type="grouplist">
-                    <top>451.435</top>
-                    <left>0</left>
-                    <right>30</right>
-                    <orientation>vertical</orientation>
-                    <usecontrolcoords>true</usecontrolcoords>
-                    <itemgap>0</itemgap>
-                    <control type="label">
-                        <font>font_title_small</font>
-                        <textcolor>main_fg_100</textcolor>
-                        <align>left</align>
-                        <aligny>top</aligny>
-                        <height>50</height>
-                        <label>$PARAM[title]</label>
-                    </control>
-                    <include condition="$PARAM[seasons]" content="Object_Info_Line">
-                        <param name="nextaired" value="false" />
+                <control type="group">
+                    <include content="View_540_Platform_Icon">
+                        <param name="top" value="440" />
+                        <param name="right" value="30" />
                     </include>
                     <include condition="!$PARAM[seasons]" content="Object_Info_Line">
                         <param name="nextaired" value="false" />
