@@ -591,7 +591,7 @@
             </include>
         </control>
     </include>
-    
+
     <include name="View_515_Wall_Landscape_Small">
         <control type="group">
             <include>View_Group</include>
