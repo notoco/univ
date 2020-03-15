@@ -183,6 +183,7 @@
                                 </include>
                             </control>
                         </control>
+                    </control>
                 </control>
             </control>
         </definition>
@@ -636,7 +637,7 @@
                     <include>Object_DefaultIcon</include>
                 </control>
             </control>
-            <control type="wraplist" id="523" >
+            <control type="wraplist" id="523">
                 <viewtype label="$LOCALIZE[31231]">bigwrap</viewtype>
                 <include content="View_Forced">
                     <param name="string" value="$LOCALIZE[31231]" />
