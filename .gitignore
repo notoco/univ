@@ -5,6 +5,8 @@ skin.lyrebird/
 !zip/skin.lyrebird/
 skin.aura-notoco/1080i/script-skinshortcuts-includes.xml
 skin.arctic.zephyr.2-0.9.55-alpha1/
+skin.arctic.zephyr.2.notoco/1080i/script-skinshortcuts-includes.xml
+skin.arctic.zephyr.2-notoco/1080i/script-skinshortcuts-includes.xml
 *.xcf
 *~
 Thumbs.db
