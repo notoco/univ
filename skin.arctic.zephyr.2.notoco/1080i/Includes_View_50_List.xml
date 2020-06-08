@@ -212,7 +212,7 @@
                         <control type="group">
                             <width>187.14</width>
                             <control type="image">
- 521                               <bordersize>15</bordersize>
+                                <bordersize>15</bordersize>
                                 <aspectratio scalediffuse="false" align="left">scale</aspectratio>
                                 <texture background="true" diffuse="diffuse/banner-side.png">$VAR[Image_Landscape]</texture>
                                 <visible>!ListItem.IsParentFolder</visible>
@@ -657,7 +657,7 @@
                     <width>32</width>
                     <height>32</height>
                     <texture colordiffuse="dialog_fg_100">$VAR[Image_Overlay_List]</texture>
-                </control>521
+                </control>
                 <control type="label">
                     <animation effect="slide" end="-52" condition="String.IsEmpty(ListItem.Overlay) + !Control.IsVisible(522) + !Control.IsVisible(524)">Conditional</animation>
                     <left>52</left>
