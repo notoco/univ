@@ -247,7 +247,7 @@
                                 <textcolor>main_fg_70</textcolor>
                                 <aligny>top</aligny>
                                 <align>left</align>
-                                <label>$VAR[Label_List_Right]</label>
+                                <label>$VAR[Label_Premiered]$VAR[Label_List_Right,  •  ,]</label>
                             </control>
                         </control>
                         <include>View_WatchedOverlay</include>
@@ -308,7 +308,7 @@
                                 <bottom>30</bottom>
                                 <aligny>center</aligny>
                                 <align>right</align>
-                                <label>$VAR[Label_List_Right]</label>
+                                <label>$VAR[Label_Premiered]$VAR[Label_List_Right,  •  ,]</label>
                             </control>
                         </control>
                         <include>View_WatchedOverlay</include>
@@ -377,32 +377,40 @@
                     <aspectratio align="right" aligny="bottom">keep</aspectratio>
                     <visible>[!String.IsEmpty(ListItem.Art(clearlogo)) | !String.IsEmpty(ListItem.Art(tvshow.clearlogo))] + [[String.IsEmpty(ListItem.Art(landscape)) + String.IsEmpty(ListItem.Art(tvshow.landscape))] | [[!String.IsEmpty(ListItem.Art(tvshow.landscape)) | !String.IsEmpty(ListItem.Art(landscape))] + !Skin.HasSetting(LandscapeArt)] | [!String.IsEmpty(ListItem.Art(thumb)) + [String.IsEqual(ListItem.DBType,episode) | String.IsEqual(ListItem.DBType,video)] + String.IsEmpty(ListItem.Property(airday))]]</visible>
                 </control>
-                <control type="grouplist">
-                    <top>377</top>
-                    <left>0</left>
-                    <right>30</right>
-                    <orientation>vertical</orientation>
-                    <usecontrolcoords>true</usecontrolcoords>
-                    <itemgap>0</itemgap>
-                    <control type="label">
-                        <font>font_title_small</font>
-                        <textcolor>main_fg_100</textcolor>
-                        <align>left</align>
-                        <aligny>top</aligny>
-                        <height>50</height>
-                        <label>$PARAM[title]</label>
-                    </control>
-                    <include content="Object_Info_Line">
-                        <param name="nextaired" value="false" />
+                <control type="group">
+                    <include content="View_540_Platform_Icon">
+                        <param name="top" value="372" />
+                        <param name="right" value="30" />
                     </include>
-                    <control type="textbox">
-                        <top>25</top>
-                        <font>font_plotbox</font>
-                        <textcolor>main_fg_70</textcolor>
-                        <align>left</align>
-                        <aligny>top</aligny>
-                        <height>320</height>
-                        <label>$PARAM[plot]</label>
+                    <control type="grouplist">
+                        <top>377</top>
+                        <left>0</left>
+                        <right>30</right>
+                        <orientation>vertical</orientation>
+                        <usecontrolcoords>true</usecontrolcoords>
+                        <itemgap>0</itemgap>
+                        <control type="label">
+                            <font>font_title_small</font>
+                            <textcolor>main_fg_100</textcolor>
+                            <align>left</align>
+                            <aligny>top</aligny>
+                            <height>50</height>
+                            <width>500</width>
+                            <label>$PARAM[title]</label>
+                        </control>
+                        <include condition="!$EXP[Exp_IsPluginAdvancedLauncher]" content="Object_Info_Line">
+                            <param name="nextaired" value="false" />
+                        </include>
+                        <include condition="$EXP[Exp_IsPluginAdvancedLauncher]">View_540_ROM_Details</include>
+                        <control type="textbox">
+                            <top>25</top>
+                            <font>font_plotbox</font>
+                            <textcolor>main_fg_70</textcolor>
+                            <align>left</align>
+                            <aligny>top</aligny>
+                            <height>320</height>
+                            <label>$PARAM[plot]</label>
+                        </control>
                     </control>
                 </control>
             </control>
