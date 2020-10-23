@@ -670,7 +670,7 @@
                     <align>right</align>
                     <textcolor>dialog_fg_100</textcolor>
                     <selectedcolor>$PARAM[fgcolor]_100</selectedcolor>
-                    <label>$INFO[ListItem.Label2]</label>
+                    <label>$VAR[Label_Duration]</label>
                 </control>
             </control>
         </definition>
