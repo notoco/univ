@@ -277,8 +277,7 @@
     </variable>
 
     <variable name="Label_Duration">
-        <value condition="!String.IsEmpty(ListItem.Duration) + Integer.IsGreater(ListItem.Duration(h),0)">$INFO[ListItem.Duration(h),, $LOCALIZE[31036] ]$INFO[ListItem.Duration(mm),, $LOCALIZE[31020]]</value>
-        <value condition="!String.IsEmpty(ListItem.Duration)">$INFO[ListItem.Duration(mins),, $LOCALIZE[31020]]</value>
+        <value>$INFO[ListItem.Duration]</value>
         <value condition="String.IsEmpty(ListItem.Duration)"></value>
 
     </variable>
