@@ -119,7 +119,7 @@ msgstr "Wyrównane do lewej typów widoku"
 #: /1080i/script-globalsearch-main.xml
 msgctxt "#31020"
 msgid "mins"
-msgstr "min"
+msgstr "min."
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31021"
@@ -199,7 +199,7 @@ msgstr "Otwórz podmenu"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31036"
 msgid "hr"
-msgstr "godz"
+msgstr "g."
 
 #: /1080i/DialogSubtitles.xml
 msgctxt "#31037"

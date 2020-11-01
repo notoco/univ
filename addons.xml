@@ -81,7 +81,7 @@
 		</extension>
 	</addon>
 
-<addon id="skin.arctic.zephyr.2.notoco" name="Arctic Zephyr 2 Notoco" provider-name="jurialmunkey+notoco" version="2020.10.23.0">
+<addon id="skin.arctic.zephyr.2.notoco" name="Arctic Zephyr 2 Notoco" provider-name="jurialmunkey+notoco" version="2020.11.01.0">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
