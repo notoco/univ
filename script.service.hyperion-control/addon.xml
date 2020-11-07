@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="script.service.hyperion-control" name="Hyperion Control" version="1.0.1.1" provider-name="hyperion-project, brindosch">
+<addon id="script.service.hyperion-control" name="Hyperion Control" version="1.0.1" provider-name="hyperion-project, brindosch">
   <requires>
 	<import addon="xbmc.addon"  version="17.0.0"/>
     <import addon="xbmc.python" version="2.25.0"/>
