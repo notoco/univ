@@ -41,7 +41,6 @@
                                 <itemgap>0</itemgap>
                                 <include>Object_Info_Title</include>
                                 <include>Object_Info_Line</include>
-                                <include>Object_Info_Ratings</include>
                                 <include>Object_Info_Plot</include>
                                 <include condition="!Skin.HasSetting(EnableLanguages)">Object_Info_Languages</include>
                                 <include condition="!Window.IsVisible(1140)">Object_Info_Details</include>

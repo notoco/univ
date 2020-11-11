@@ -556,7 +556,7 @@
                 </control>
                 <control type="grouplist">
                     <top>-150</top>
-                    <left>-70</left>
+                    <left>0</left>
                     <orientation>horizontal</orientation>
                     <align>left</align>
                     <itemgap>20</itemgap>
