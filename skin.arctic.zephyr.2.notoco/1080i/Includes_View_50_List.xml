@@ -469,7 +469,7 @@
                         <textcolor>main_fg_70</textcolor>
                         <align>left</align>
                         <aligny>top</aligny>
-                        <height>160</height>
+                        <height>240</height>
                         <label>$VAR[Label_Plot]</label>
                     </control>
                     <control type="textbox">
