@@ -38,7 +38,7 @@
             <bottom>25</bottom>
             <aligny>center</aligny>
             <align>right</align>
-            <label>$INFO[ListItem.Label2]</label>
+            <label>$VAR[Label_Duration]</label>
         </control>
     </include>
 
