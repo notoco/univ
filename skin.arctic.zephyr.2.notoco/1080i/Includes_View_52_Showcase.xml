@@ -287,7 +287,10 @@
                 <param name="id" value="52" />
             </include>
             <include content="View_52_Showcase_Plot" condition="!Skin.HasSetting(UseAuraShowcase)">
-                <param name="id" value="52" />
+                <param name="id" value="520" />
+                <param name="ratings" value="false" />
+                <param name="plotheight" value="260" />
+                <param name="bottom" value="20" />
             </include>
 
             <include content="View_51_Wall_Container" condition="Skin.HasSetting(UseAuraShowcase)">
