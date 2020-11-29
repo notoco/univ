@@ -139,18 +139,17 @@ msgstr "Pełny ekran"
 #: /1080i/SkinSettings.xml
 msgctxt "#31024"
 msgid "Divider style"
-msgstr ""
+msgstr "Styl separatora"
 
 #: /1080i/Includes_Labels.xml
-#, fuzzy
 msgctxt "#31025"
 msgid "Items"
-msgstr "pozycji"
+msgstr "Pozycje"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31026"
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31027"
@@ -163,10 +162,9 @@ msgid "Reset skin settings to defaults (WARNING: This will reset your home menu 
 msgstr "Zresetuj ustawienia skóry do wartości domyślnych (OSTRZEŻENIE: spowoduje to zresetowanie menu głównego do domyślnych ustawień skóry)"
 
 #: /1080i/SkinSettings.xml
-#, fuzzy
 msgctxt "#31029"
 msgid "Profile picture"
-msgstr "Źródła obrazu"
+msgstr "Zdjęcie profilowe"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31030"
@@ -174,10 +172,9 @@ msgid "Furniture"
 msgstr ""
 
 #: /1080i/Includes_Items.xml
-#, fuzzy
 msgctxt "#31031"
 msgid "Previous page"
-msgstr "Strona"
+msgstr "Poprzednia strona"
 
 #: /1080i/Includes_Weather.xml
 msgctxt "#31032"
@@ -213,22 +210,19 @@ msgid "Download subtitles"
 msgstr "Pobierz napisy"
 
 #: /1080i/Includes_Labels.xml
-#, fuzzy
 msgctxt "#31038"
 msgid "Hub widget"
-msgstr "Wiget hub pomenu"
+msgstr "Widget hub"
 
 #: /1080i/script-skinshortcuts.xml
-#, fuzzy
 msgctxt "#31039"
 msgid "Fullscreen widget"
-msgstr "Pełny ekran"
+msgstr "Widget pełnego ekranu"
 
 #: /1080i/SkinSettings.xml
-#, fuzzy
 msgctxt "#31040"
 msgid "Menu and logo"
-msgstr "Menu kontekstowe"
+msgstr "Menu i logo"
 
 #: /1080i/SkinSettings.xml
 #, fuzzy
@@ -239,25 +233,22 @@ msgstr "Flagi kodeków"
 #: /1080i/SkinSettings.xml
 msgctxt "#31042"
 msgid "Invert colours"
-msgstr ""
+msgstr "Odwróć kolory"
 
 #: /1080i/script-skinshortcuts.xml
-#, fuzzy
 msgctxt "#31043"
 msgid "Customise widgets"
-msgstr "Widgety"
+msgstr "Dostosuj widgety"
 
 #: /1080i/SkinSettings.xml
-#, fuzzy
 msgctxt "#31044"
 msgid "Clock / Weather"
-msgstr "Zegar i pogoda"
+msgstr "Zegar / pogoda"
 
 #: /shortcuts/overrides.xml
-#, fuzzy
 msgctxt "#31045"
 msgid "Trending lists"
-msgstr "Własne listy"
+msgstr "Popularne listy"
 
 #: /shortcuts/overrides.xml
 #, fuzzy
@@ -269,7 +260,7 @@ msgstr "Następny"
 #, fuzzy
 msgctxt "#31047"
 msgid "Next aired (Trakt)"
-msgstr "Następny odcinek"
+msgstr "Trakt"
 
 #: /shortcuts/overrides.xml
 #, fuzzy
@@ -278,16 +269,14 @@ msgid "Next aired (library)"
 msgstr "Lokalizacja biblioteki"
 
 #: /1080i/script-skinshortcuts.xml
-#, fuzzy
 msgctxt "#31049"
 msgid "Customise"
-msgstr "Ta kategoria zawiera ustawienia umożliwiające dostosowanie wyświetlania w PVR."
+msgstr "Dostosuj"
 
 #: /1080i/script-skinshortcuts.xml
-#, fuzzy
 msgctxt "#31050"
 msgid "Default search items"
-msgstr "Podmenu Przedmioty"
+msgstr "Domyślne pozycje wyszukiwania"
 
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31051"
@@ -301,15 +290,14 @@ msgid "By director"
 msgstr "Według reżysera"
 
 #: /1080i/script-skinshortcuts.xml
-#, fuzzy
 msgctxt "#31053"
 msgid "Choose hub widget"
-msgstr "Wybierz widget"
+msgstr "Wybierz widget huba"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31054"
 msgid "Hide channel name if icon is available"
-msgstr ""
+msgstr "Ukryj nazwy kanałów gdy dostępne są ikony"
 
 #: /1080i/DialogVideoInfo.xml
 #, fuzzy
@@ -328,10 +316,9 @@ msgid "Films in the"
 msgstr "Filmy w"
 
 #: /1080i/script-skinshortcuts.xml
-#, fuzzy
 msgctxt "#31058"
 msgid "Customise hub widget"
-msgstr "Wiget hub pomenu"
+msgstr "Dostosuj widget huba"
 
 #: /1080i/DialogContextMenu.xml
 #, fuzzy
@@ -343,39 +330,37 @@ msgstr "Menu kontekstowe"
 #, fuzzy
 msgctxt "#31060"
 msgid "Menu orientation"
-msgstr "Menu kontekstowe"
+msgstr "Menu i logo"
 
 #: /shortcuts/template.xml
 msgctxt "#31061"
 msgid "Show more"
-msgstr ""
+msgstr "Pokaż więcej"
 
 #: /shortcuts/template.xml
 msgctxt "#31062"
 msgid "Browse more items in this list"
-msgstr ""
+msgstr "Przeglądaj więcej pozycji na liście"
 
 #: /1080i/SkinSettings.xml
-#, fuzzy
 msgctxt "#31063"
 msgid "Background style"
-msgstr "Tła"
+msgstr "Styl tła"
 
 #: /1080i/Includes_Info.xml
 msgctxt "#31064"
 msgid "Manage"
-msgstr ""
+msgstr "Zarządzaj"
 
 #: /1080i/Includes_Info.xml
 msgctxt "#31065"
 msgid "Watchlist"
-msgstr ""
+msgstr "Do obejrzenia"
 
 #: /1080i/script-skinshortcuts.xml
-#, fuzzy
 msgctxt "#31066"
 msgid "Choose fullscreen widget"
-msgstr "Wybierz widget"
+msgstr "Wybierz widget pełnego ekranu"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31067"
@@ -388,22 +373,19 @@ msgid "Cloud cover"
 msgstr "Zachmurzenie"
 
 #: /1080i/Includes_Items.xml
-#, fuzzy
 msgctxt "#31069"
 msgid "From studio"
-msgstr "z"
+msgstr "Ze studia"
 
 #: /1080i/Includes_Items.xml
-#, fuzzy
 msgctxt "#31070"
 msgid "In genre"
-msgstr "Zamień gatunek na czasy programu"
+msgstr "W gatunku"
 
 #: /1080i/Includes_Items.xml
-#, fuzzy
 msgctxt "#31071"
 msgid "From year"
-msgstr "z"
+msgstr "Z roku"
 
 #: /1080i/DialogButtonMenu.xml
 #, fuzzy
@@ -412,10 +394,9 @@ msgid "Power menu"
 msgstr "Menu zasilania"
 
 #: /1080i/Includes_Items.xml
-#, fuzzy
 msgctxt "#31073"
 msgid "From"
-msgstr "z"
+msgstr "Z"
 
 #: /1080i/Includes_Items.xml
 #, fuzzy
@@ -426,7 +407,7 @@ msgstr "Występują członkowie obsady"
 #: /1080i/Includes_Items.xml
 msgctxt "#31075"
 msgid "Keywords for"
-msgstr ""
+msgstr "Słowa kluczowe dla"
 
 #: /1080i/Includes_Items.xml
 #, fuzzy
@@ -438,13 +419,13 @@ msgstr "Własne listy"
 #, fuzzy
 msgctxt "#31077"
 msgid "Lists containing"
-msgstr "Własne listy"
+msgstr "Popularne listy"
 
 #: /1080i/Includes_Home.xml
 #, fuzzy
 msgctxt "#31078"
 msgid "More information"
-msgstr "Nakładki informacyjne"
+msgstr "Przeglądaj więcej pozycji na liście"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31079"
@@ -471,7 +452,7 @@ msgstr "Wskaźniki oglądania"
 #, fuzzy
 msgctxt "#31083"
 msgid "Hide all indicators"
-msgstr "Wskaźniki oglądania"
+msgstr "Ukryj wszystkie oceny"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31084"
@@ -508,7 +489,7 @@ msgstr ""
 #, fuzzy
 msgctxt "#31090"
 msgid "Customise info dialog buttons"
-msgstr "Wstrzymaj podczas otwierania okna dialogowego z informacjami"
+msgstr "Wybierz listy dialogowe informacji"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31091"
@@ -621,7 +602,7 @@ msgstr "Podmenu"
 #, fuzzy
 msgctxt "#31113"
 msgid "Fullscreen widget path"
-msgstr "Widget"
+msgstr "Widget pełnego ekranu"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31114"
@@ -648,7 +629,7 @@ msgstr "10 sekund"
 #, fuzzy
 msgctxt "#31118"
 msgid "Artist slideshow"
-msgstr "Pokaz slajdów artysty"
+msgstr "Animuj pokaz slajdów artysty"
 
 #, fuzzy
 msgctxt "#31119"
@@ -752,7 +733,7 @@ msgstr "Pełny ekran"
 #, fuzzy
 msgctxt "#31138"
 msgid "List items"
-msgstr "pozycji"
+msgstr "Przeglądaj więcej pozycji na liście"
 
 #: /1080i/SkinSettings.xml
 #, fuzzy
@@ -805,7 +786,7 @@ msgstr "pozycji"
 #, fuzzy
 msgctxt "#31148"
 msgid "Lists and other"
-msgstr "Własne listy"
+msgstr "Popularne listy"
 
 #: /1080i/Includes_View_59_Sets.xml
 msgctxt "#31149"
@@ -835,7 +816,7 @@ msgstr ""
 #, fuzzy
 msgctxt "#31154"
 msgid "Colour"
-msgstr "Wyświetl kolorową nakładkę"
+msgstr "Nakładka kolorowa"
 
 #: /1080i/Includes_DialogVideoInfo.xml
 msgctxt "#31155"
@@ -879,7 +860,7 @@ msgstr "Obsługiwane dodatki"
 #, fuzzy
 msgctxt "#31162"
 msgid "Online ratings"
-msgstr "Użyj informacji online"
+msgstr "Ukryj wszystkie oceny"
 
 #: /shortcuts/overrides.xml
 #, fuzzy
@@ -966,7 +947,7 @@ msgstr ""
 #, fuzzy
 msgctxt "#31179"
 msgid "Overlay"
-msgstr "Wyświetl kolorową nakładkę"
+msgstr "Nakładka kolorowa"
 
 #: /1080i/Custom_1121_EnableIndicators.xml
 #, fuzzy
@@ -1016,7 +997,7 @@ msgstr "Losowe albumy"
 #, fuzzy
 msgctxt "#31188"
 msgid "Now playing"
-msgstr "Teraz gra"
+msgstr "Teraz gra ..."
 
 #: /1080i/DialogSeekBar.xml
 msgctxt "#31189"
@@ -1158,9 +1139,10 @@ msgid "Recently added episodes"
 msgstr "Ostatnio dodane odcinki"
 
 #: /1080i/SkinSettings.xml
+#, fuzzy
 msgctxt "#31215"
 msgid "Autoscroll plot"
-msgstr ""
+msgstr "Automatycznie przewijaj widgety"
 
 #: /shortcuts/overrides.xml
 #, fuzzy
@@ -1239,7 +1221,7 @@ msgstr ""
 #, fuzzy
 msgctxt "#31229"
 msgid "Panels behind text"
-msgstr "Wizualizacja za pokazem slajdów"
+msgstr "Przewijanie tekstu"
 
 #: /shortcuts/overrides.xml
 #, fuzzy
@@ -1251,7 +1233,7 @@ msgstr "Najwyżej oceniane odcinki"
 #, fuzzy
 msgctxt "#31231"
 msgid "Autoclose OSD"
-msgstr "Użyj krótkiego OSD muzyki"
+msgstr "Wideo OSD"
 
 #: /1080i/Includes_View_52_Posters.xml
 #, fuzzy
@@ -1275,7 +1257,7 @@ msgstr "Grafika pozioma"
 #, fuzzy
 msgctxt "#31235"
 msgid "Hub"
-msgstr "Zastąp podmenu hubem"
+msgstr "Węzły hub"
 
 msgctxt "#31236"
 msgid "Now playing..."
@@ -1326,7 +1308,7 @@ msgstr "100 najlepszych albumów"
 #, fuzzy
 msgctxt "#31244"
 msgid "PVR channels"
-msgstr "Ostatnio odtwarzane kanały"
+msgstr "PVR"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31245"
@@ -1343,7 +1325,7 @@ msgstr "Podmenu"
 #, fuzzy
 msgctxt "#31247"
 msgid "Showcase hub"
-msgstr "Hub podmenu"
+msgstr "Widget hub"
 
 #: /1080i/script-skinshortcuts.xml
 #, fuzzy
@@ -1388,7 +1370,7 @@ msgstr "Poster"
 #, fuzzy
 msgctxt "#31255"
 msgid "Lists and menus"
-msgstr "Własne listy"
+msgstr "Popularne listy"
 
 #: /1080i/DialogKeyboard.xml
 msgctxt "#31256"
@@ -1490,7 +1472,7 @@ msgstr "TvShow Gatunki"
 #, fuzzy
 msgctxt "#31275"
 msgid "Classic hub"
-msgstr "Hub podmenu"
+msgstr "Widget hub"
 
 #: /shortcuts/overrides.xml
 #, fuzzy
@@ -1560,7 +1542,7 @@ msgstr "Grafika pozioma"
 #, fuzzy
 msgctxt "#31288"
 msgid "Landscape list"
-msgstr "Landscape Wall"
+msgstr "Przeglądaj więcej pozycji na liście"
 
 #: /1080i/Includes_View_55_List.xml
 #, fuzzy
@@ -1596,7 +1578,7 @@ msgstr "Ta kategoria zawiera ustawienia, które nie pasują do innych kategorii.
 #, fuzzy
 msgctxt "#31294"
 msgid "Icon only"
-msgstr "Icon"
+msgstr "Wybierz ikonę"
 
 #: /shortcuts/overrides.xml
 #, fuzzy
@@ -1620,7 +1602,7 @@ msgstr "Węzły filmowe"
 #, fuzzy
 msgctxt "#31298"
 msgid "Submenu on left/up"
-msgstr "Wyrównane do lewej typów widoku"
+msgstr "Podmenu"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31299"
@@ -1741,7 +1723,7 @@ msgstr "Wyświetl teksty wideo"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31380"
 msgid "Untitled"
-msgstr "Nieuprawny"
+msgstr "Niezatytułowany"
 
 #: /shortcuts/overrides.xml
 #, fuzzy
