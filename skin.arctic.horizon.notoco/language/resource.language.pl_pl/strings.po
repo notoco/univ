@@ -583,7 +583,7 @@ msgstr "Ostatnio"
 #: /1080i/Custom_1118_EnableRatings.xml
 msgctxt "#31116"
 msgid "Additional ratings"
-msgstr "Dodatkowe widżety"
+msgstr "Dodatkowe oceny"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31117"
@@ -644,7 +644,7 @@ msgstr "Ustaw automatyczne przewijanie i czas na obraz"
 #: /1080i/SkinSettings.xml
 msgctxt "#31129"
 msgid "Gradient colour"
-msgstr "Kolor podświetlenia"
+msgstr "Kolor gradientu"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31130"
@@ -1407,7 +1407,7 @@ msgstr ""
 
 msgctxt "#31286"
 msgid "Highlight colour"
-msgstr "kolor podświetlenia"
+msgstr "Kolor podświetlenia"
 
 #: /1080i/Includes_View_54_Episodes.xml
 msgctxt "#31287"
