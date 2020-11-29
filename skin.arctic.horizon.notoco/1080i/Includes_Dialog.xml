@@ -136,8 +136,8 @@
     </include>
 
     <include name="Dialog_Busy">
-        <param name="header" default="Busy" />
-        <param name="subheader" default="Please Wait..." />
+        <param name="header" default="Pracuję..." />
+        <param name="subheader" default="Proszę czekać..." />
         <definition>
         <control type="image">
             <include content="Defs_Pad"><param name="pad" value="-24" /></include>
