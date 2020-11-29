@@ -1428,6 +1428,14 @@
                 <param name="label" value="$VAR[Label_56560_InfoLine]" />
                 <param name="image" value="$VAR[Image_56560_VideoQuality]" />
             </include>
+            <control type="label">
+                <left>pad</left>
+                <width>all</width>
+                <height>8</height>
+                <reveal>true</reveal>
+                <top>6</top>
+                <visible>String.IsEmpty(ListItem.ChannelName)</visible>
+            </control>
             <control type="progress">
                 <left>pad</left>
                 <width>all</width>
@@ -1449,7 +1457,7 @@
                 <param name="plot" value="$VAR[Label_Home_Plot]" />
                 <visible>String.IsEqual(Container(56560).ListItemAbsolute(0).Property(DBType),movie) | String.IsEqual(Container(56560).ListItemAbsolute(0).Property(DBType),episode) | String.IsEqual(Container(56560).ListItemAbsolute(0).Property(DBType),tvshow) | String.IsEqual(Container(56560).ListItemAbsolute(0).Property(DBType),season) | String.IsEqual(Container(56560).ListItemAbsolute(0).Property(DBType),set)</visible>
                 <height>$PARAM[plotheight]</height>
-                <top>35</top>
+                <top>15</top>
             </include>
             <include content="View_Info_Grouplist_Plotbox">
                 <param name="episodetitle" value="$INFO[Container(56560).ListItemAbsolute(0).Property(Title)]" />
@@ -1457,7 +1465,7 @@
                 <param name="plot" value="$VAR[Label_Home_Plot]" />
                 <visible>![String.IsEqual(Container(56560).ListItemAbsolute(0).Property(DBType),movie) | String.IsEqual(Container(56560).ListItemAbsolute(0).Property(DBType),episode) | String.IsEqual(Container(56560).ListItemAbsolute(0).Property(DBType),tvshow) | String.IsEqual(Container(56560).ListItemAbsolute(0).Property(DBType),season) | String.IsEqual(Container(56560).ListItemAbsolute(0).Property(DBType),set)] | Skin.HasSetting(DisableAllRatings)</visible>
                 <height>$PARAM[plotheight-nr]</height>
-                <top>35</top>
+                <top>15</top>
             </include>
         </definition>
     </include>
