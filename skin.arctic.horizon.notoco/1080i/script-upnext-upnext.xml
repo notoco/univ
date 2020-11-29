@@ -49,11 +49,20 @@
                         <orientation>vertical</orientation>
                         <usecontrolcoords>true</usecontrolcoords>
                         <itemgap>0</itemgap>
-                        <include content="Object_Info_Title">
-                            <param name="font" value="font_title" />
-                            <param name="textcolor" value="$VAR[ColorHighlight]" />
-                        <param name="label" value="[COLOR=panel_fg_100]$LOCALIZE[31227] [/COLOR]$INFO[Window.Property(remaining)][COLOR=panel_fg_100] [LOWERCASE]$LOCALIZE[31219][/LOWERCASE]...[/COLOR]" />
-                        </include>
+                    <control type="label">
+                        <height>80</height>
+                        <font>font_title_small</font>
+                        <label>$ADDON[service.upnext 30036]</label>
+                        <textcolor>panel_fg_100</textcolor>
+                        <visible>!Integer.IsGreater(Player.TimeRemaining,59)</visible>
+                    </control>
+                    <control type="label">
+                        <height>80</height>
+                        <font>font_title_small</font>
+                        <label>$ADDON[service.upnext 30008]...</label>
+                        <textcolor>panel_fg_100</textcolor>
+                        <visible>Integer.IsGreater(Player.TimeRemaining,59)</visible>
+                    </control>
                         <control type="grouplist">
                             <top>-20</top>
                             <height>42</height>
@@ -81,11 +90,6 @@
                                 <param name="label" value="$INFO[Window.Property(year)]" />
                                 <param name="textcolor" value="panel_fg_100" />
                                 <param name="visible" value="!String.IsEmpty(Window.Property(year))" />
-                            </include>
-                            <include content="Object_Info_Line_Label">
-                                <param name="label" value="$INFO[Window.Property(rating)]" />
-                                <param name="textcolor" value="panel_fg_100" />
-                                <param name="visible" value="!String.IsEmpty(Window.Property(rating))" />
                             </include>
                         </control>
 

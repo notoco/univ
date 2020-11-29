@@ -1428,6 +1428,16 @@
                 <param name="label" value="$VAR[Label_56560_InfoLine]" />
                 <param name="image" value="$VAR[Image_56560_VideoQuality]" />
             </include>
+            <control type="progress">
+                <left>pad</left>
+                <width>all</width>
+                <height>8</height>
+                <reveal>true</reveal>
+                <top>6</top>
+                <info>ListItem.Progress</info>
+                <colordiffuse>Selected</colordiffuse>
+                <visible>!String.IsEmpty(ListItem.ChannelName)</visible>
+            </control>
             <include content="Object_Info_Ratings" condition="!Skin.HasSetting(DisableAllRatings)">
                 <param name="userrating" value="Container(56560).ListItemAbsolute(0).Property(UserRating)" />
                 <param name="starrating" value="Container(56560).ListItemAbsolute(0).Property(Rating)" />
