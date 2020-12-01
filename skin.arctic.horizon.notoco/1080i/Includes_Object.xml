@@ -675,12 +675,15 @@
                     <texture colordiffuse="$PARAM[textcolor]">$PARAM[image]</texture>
                 </control>
                 <control type="label">
-                    <width>auto</width>
+                    <width>1100</width>
                     <label>$PARAM[label]</label>
                     <height>40</height>
                     <aligny>top</aligny>
                     <textcolor>$VAR[ColorHighlight]</textcolor>
                     <font>font_small</font>
+                    <scroll>true</scroll>
+                    <scrollout>false</scrollout>
+                    <autoscroll delay="6000" time="3000" repeat="10000" />
                 </control>
                 <nested />
                 <left>0</left>
