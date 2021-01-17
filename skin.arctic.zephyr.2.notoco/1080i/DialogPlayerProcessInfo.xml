@@ -5,16 +5,9 @@
     <controls>
         <include content="Object_ShadowSpot_Group">
             <param name="width" value="1200" />
-            <param name="height" value="395" />
-            <param name="top" value="400" />
+            <param name="height" value="355" />
+            <param name="top" value="10" />
             <include content="Object_ShadowSpot_Grouplist">
-                <include content="Object_ShadowSpot_Label">
-                    <param name="label" value="Informacje odtwarzania" />
-                    <param name="font" value="font_small_bold" />
-                    <param name="textcolor" value="panel_fg_100" />
-                    <param name="height" value="50" />
-                    <param name="top" value="-10" />
-                </include>
                 <include content="Object_ShadowSpot_Label">
                     <param name="label" value="$INFO[Player.Process(videodecoder),[COLOR panel_fg_100]$LOCALIZE[31279]:[/COLOR] ]$VAR[Label_VideoHWDecoder, (,)]" />
                 </include>
@@ -28,7 +21,7 @@
                     <param name="label" value="[COLOR panel_fg_100]$LOCALIZE[14301]:[/COLOR] $INFO[VideoPlayer.AudioChannels]  [COLOR panel_fg_100]$LOCALIZE[304]:[/COLOR]  $INFO[VideoPlayer.AudioLanguage]" />
                 </include>
                 <include content="Object_ShadowSpot_Label">
-                    <param name="label" value="$INFO[System.CpuUsage,[COLOR panel_fg_100]$LOCALIZE[13271][/COLOR] ,       ]$INFO[System.Memory(used.percent),[COLOR panel_fg_100]RAM:[/COLOR] ,]" />
+                    <param name="label" value="$INFO[System.CpuUsage,[COLOR panel_fg_100]CPU: [/COLOR] ,       ]$INFO[System.Memory(used.percent),[COLOR panel_fg_100]RAM:[/COLOR] ,       ]$INFO[System.CPUTemperature,[COLOR panel_fg_100]Temperatura:[/COLOR] ,]" />
                 </include>
                 <control type="progress">
                     <top>5</top>
