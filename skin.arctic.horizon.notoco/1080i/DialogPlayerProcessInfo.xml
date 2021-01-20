@@ -28,7 +28,7 @@
                 </include>
                 <control type="progress">
                     <top>5</top>
-                    <width>600</width>
+                    <width>800</width>
                     <height>10</height>
                     <left>0</left>
                     <info>System.CpuUsage</info>
@@ -38,7 +38,7 @@
                 </include>
                 <control type="progress">
                     <top>5</top>
-                    <width>600</width>
+                    <width>800</width>
                     <height>10</height>
                     <left>0</left>
                     <info>Player.CacheLevel</info>
