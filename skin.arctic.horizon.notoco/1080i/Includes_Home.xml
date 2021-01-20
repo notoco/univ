@@ -1436,7 +1436,7 @@
             </control>
             <control type="progress">
                 <left>pad</left>
-                <width>all</width>
+                <width>1150</width>
                 <height>8</height>
                 <reveal>true</reveal>
                 <top>6</top>
