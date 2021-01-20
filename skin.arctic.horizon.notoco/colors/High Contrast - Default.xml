@@ -30,5 +30,10 @@
     <color name="panel_fg_70">ccededed</color>
     <color name="panel_fg_30">99ededed</color>
     <color name="panel_fg_12">1fededed</color>
+    <!-- addons - poprawki dla mbebe i wyszukiwajki -->
+    <color name="blue">ffffffff</color>
+    <color name="red">ffffffff</color>
+    <color name="lightgreen">ffffffff</color>
+    <color name="khaki">ffffffff</color>
 
 </colors>

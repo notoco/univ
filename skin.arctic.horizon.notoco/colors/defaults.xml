@@ -49,5 +49,9 @@
 
     <!-- Indicators -->
     <color name="WatchedProgress">ff08de4b</color>
+        <!-- addons - poprawki dla mbebe i wyszukiwajki -->
+    <color name="blue">ffffffff</color>
+    <color name="red">ffffffff</color>
+    <color name="lightgreen">ffffffff</color>
 
 </colors>

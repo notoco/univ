@@ -35,5 +35,10 @@
     <color name="HomePanel">e7181818</color>
     <color name="Background">ff181818</color>
     <color name="PosterBack">ff454545</color>
+    <!-- addons - poprawki dla mbebe i wyszukiwajki -->
+    <color name="blue">ffffffff</color>
+    <color name="red">ffffffff</color>
+    <color name="lightgreen">ffffffff</color>
+    <color name="khaki">ffffffff</color>
 
 </colors>
