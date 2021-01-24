@@ -7,13 +7,13 @@
     <controls>
         <control type="image">
             <height>360</height>
-            <top>0</top>
-            <texture flipy="true">common/dim-osd.png</texture>
+            <bottom>0</bottom>
+            <texture>common/dim-osd.png</texture>
         </control>
         <control type="group">
-            <include content="View_Pad">
-                <param name="top" value="view_pad" />
-            </include>
+            <height>200</height>
+            <left>40</left>
+            <bottom>0</bottom>
             <control type="group">
                 <height>160</height>
                 <control type="group">
