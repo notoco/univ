@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+      <category label="Hyperion">
+		<setting id="state" type="bool" default="true" label="State" visible="false"/>
+        <setting id="bright" type="slider" option="int" range="0,5,100" label="Backlight bright" default="80" />
+    </category>
+</settings>
