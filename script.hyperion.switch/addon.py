@@ -17,25 +17,7 @@ if __name__ == '__main__':
     elif arg == "amb_switch":
         if state == 'true':
             control.turn_off()
-            control.send_notification("Ambilight", "Wyłączono podświetlenie")
+            control.send_notification("Ambilight", "Off")
         else:
             control.turn_on()
-            control.send_notification("Ambilight", "Włączono podświetlenie")
-
-#ESC
-    elif arg == "esc":
-        xbmc.executebuiltin("Action(Stop)")
-        xbmc.executebuiltin("Dialog.Close(all, true)")
-        xbmc.executebuiltin("xbmc.ActivateWindow(home)")
-#EPG
-    elif arg == "epg":
-        playing = xbmc.Player().isPlayingVideo()
-        if (playing == True):  
-            xbmc.executebuiltin("xbmc.ActivateWindow(fullscreenvideo)")
-        else:
-            xbmc.executebuiltin("Action(back)")
-#CPU
-    elif arg == "cpu":
-        control.cpu()
-        
-
+            control.send_notification("Ambilight", "On")
