@@ -120,7 +120,6 @@
                     <texture colordiffuse="$PARAM[fgcolor]_100">$INFO[Weather.FanartCode,resource://resource.images.weathericons.white/,.png]</texture>
                 </control>
                 <visible>Weather.IsFetched</visible>
-                <visible>![Control.HasFocus(60) | Control.HasFocus(62)]</visible>
             </control>
             <control type="label">
                 <width>auto</width>
@@ -128,10 +127,8 @@
                 <textcolor>$PARAM[fgcolor]_100</textcolor>
                 <label>$INFO[Weather.Temperature]</label>
                 <visible>Weather.IsFetched</visible>
-                <visible>![Control.HasFocus(60) | Control.HasFocus(62)]</visible>
             </control>
             <control type="label">
-                <visible>![Control.HasFocus(60) | Control.HasFocus(62)]</visible>
                 <width>auto</width>
                 <font>font_small</font>
                 <textcolor>$VAR[ColorHighlight]</textcolor>
@@ -144,32 +141,39 @@
                 <font>font_title</font>
                 <textcolor>$PARAM[fgcolor]_100</textcolor>
                 <label>$INFO[System.Time]</label>
-                <visible>![Control.HasFocus(60) | Control.HasFocus(62)]</visible>
             </control>
+        </control>
+        <control type="grouplist">
+			<include>Defs_InfoDialog_Visible</include>
+        	<visible>!String.IsEmpty(Container.NumItems) + !Skin.HasSetting(DisableShowItemCount)</visible>
+            <animation effect="slide" start="0,0" end="0,45" time="200" tween="sine" condition="!Skin.HasSetting(DisableClock)">Conditional</animation>
+            <animation effect="slide" start="0" end="-80" time="200" tween="sine" condition="Window.IsVisible(DialogVolumeBar.xml) + ![Window.IsVisible(Home) + !Skin.HasSetting(HomeMulti)]">Conditional</animation>
+            <right>view_pad</right>
+            <align>right</align>
+            <orientation>horizontal</orientation>
+            <itemgap>0</itemgap>
+            <width>700</width>
+            <usecontrolcoords>true</usecontrolcoords>
             <control type="label">
-                <visible>[Control.HasFocus(60) | Control.HasFocus(62)]</visible>
                 <width>auto</width>
                 <font>font_small</font>
                 <textcolor>$PARAM[fgcolor]_100</textcolor>
                 <label>$INFO[Container.NumItems,, $LOCALIZE[31101]]</label>
             </control>
             <control type="label">
-                <visible>[Control.HasFocus(60) | Control.HasFocus(62)]</visible>
                 <width>auto</width>
                 <font>font_small</font>
                 <textcolor>$VAR[ColorHighlight]</textcolor>
                 <label>  |  </label>
             </control>
             <control type="label">
-                <visible>[Control.HasFocus(60) | Control.HasFocus(62)]</visible>
                 <width>auto</width>
                 <font>font_small</font>
                 <textcolor>$PARAM[fgcolor]_100</textcolor>
                 <label>$INFO[Container.CurrentPage,$LOCALIZE[31391] , $LOCALIZE[20163] ]$INFO[Container.NumPages]</label>
             </control>
         </control>
-    </include>
-    
+    </include>    
     <include name="Topbar_Menu_Layout">
         <param name="visible" default="false" />
         <param name="id" default="300" />
