@@ -98,6 +98,20 @@
 		</extension>
 	</addon>
 
+<addon id="script.hyperion.switch" name="switch for hyperion" version="2.0" provider-name="notoco">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Switch for hyperion</summary>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="skin.arctic.zephyr.2.notoco" name="Arctic Zephyr 2 Notoco" provider-name="jurialmunkey+notoco" version="2021.01.26.1">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
