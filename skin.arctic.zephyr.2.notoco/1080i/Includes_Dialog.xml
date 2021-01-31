@@ -400,8 +400,8 @@
 
         <control type="radiobutton" id="8">
             <description>Default RadioButton</description>
-            <radioposx>960</radioposx>
-            <textwidth>870</textwidth>
+            <radioposx>1160</radioposx>
+            <textwidth>1070</textwidth>
             <include>Dialog_Standard_Button</include>
         </control>
 

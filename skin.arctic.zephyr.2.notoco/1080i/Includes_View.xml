@@ -916,11 +916,11 @@
                 <right>-10</right>
                 <width>64</width>
                 <height>64</height>
-                <texture colordiffuse="$VAR[ColorHighlight2]">$VAR[Image_Overlay_Corner]</texture>
+                <texture colordiffuse="ff7F7F7F">$VAR[Image_Overlay_Corner]</texture>
             </control>
             <control type="image">
-                <top>6</top>
-                <right>6</right>
+                <top>9</top>
+                <right>9</right>
                 <width>24</width>
                 <height>24</height>
                 <texture colordiffuse="ffffffff">$VAR[Image_Overlay]</texture>
