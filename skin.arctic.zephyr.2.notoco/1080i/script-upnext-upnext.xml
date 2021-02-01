@@ -41,7 +41,7 @@
                 <height>227</height>
                 <bottom>0</bottom>
                 <control type="image">
-                    <texture colordiffuse="panel_fg_12" border="10">diffuse/box.png</texture>
+                    <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
                     <animation effect="fade" end="100" condition="true">Conditional</animation>
                 </control>
                <control type="group">
@@ -119,7 +119,7 @@
                 <height>227</height>
                 <bottom>0</bottom>
                 <control type="image">
-                    <texture colordiffuse="panel_fg_12" border="10">diffuse/box.png</texture>
+                    <texture colordiffuse="panel_bg" border="10">diffuse/box.png</texture>
                     <animation effect="fade" end="100" condition="true">Conditional</animation>
                 </control>
                 <control type="group">
