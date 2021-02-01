@@ -302,7 +302,7 @@
                                 <label>$VAR[Label_List_Right]</label>
                             </control>
                         </control>
-                        <include>View_WatchedOverlay</include>
+                        <include>View_WatchedOverlay_Focus</include>
                     </control>
                 </focusedlayout>
             </control>
