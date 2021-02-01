@@ -212,7 +212,7 @@
                 <include>Object_Info_Line</include>
                 <control type="progress">
                     <left>pad</left>
-                    <width>all</width>
+                    <width>1750</width>
                     <height>10</height>
                     <reveal>true</reveal>
                     <top>0</top>
