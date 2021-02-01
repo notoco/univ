@@ -283,7 +283,7 @@
                                 <left>15</left>
                                 <right>40</right>
                                 <top>95</top>
-                                <height>160</height>
+                                <height>130</height>
                                 <label>$VAR[Label_Plot]</label>
                                 <font>font_plotbox</font>
                                 <textcolor>main_fg_70</textcolor>
