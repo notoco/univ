@@ -341,7 +341,7 @@
                 <param name="orientation" value="horizontal" />
                 <param name="controltype" value="fixedlist" />
                 <param name="controllayout" value="View_52_Showcase_Aura_Layout" />
-                <param name="visible" value="Container.Content(artists) | Container.Content(albums) | Container.Content(addons) | $EXP[Exp_IsPluginAdvancedLauncher]" />
+                <param name="visible" value="Container.Content(artists) | Container.Content(albums) | Container.Content(addons) | Container.Content(addon) | $EXP[Exp_IsPluginAdvancedLauncher]" />
                 <param name="viewtype" value="$LOCALIZE[31362]" />
                 <param name="viewtypename" value="wrap" />
                 <param name="forced" value="true" />
