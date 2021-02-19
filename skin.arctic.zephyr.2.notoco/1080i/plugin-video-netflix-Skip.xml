@@ -7,7 +7,7 @@
     <onunload>Dialog.Close(videoosd,true)</onunload>
     <controls>
         <control type="group">
-            <left>15</left>
+            <left>view_pad</left>
             <right>15</right>
             <bottom>15</bottom>
             <height>60</height>
