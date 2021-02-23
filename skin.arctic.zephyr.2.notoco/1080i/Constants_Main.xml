@@ -2,11 +2,11 @@
 <includes>
     <constant name="view_pad">40</constant>
     <constant name="view_top">180</constant>
-    <constant name="view_bottom">60</constant>
+    <constant name="view_bottom">40</constant>
     <constant name="view_height">825</constant>
     <constant name="view_poster_height">810</constant>
     <constant name="view_poster_width">560</constant>
-    <constant name="view_list_height">880</constant>
+    <constant name="view_list_height">900</constant>
 
     <constant name="item_list_height">78</constant>
     <constant name="item_pvr_height">117</constant>

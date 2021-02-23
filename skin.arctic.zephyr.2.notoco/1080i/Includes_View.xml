@@ -237,7 +237,7 @@
             <rulerlayout height="item_list_height" width="521">
                 <control type="label" id="2">
                     <bottom>0</bottom>
-                    <height>42</height>
+                    <height>32</height>
                     <width>521</width>
                     <align>left</align>
                     <aligny>top</aligny>
@@ -260,12 +260,13 @@
                         <visible>ListItem.IsPlaying</visible>
                     </control>
                     <control type="label">
-                        <left>30</left>
+                        <left>20</left>
                         <right>110</right>
                         <font>font_tiny</font>
                         <textcolor>main_fg_70</textcolor>
                         <selectedcolor>main_fg_70</selectedcolor>
                         <label>$VAR[Label_PVRGuide_ChannelNumber,,. ]$INFO[ListItem.ChannelName]</label>
+                        <scroll>false</scroll>
                     </control>
                 </control>
                 <include content="Object_PVR_Icon">
@@ -317,12 +318,13 @@
                             <visible>ListItem.IsPlaying</visible>
                         </control>
                         <control type="label">
-                            <left>30</left>
+                            <left>20</left>
                             <right>110</right>
                             <font>font_tiny_bold</font>
                             <textcolor>main_fg_100</textcolor>
                             <selectedcolor>main_fg_100</selectedcolor>
                             <label>$VAR[Label_PVRGuide_ChannelNumber,,. ]$INFO[ListItem.ChannelName]</label>
+                            <scroll>false</scroll>
                         </control>
                     </control>
                     <include content="Object_PVR_Icon">
