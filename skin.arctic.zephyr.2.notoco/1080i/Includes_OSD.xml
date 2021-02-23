@@ -373,7 +373,7 @@
             <control type="group" description="Plot Info">
                 <visible>!String.IsEmpty(VideoPlayer.Plot)</visible>
                 <left>997.5</left>
-                <width>762.5</width>
+                <width>842.5</width>
                 <height>227</height>
                 <bottom>0</bottom>
                 <control type="image">
@@ -538,7 +538,7 @@
                     </control>
                     <control type="grouplist">
                         <top>100</top> 
-                        <width>882.5</width>
+                        <width>792.5</width>
                         <include>OSD_Progress_Bar</include>
                         <include>OSD_Progress_Text</include>
                     </control>
@@ -547,7 +547,7 @@
 
             <control type="group" description="Prawe Info">
                 <left>997.5</left>
-                <width>762.5</width>
+                <width>842.5</width>
                 <height>227</height>
                 <bottom>0</bottom>
                 <control type="image">
