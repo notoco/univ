@@ -208,7 +208,17 @@
                             <param name="diffuse" value="$PARAM[diffuse]" />
                         </include>
                     </control>
-
+                    <control type="group">
+                        <left>-7</left>
+                        <top>-7</top>
+                        <right>-7</right>
+                        <bottom>-7</bottom>
+                        <control type="image">
+                            <bordersize>15</bordersize>
+                            <bordertexture border="30" colordiffuse="ff4D4D4D">common/shadow-15.png</bordertexture>
+                            <texture border="20" colordiffuse="ff4D4D4D">common/selectbox.png</texture>
+                        </control>
+                    </control>  
                     <control type="image">
                         <bordersize>15</bordersize>
                         <texture colordiffuse="80000000">diffuse/circle.png</texture>
