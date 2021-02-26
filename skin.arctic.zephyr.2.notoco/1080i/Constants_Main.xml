@@ -6,9 +6,9 @@
     <constant name="view_height">825</constant>
     <constant name="view_poster_height">810</constant>
     <constant name="view_poster_width">560</constant>
-    <constant name="view_list_height">880</constant>
+    <constant name="view_list_height">820</constant>
 
-    <constant name="item_list_height">78</constant>
+    <constant name="item_list_height">63</constant>
     <constant name="item_pvr_height">117</constant>
     <constant name="item_biglist_height">156</constant>
     <constant name="item_row_height">412.5</constant>
