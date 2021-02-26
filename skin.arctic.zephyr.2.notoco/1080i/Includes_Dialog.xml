@@ -172,7 +172,7 @@
     <!-- ==================== -->
     <!-- Notification Dialogs -->
     <!-- ==================== -->
-    <include name="Dialog_Notification_BottomAlign"><bottom>0</bottom></include>
+    <include name="Dialog_Notification_BottomAlign"><bottom>3</bottom></include>
     <include name="Dialog_Notification_TopAlign"><top>0</top></include>
     <include name="Dialog_Notification_Group">
         <param name="main_id" default="30" />

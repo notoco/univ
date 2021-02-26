@@ -515,7 +515,7 @@
                 <height>view_bottom</height>
                 <right>view_pad</right>
                 <left>view_pad</left>
-                <bottom>0</bottom>
+                <bottom>3</bottom>
                 <itemgap>20</itemgap>
                 <usecontrolcoords>true</usecontrolcoords>
                 <visible>!String.IsEmpty(ListItem.VideoCodec) + !String.IsEmpty(ListItem.AudioCodec)</visible>
