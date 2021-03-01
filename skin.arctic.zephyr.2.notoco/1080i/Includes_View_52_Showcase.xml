@@ -223,6 +223,7 @@
                 <control type="group">
                     <visible>!String.IsEmpty(ListItem.EPGEventIcon)</visible>
                     <control type="image">
+                        <animation effect="fade" end="50" condition="true">Conditional</animation>
                         <top>20</top>
                         <left>-15</left>
                         <height>230</height>
@@ -237,6 +238,7 @@
                     </include>
                 </control>
                 <include content="Object_Info_Plot">
+                    <top>-5</top>
                     <param name="maxheight" value="$PARAM[plotheight]" />
                     <visible>String.IsEmpty(ListItem.EPGEventIcon)</visible>
                 </include>                
