@@ -97,9 +97,10 @@
             <orientation>vertical</orientation>
             <usecontrolcoords>true</usecontrolcoords>
             <itemgap>0</itemgap>
+            <width>1500</width>
             <control type="progress">
                 <left>pad</left>
-                <width>all</width>
+                <width>1500</width>
                 <height>10</height>
                 <reveal>true</reveal>
                 <top>5</top>
@@ -120,6 +121,16 @@
                 <top>15</top>
             </include>
         </control>
+             <control type="image">
+                <top>-25</top>
+                <right>4</right>
+                <left>1550</left>
+                <bordersize>20</bordersize>
+                <texture>$INFO[Container(10).ListItem.Icon]</texture>
+                <aspectratio aligny="center" align="right">keep</aspectratio>
+                <width>300</width>
+                <height>300</height>
+            </control> -->
     </include>
 
     <include name="View_PVR_Guide_ProgressLine_Full">
