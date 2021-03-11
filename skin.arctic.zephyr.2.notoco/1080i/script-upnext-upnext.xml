@@ -42,7 +42,7 @@
 
             <control type="group" description="Main Info">
                 <left>231</left>
-                <width>1331.5</width>
+                <width>1301.5</width>
                 <height>227</height>
                 <bottom>0</bottom>
                 <control type="image">
